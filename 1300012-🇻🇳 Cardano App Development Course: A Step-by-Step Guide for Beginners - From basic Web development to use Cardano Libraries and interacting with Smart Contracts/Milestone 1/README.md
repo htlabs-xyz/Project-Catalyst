@@ -20,16 +20,16 @@ This report provides comprehensive documentation of all completed activities and
 ---
 
 ## **1. A Detailed teaching plan.** 
--The content is presented in [Google Sheet Here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml) 
+- The content is presented in [Google Sheet Here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml) 
 (some content will be completed according to project progress.)
 ---
 
 ## **2. A Outline of key lessons.** 
--Outline is presented on [Github](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Outline), content will be linked in the description of each lesson
+- Outline is presented on [Github](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Outline), content will be linked in the description of each lesson
 --- 
 
 ## **3. A Learning platform.** 
--Link to [Learning Channel](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/) , lessons will be posted according to the plan presented in the masterplan
+- Link to [Learning Channel](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/) , lessons will be posted according to the plan presented in the masterplan
 ---
 
 **Note: Because this course content is for learners in Vietnam, some output will be done in Vietnamese to ensure effective communication.**

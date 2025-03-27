@@ -58,7 +58,55 @@ This project builds an IoT system that integrates the Cardano blockchain to coll
 **1. Data collection and transmission**
 
   - The sensor measures temperature (e.g. 25°C) or humidity (e.g. 62%).
-The IoT device formats the data into a Datum (e.g. ```rs pub type Datum { owner: VerificationKeyHash, value: Int }``` as CBOR) and sends it to Cardano via the API.
+  - The IoT device formats the data into a Datum (e.g. ```pub type Datum { owner: VerificationKeyHash, value: Int }``` as CBOR) and sends it to Cardano via the API.
+
+**2. Verification by smart contract**
+
+  - Validator nhận Datum và kiểm tra logic
+    ```ak
+    use aiken/crypto.{VerificationKeyHash}
+    use cardano/transaction.{InlineDatum, OutputReference, Transaction, find_input}
+    use cardano/tx
+    
+    pub type Datum {
+      owner: VerificationKeyHash,
+      value: Int,
+    }
+    
+    pub type Redeemer {
+      Update
+      Withdraw
+    }
+    
+    validator confirm_status {
+      spend(
+        datum_otp: Option<Datum>,
+        redeemer: Redeemer,
+        output_reference: OutputReference,
+        transaction: Transaction,
+      ) {
+        expect Some(datum_input) = datum_otp
+        let Transaction { inputs, extra_signatories, .. } = transaction
+        expect Some(input) = find_input(inputs, output_reference)
+        expect InlineDatum(datum_output_inline) = input.output.datum
+        expect datum_output: Datum = datum_output_inline
+        when tx.verify_signature(extra_signatories, datum_input.owner) is {
+          True ->
+            when redeemer is {
+              Update -> True
+              Withdraw -> datum_output.value >= datum_input.value
+            }
+    
+          False -> False
+        }
+      }
+    
+      else(_) {
+        fail
+      }
+    }
+    ```
+  - If temperature is within 20-30°C or humidity is within 50-70%, return true. Otherwise, return false.
 
 ---
 ## **2. Status Management**

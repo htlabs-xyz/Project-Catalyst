@@ -55,6 +55,11 @@ This project builds an IoT system that integrates the Cardano blockchain to coll
 
 **Functions**
 
+**1. Data collection and transmission**
+
+  - The sensor measures temperature (e.g. 25°C) or humidity (e.g. 62%).
+The IoT device formats the data into a Datum (e.g. ```rs pub type Datum { owner: VerificationKeyHash, value: Int }``` as CBOR) and sends it to Cardano via the API.
+
 ---
 ## **2. Status Management**
 ---

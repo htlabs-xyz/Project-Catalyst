@@ -21,10 +21,15 @@ This report provides comprehensive documentation of all completed activities and
 
 ## **1. A report on the requirements and functions of 5 IoT projects.**
 
+
+**Envidence**:
+ - Requirements and functions of 5 IoT projects:  [Requirements and functions of 5 IoT projects](https://github.com/htlabs-xyz/Project-Catalyst/blob/main/1300008/Milestone%201/1300008-%5BHTLABS%5D-Requirements%20and%20functions%20of%205%20IoT%20projects.md)
 ---
 
 ## **2. A report detailing current issues and Cardano’s solutions.** 
 
+**Envidence**:
+ - Detailing current issues and Cardano’s solutions:  [Detailing current issues and Cardano’s solutions](https://github.com/htlabs-xyz/Project-Catalyst/blob/main/1300008/Milestone%201/1300008-%5BHTLABS%5D-Detailing%20current%20issues%20and%20Cardano%E2%80%99s%20solutions.md)
 --- 
 
 ## **3. A hardware component list with technical specifications and images.**  

@@ -39,5 +39,5 @@ A detailed analysis of existing challenges in IoT and how Cardano can address th
 The milestone includes a detailed spreadsheet outlining the required hardware components for each IoT project. This document contains specifications, images, descriptions, and quantity details of all necessary components.
 
 **Evidence**:  
- - Hardware specifications and images: [Hardware specifications and images](https://docs.google.com/spreadsheets/d/e/2PACX-1vTID7Z35b9XuT2ol5hrctCdBrLYh3Y4F_6XsKN6K4dy0E0ihsyINcjqFBqYU7yLYox4j3Bi6_p1b_JX/pubhtml)
+ - Hardware specifications and images (Usage instructions added): [Hardware specifications and images](https://docs.google.com/spreadsheets/d/e/2PACX-1vTID7Z35b9XuT2ol5hrctCdBrLYh3Y4F_6XsKN6K4dy0E0ihsyINcjqFBqYU7yLYox4j3Bi6_p1b_JX/pubhtml)
 ---

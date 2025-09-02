@@ -21,25 +21,32 @@ This report provides comprehensive documentation of all completed activities and
 
 ## **1. Completed lecture slides (PDF/PPT) stored on an online sharing platform.**
 
-- The content is presented in [Google Sheet Here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml)
-  (some content will be completed according to project progress.)
+To support this milestone, a total of 8 lecture slides have been prepared, each corresponding directly to one of the 8 videos. The details are as follows:
 
 ---
 
 ## **2. Tutorial articles posted on the LMS system or blog.**
 
-- Outline is presented on [Github](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Outline), content will be linked in the description of each lesson
+A series of 8 tutorial articles have been published, each aligned with the corresponding lecture slides and videos. These articles provide additional explanations, examples, and references to support learners in understanding the topics.
 
 ---
 
 ## **3. Eight tutorial videos published on YouTube with detailed descriptions.**
 
-- Link to [Learning Channel](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/) , lessons will be posted according to the plan presented in the masterplan
+Eight instructional videos have been produced and uploaded to YouTube, each paired with one lecture slide and tutorial article. Every video includes a detailed description with timestamps, keywords, and links to supplementary resources.
 
 ---
 
 ## **4. Eight repositories on GitHub with clearly arranged source code and resources.**
 
+For each lecture, a dedicated GitHub repository has been created. These repositories contain source code, configuration files, and related resources, organized in a structured manner for easy navigation and practical use.
+
+---
+
 ## **5. Practice exercises deployed on the LMS at the end of each lesson.**
+
+Each lesson concludes with practice exercises hosted on the LMS platform. These exercises are designed to test learners’ comprehension, reinforce concepts, and provide hands-on experience with the covered material.
+
+---
 
 **Note: Because this course content is for learners in Vietnam, some output will be done in Vietnamese to ensure effective communication.**

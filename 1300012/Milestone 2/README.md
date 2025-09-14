@@ -53,6 +53,18 @@ The eight videos are as follows:
 
 For each lecture, a dedicated GitHub repository has been created. These repositories contain source code, configuration files, and related resources, organized in a structured manner for easy navigation and practical use.
 
+The eight repositories created for each video are presented as follows:
+
+- [Repository for Video 1: Web3 and Web development Basic.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_02)
+- [Repository for Video 2: Frontend framework and library.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_02)
+- [Repository for Video 3: Fullstacks framework.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_03)
+- [Repository for Video 4: Cardano interaction using libraries and sdk](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_04)
+- [Repository for Video 5: Query data onchain](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_05)
+- [Repository for Video 6: Making transaction](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_06)
+- [Repository for Video 7: Minting/Burning Assets](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_07)
+- [Repository for Video 8.1: Introduction eUTxO model (datums, redeemers, etc.)](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_08)
+- [Repository for Video 8.1: Introduction Aiken and aiken syntax](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_08)
+
 ---
 
 ## **5. Practice exercises deployed on the LMS at the end of each lesson.**

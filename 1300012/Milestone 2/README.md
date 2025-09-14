@@ -35,6 +35,18 @@ A series of 8 tutorial articles have been published, each aligned with the corre
 
 Eight instructional videos have been produced and uploaded to YouTube, each paired with one lecture slide and tutorial article. Every video includes a detailed description with timestamps, keywords, and links to supplementary resources.
 
+The eight videos are as follows:
+
+- [Video 1: Web3 and Web development Basic.](https://www.youtube.com/watch?v=e_LhuWx1D84&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=9)
+- [Video 2: Frontend framework and library.](https://www.youtube.com/watch?v=I-Vyfb89ORg&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=6)
+- [Video 3: Fullstacks framework.](https://www.youtube.com/watch?v=Ee0v2eZzweg&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=2)
+- [Video 4: Cardano interaction using libraries and sdk](https://www.youtube.com/watch?v=SNzJwcrRSZY&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=5)
+- [Video 5: Query data onchain](https://www.youtube.com/watch?v=-rqb7PYVhJU&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=3)
+- [Video 6: Making transaction](https://www.youtube.com/watch?v=ll4SdurfX_I&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=7)
+- [Video 7: Minting/Burning Assets](https://www.youtube.com/watch?v=OdSvMxLmEqs&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=1)
+- [Video 8.1: Introduction eUTxO model (datums, redeemers, etc.)](https://www.youtube.com/watch?v=cs9cccbKx9Y&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=8)
+- [Video 8.1: Introduction Aiken and aiken syntax](https://www.youtube.com/watch?v=cs9cccbKx9Y&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=8)
+
 ---
 
 ## **4. Eight repositories on GitHub with clearly arranged source code and resources.**

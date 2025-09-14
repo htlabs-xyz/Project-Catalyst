@@ -61,4 +61,6 @@ Each lesson concludes with practice exercises hosted on the LMS platform. These 
 
 ---
 
+## **The content is presented in [Google Sheet Here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml) (some content will be completed according to project progress.)**
+
 **Note: Because this course content is for learners in Vietnam, some output will be done in Vietnamese to ensure effective communication.**

@@ -43,15 +43,15 @@ A series of 8 tutorial articles have been published, each aligned with the corre
 
 The eight articles posted on the LMS system or blog in the following links.
 
-- [Article for Video 1: Web3 and Web development Basic.](https://www.youtube.com/watch?v=e_LhuWx1D84&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=9)
-- [Article for Video 2: Frontend framework and library.](https://www.youtube.com/watch?v=I-Vyfb89ORg&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=6)
-- [Article for Video 3: Fullstacks framework.](https://www.youtube.com/watch?v=Ee0v2eZzweg&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=2)
-- [Article for Video 4: Cardano interaction using libraries and sdk](https://www.youtube.com/watch?v=SNzJwcrRSZY&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=5)
-- [Article for Video 5: Query data onchain](https://www.youtube.com/watch?v=-rqb7PYVhJU&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=3)
-- [Article for Video 6: Making transaction](https://www.youtube.com/watch?v=ll4SdurfX_I&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=7)
-- [Article for Video 7: Minting/Burning Assets](https://www.youtube.com/watch?v=OdSvMxLmEqs&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=1)
-- [Article for Video 8.1: Introduction eUTxO model (datums, redeemers, etc.)](https://www.youtube.com/watch?v=cs9cccbKx9Y&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=8)
-- [Article for Video 8.1: Introduction Aiken and aiken syntax](https://www.youtube.com/watch?v=cs9cccbKx9Y&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=8)
+- [Article for Video 1: Web3 and Web development Basic.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_01.md)
+- [Article for Video 2: Frontend framework and library.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_02.md)
+- [Article for Video 3: Fullstacks framework.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_03.md)
+- [Article for Video 4: Cardano interaction using libraries and sdk](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_04.md)
+- [Article for Video 5: Query data onchain](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_05.md)
+- [Article for Video 6: Making transaction](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_06.md)
+- [Article for Video 7: Minting/Burning Assets](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_07.md)
+- [Article for Video 8.1: Introduction eUTxO model (datums, redeemers, etc.)](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_08.md)
+- [Article for Video 8.1: Introduction Aiken and aiken syntax](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_08.md)
 
 ---
 

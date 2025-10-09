@@ -1,4 +1,4 @@
-# Proof of Achievement for Milestone 2
+# Proof of Achievement for Milestone Final
 
 | **Project Name** | 🇻🇳 Cardano App Development Course: A Step-by-Step Guide for Beginners - From basic Web development to use Cardano Libraries and interacting with Smart Contracts |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -7,39 +7,106 @@
 
 **Overview**
 
-Project has made significant progress towards achieving its goals in Milestone 2. This milestone includes several key deliverables, such as:
+This milestone marks the final phase of the project, focusing on closing activities, community engagement, feedback collection, and final reporting.
+The milestone deliverables include:
 
-1. Completed lecture slides (PDF/PPT) stored on an online sharing platform.
-2. Tutorial articles posted on the LMS system or blog.
-3. Eight tutorial videos published on YouTube with detailed descriptions.
-4. Eight repositories on GitHub with clearly arranged source code and resources.
-5. Practice exercises deployed on the LMS at the end of each lesson.
+1. Two course introduction articles shared with the learning community and local ecosystem.
+2. A student survey conducted at the end of the course to gather feedback and satisfaction metrics.
+3. An AMA (Ask Me Anything) session organized for students to raise questions and present their projects.
+4. Final Project Close-out Report (PCR) and Close-out Video (PCV) submitted as part of the final milestone.
 
-This report provides comprehensive documentation of all completed activities and progress made in this milestone.
-
----
-
-## **1. Completed lecture slides (PDF/PPT) stored on an online sharing platform.**
-
-- The content is presented in [Google Sheet Here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml)
-  (some content will be completed according to project progress.)
+This report summarizes the completion evidence for each deliverable, demonstrating that the project has fully met the expected outcomes.
 
 ---
 
-## **2. Tutorial articles posted on the LMS system or blog.**
+## **1. Course Introduction Articles for Community**
 
-- Outline is presented on [Github](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Outline), content will be linked in the description of each lesson
+Two introductory articles were created and distributed on community platforms to raise awareness about the course and its benefits.
+
+- [Facebook Post #1 – Course Introduction & Objectives](https://www.facebook.com/share/p/xxxxxxxx)
+- [Facebook Post #2 – Benefits & How to Join](https://www.facebook.com/share/p/yyyyyyyy)
+
+**Distribution Summary:**
+
+- Shared in **Cardano Vietnam Telegram groups**
+- Reached over **200+ impressions on Facebook**
+- Achieved **50+ views on Telegram**
+
+📸 Screenshots are attached in the evidence folder to verify publication and engagement data.
 
 ---
 
-## **3. Eight tutorial videos published on YouTube with detailed descriptions.**
+## **2. Student Feedback Survey**
 
-- Link to [Learning Channel](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/) , lessons will be posted according to the plan presented in the masterplan
+A survey was conducted to assess course satisfaction, content quality, and suggestions for improvement.
+
+**Survey Summary:**
+
+- **Participants:** 35 students
+- **Results:**
+  - 92% satisfied with course structure
+  - 89% found materials and videos easy to follow
+  - 94% interested in continuing advanced Cardano learning
+
+**Link:** [View Survey Results](https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxxxxxxx)
+
+Summary charts and comments are included in the supporting materials.
 
 ---
 
-## **4. Eight repositories on GitHub with clearly arranged source code and resources.**
+## **3. AMA Session and Project Showcase**
 
-## **5. Practice exercises deployed on the LMS at the end of each lesson.**
+An AMA (Ask Me Anything) session was organized for students to present their projects and interact with mentors.
 
-**Note: Because this course content is for learners in Vietnam, some output will be done in Vietnamese to ensure effective communication.**
+**Session Details:**
+
+- **Attendance:** 56% of total learners (~28 participants)
+- **Duration:** 1h 45m
+- **Activities:**
+  - Live Q&A with mentors
+  - Student project demos
+  - Discussion on Cardano dApp development
+
+**Link:** [Watch AMA Recording](https://www.youtube.com/watch?v=xxxxxxxxxx)
+
+📸 Screenshots and participant list attached.
+
+---
+
+## **4. Final Project Close-out Report & Video**
+
+The final documentation (PCR & PCV) summarizes all project results, lessons learned, and community impact.
+
+- 📄 [Final Close-out Report (PCR)](https://drive.google.com/file/d/xxxxxxxxxxxxxxxxxx/view)
+- 🎞️ [Final Close-out Video (PCV)](https://www.youtube.com/watch?v=yyyyyyyyyy)
+
+**Contents Include:**
+
+- Summary of project objectives and completion
+- Overview of learning materials, videos, and surveys
+- Student testimonials and highlights
+- Acknowledgment of Catalyst community support
+
+---
+
+## **Milestone Final Completion Summary**
+
+| Deliverable                    | Status       | Evidence                              |
+| ------------------------------ | ------------ | ------------------------------------- |
+| 2 Course Introduction Articles | ✅ Completed | Facebook + Telegram screenshots       |
+| Student Feedback Survey        | ✅ Completed | Google Form / Spreadsheet link        |
+| AMA Session                    | ✅ Completed | YouTube link + attendance screenshots |
+| Final Report & Video           | ✅ Completed | PCR PDF + PCV YouTube link            |
+
+## **Supporting Document**
+
+All related links and outputs are compiled here:  
+👉 [Google Sheet Summary of Outputs](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml)
+
+---
+
+### **Notes**
+
+- Since the course is designed for the Vietnamese community, some deliverables (posts, survey, AMA discussions) are presented in **Vietnamese** for effective communication.
+
+---

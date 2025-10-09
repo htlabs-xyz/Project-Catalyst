@@ -1,114 +1,127 @@
-# Proof of Achievement for Milestone 2
+# Proof of Achievement — Milestone 2
 
-| **Project Name** | 🇻🇳 Cardano App Development Course: A Step-by-Step Guide for Beginners - From basic Web development to use Cardano Libraries and interacting with Smart Contracts |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Project ID**   | 1300012                                                                                                                                                          |
-| **Link**         | [Open full project](https://milestones.projectcatalyst.io/projects/1300012)                                                                                      |
-
-**Overview**
-
-Project has made significant progress towards achieving its goals in Milestone 2. This milestone includes several key deliverables, such as:
-
-1. Completed lecture slides (PDF/PPT) stored on an online sharing platform.
-2. Tutorial articles posted on the LMS system or blog.
-3. Eight tutorial videos published on YouTube with detailed descriptions.
-4. Eight repositories on GitHub with clearly arranged source code and resources.
-5. Practice exercises deployed on the LMS at the end of each lesson.
-
-This report provides comprehensive documentation of all completed activities and progress made in this milestone.
+| **Project Name** | 🇻🇳 _Cardano App Development Course: A Step-by-Step Guide for Beginners – From Basic Web Development to Using Cardano Libraries and Interacting with Smart Contracts_ |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Project ID**   | **1300012**                                                                                                                                                          |
+| **Project Link** | [ View on Catalyst Milestones Portal](https://milestones.projectcatalyst.io/projects/1300012)                                                                        |
 
 ---
 
-## **1. Completed lecture slides (PDF/PPT) stored on an online sharing platform.**
+## Overview
 
-To support this milestone, a total of 8 lecture slides have been prepared, each corresponding directly to one of the 8 videos. The details are as follows:
+Milestone 2 demonstrates significant progress in achieving the project’s educational goals.  
+This phase focuses on **hands-on learning**, with comprehensive materials designed to help learners move from web fundamentals to practical interaction with Cardano smart contracts.
 
-Eight sliders for eight videos are detailed in the following links.
+### Deliverables
 
-- [Slider for Video 1: Web3 and Web development Basic.](https://docs.google.com/presentation/d/1mUt8PYzk8HdwDO9jmuvD-YTeCTh-VaAI/edit?usp=drive_web&ouid=112421007396291825090&rtpof=true)
-- [Slider for Video 2: Frontend framework and library.](https://docs.google.com/presentation/d/1E5-anymL8ZhOU7lM6Lfg09ebAifQyczE/edit?slide=id.p1#slide=id.p1)
-- [Slider for Video 3: Fullstacks framework.](https://docs.google.com/presentation/d/18hgmtc61cEucW1eNqNJxkhyXcFBs1ldd/edit?rtpof=true)
-- [Slider for Video 4: Cardano interaction using libraries and sdk](https://docs.google.com/presentation/d/1ZXZdYBoPj4RcLw95r9uqfFHiJI0ZtxeV/edit?usp=drive_web&ouid=112421007396291825090&rtpof=true)
-- [Slider for Video 5: Query data onchain](https://docs.google.com/presentation/d/1q4BH_uVKEOPFUw3fllxTf5sn57gvWci5/edit?rtpof=true)
-- [Slider for Video 6: Making transaction](https://docs.google.com/presentation/d/1DVZHaV-4lCGDzRuw0O3iD0Q3BmTbhnAv/edit?usp=drive_web&ouid=112421007396291825090&rtpof=true)
-- [Slider for Video 7: Minting/Burning Assets](https://docs.google.com/presentation/d/1bAxW4fWGDj9l8xrIE8yJuAammIXv5KtS/edit?usp=drive_web&ouid=112421007396291825090&rtpof=true)
-- [Slider for Video 8.1: Introduction eUTxO model (datums, redeemers, etc.)](https://docs.google.com/presentation/d/1kyiQcAml13X0HX9-Y5IcpN-Wqr7ggDAc/edit?usp=drive_web&ouid=112421007396291825090&rtpof=true)
-- [Slider for Video 8.1: Introduction Aiken and aiken syntax](https://docs.google.com/presentation/d/1kyiQcAml13X0HX9-Y5IcpN-Wqr7ggDAc/edit?usp=drive_web&ouid=112421007396291825090&rtpof=true)
+1. Completed lecture slides (PDF/PPT) available online.
+2. Tutorial articles published on the LMS/blog.
+3. Eight tutorial videos on YouTube with full descriptions.
+4. Eight GitHub repositories containing source code and resources.
+5. Practice exercises integrated into the LMS at the end of each lesson.
 
----
-
-## **2. Tutorial articles posted on the LMS system or blog.**
-
-A series of 8 tutorial articles have been published, each aligned with the corresponding lecture slides and videos. These articles provide additional explanations, examples, and references to support learners in understanding the topics.
-
-The eight articles posted on the LMS system or blog in the following links.
-
-- [Article for Video 1: Web3 and Web development Basic.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_01.md)
-- [Article for Video 2: Frontend framework and library.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_02.md)
-- [Article for Video 3: Fullstacks framework.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_03.md)
-- [Article for Video 4: Cardano interaction using libraries and sdk](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_04.md)
-- [Article for Video 5: Query data onchain](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_05.md)
-- [Article for Video 6: Making transaction](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_06.md)
-- [Article for Video 7: Minting/Burning Assets](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_07.md)
-- [Article for Video 8.1: Introduction eUTxO model (datums, redeemers, etc.)](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_08.md)
-- [Article for Video 8.1: Introduction Aiken and aiken syntax](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_08.md)
+This report provides full documentation for all activities completed in this milestone.
 
 ---
 
-## **3. Eight tutorial videos published on YouTube with detailed descriptions.**
+## 1. Lecture Slides (PDF/PPT)
 
-Eight instructional videos have been produced and uploaded to YouTube, each paired with one lecture slide and tutorial article. Every video includes a detailed description with timestamps, keywords, and links to supplementary resources.
+Eight slide decks have been prepared — each aligned with one tutorial video.  
+They are designed to be clear, visually appealing, and pedagogically structured to support each learning topic.
 
-The eight videos are as follows:
-
-- [Video 1: Web3 and Web development Basic.](https://www.youtube.com/watch?v=e_LhuWx1D84&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=9)
-- [Video 2: Frontend framework and library.](https://www.youtube.com/watch?v=I-Vyfb89ORg&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=6)
-- [Video 3: Fullstacks framework.](https://www.youtube.com/watch?v=Ee0v2eZzweg&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=2)
-- [Video 4: Cardano interaction using libraries and sdk](https://www.youtube.com/watch?v=SNzJwcrRSZY&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=5)
-- [Video 5: Query data onchain](https://www.youtube.com/watch?v=-rqb7PYVhJU&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=3)
-- [Video 6: Making transaction](https://www.youtube.com/watch?v=ll4SdurfX_I&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=7)
-- [Video 7: Minting/Burning Assets](https://www.youtube.com/watch?v=OdSvMxLmEqs&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=1)
-- [Video 8.1: Introduction eUTxO model (datums, redeemers, etc.)](https://www.youtube.com/watch?v=cs9cccbKx9Y&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=8)
-- [Video 8.1: Introduction Aiken and aiken syntax](https://www.youtube.com/watch?v=cs9cccbKx9Y&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=8)
-
----
-
-## **4. Eight repositories on GitHub with clearly arranged source code and resources.**
-
-For each lecture, a dedicated GitHub repository has been created. These repositories contain source code, configuration files, and related resources, organized in a structured manner for easy navigation and practical use.
-
-The eight repositories created for each video are presented as follows:
-
-- [Repository for Video 1: Web3 and Web development Basic.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_02)
-- [Repository for Video 2: Frontend framework and library.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_02)
-- [Repository for Video 3: Fullstacks framework.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_03)
-- [Repository for Video 4: Cardano interaction using libraries and sdk](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_04)
-- [Repository for Video 5: Query data onchain](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_05)
-- [Repository for Video 6: Making transaction](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_06)
-- [Repository for Video 7: Minting/Burning Assets](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_07)
-- [Repository for Video 8.1: Introduction eUTxO model (datums, redeemers, etc.)](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_08)
-- [Repository for Video 8.1: Introduction Aiken and aiken syntax](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_08)
+| #   | Title                                            | Slide Link                                                                                                  |
+| --- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| 1   | Web3 and Web Development Basics                  | [View Slide 1](https://docs.google.com/presentation/d/1mUt8PYzk8HdwDO9jmuvD-YTeCTh-VaAI/edit?usp=drive_web) |
+| 2   | Frontend Frameworks and Libraries                | [View Slide 2](https://docs.google.com/presentation/d/1E5-anymL8ZhOU7lM6Lfg09ebAifQyczE/edit?usp=drive_web) |
+| 3   | Fullstack Framework Overview                     | [View Slide 3](https://docs.google.com/presentation/d/18hgmtc61cEucW1eNqNJxkhyXcFBs1ldd/edit?usp=drive_web) |
+| 4   | Cardano Interaction using Libraries and SDKs     | [View Slide 4](https://docs.google.com/presentation/d/1ZXZdYBoPj4RcLw95r9uqfFHiJI0ZtxeV/edit?usp=drive_web) |
+| 5   | Querying On-chain Data                           | [View Slide 5](https://docs.google.com/presentation/d/1q4BH_uVKEOPFUw3fllxTf5sn57gvWci5/edit?usp=drive_web) |
+| 6   | Making Transactions                              | [View Slide 6](https://docs.google.com/presentation/d/1DVZHaV-4lCGDzRuw0O3iD0Q3BmTbhnAv/edit?usp=drive_web) |
+| 7   | Minting and Burning Assets                       | [View Slide 7](https://docs.google.com/presentation/d/1bAxW4fWGDj9l8xrIE8yJuAammIXv5KtS/edit?usp=drive_web) |
+| 8   | Introduction to the eUTxO Model and Aiken Syntax | [View Slide 8](https://docs.google.com/presentation/d/1kyiQcAml13X0HX9-Y5IcpN-Wqr7ggDAc/edit?usp=drive_web) |
 
 ---
 
-## **5. Practice exercises deployed on the LMS at the end of each lesson.**
+## 2. Tutorial Articles
 
-Each lesson concludes with practice exercises hosted on the LMS platform. These exercises are designed to test learners’ comprehension, reinforce concepts, and provide hands-on experience with the covered material.
+Each video is accompanied by a detailed article published on the LMS or GitHub, providing step-by-step guidance, explanations, and practical examples.
 
-The eight exercises for eight videos are presented in the following links:
-
-- [Exercises for Video 1: Web3 and Web development Basic.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_01.md)
-- [Exercises for Video 2: Frontend framework and library.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_02.md)
-- [Exercises for Video 3: Fullstacks framework.](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_03.md)
-- [Exercises for Video 4: Cardano interaction using libraries and sdk](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_04.md)
-- [Exercises for Video 5: Query data onchain](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_05.md)
-- [Exercises for Video 6: Making transaction](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_06.md)
-- [Exercises for Video 7: Minting/Burning Assets](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_07.md)
-- [Exercises for Video 8.1: Introduction eUTxO model (datums, redeemers, etc.)](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_08.md)
-- [Exercises for Video 8.1: Introduction Aiken and aiken syntax](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_08.md)
+| #   | Title                                        | Article Link                                                                                                |
+| --- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1   | Web3 and Web Development Basics              | [ Read Article](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_01.md) |
+| 2   | Frontend Frameworks and Libraries            | [ Read Article](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_02.md) |
+| 3   | Fullstack Framework Overview                 | [ Read Article](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_03.md) |
+| 4   | Cardano Interaction using Libraries and SDKs | [ Read Article](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_04.md) |
+| 5   | Querying On-chain Data                       | [ Read Article](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_05.md) |
+| 6   | Making Transactions                          | [ Read Article](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_06.md) |
+| 7   | Minting and Burning Assets                   | [ Read Article](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_07.md) |
+| 8   | Introduction to eUTxO Model & Aiken Syntax   | [ Read Article](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Content/Video_08.md) |
 
 ---
 
-## **The content is presented in [Google Sheet Here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml) (some content will be completed according to project progress.)**
+## 3. Tutorial Videos on YouTube
 
-**Note: Because this course content is for learners in Vietnam, some output will be done in Vietnamese to ensure effective communication.**
+Eight comprehensive tutorial videos have been published, professionally recorded and captioned.  
+Each includes timestamps, resource links, and consistent formatting for learner clarity.
+
+| #   | Title                                        | YouTube Link                                                                                               |
+| --- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 1   | Web3 and Web Development Basics              | [Watch Video](https://www.youtube.com/watch?v=e_LhuWx1D84&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=9) |
+| 2   | Frontend Frameworks and Libraries            | [Watch Video](https://www.youtube.com/watch?v=I-Vyfb89ORg&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=6) |
+| 3   | Fullstack Framework Overview                 | [Watch Video](https://www.youtube.com/watch?v=Ee0v2eZzweg&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=2) |
+| 4   | Cardano Interaction using Libraries and SDKs | [Watch Video](https://www.youtube.com/watch?v=SNzJwcrRSZY&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=5) |
+| 5   | Querying On-chain Data                       | [Watch Video](https://www.youtube.com/watch?v=-rqb7PYVhJU&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=3) |
+| 6   | Making Transactions                          | [Watch Video](https://www.youtube.com/watch?v=ll4SdurfX_I&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=7) |
+| 7   | Minting and Burning Assets                   | [Watch Video](https://www.youtube.com/watch?v=OdSvMxLmEqs&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=1) |
+| 8   | Introduction to eUTxO Model and Aiken Syntax | [Watch Video](https://www.youtube.com/watch?v=cs9cccbKx9Y&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=8) |
+
+---
+
+## 4. GitHub Repositories
+
+Each topic has a corresponding GitHub repository containing source code, configurations, and assets.  
+All repositories are public, organized, and ready for learner use.
+
+| #   | Title                                        | Repository Link                                                                                   |
+| --- | -------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| 1   | Web3 and Web Development Basics              | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_01) |
+| 2   | Frontend Frameworks and Libraries            | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_02) |
+| 3   | Fullstack Framework Overview                 | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_03) |
+| 4   | Cardano Interaction using Libraries and SDKs | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_04) |
+| 5   | Querying On-chain Data                       | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_05) |
+| 6   | Making Transactions                          | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_06) |
+| 7   | Minting and Burning Assets                   | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_07) |
+| 8   | Introduction to eUTxO Model and Aiken Syntax | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_08) |
+
+---
+
+## 5. Practice Exercises
+
+Each lesson concludes with a practical exercise hosted on the LMS.  
+Exercises reinforce learning objectives, encourage experimentation, and measure understanding.
+
+| #   | Title                                        | Exercise Link                                                                                                 |
+| --- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 1   | Web3 and Web Development Basics              | [View Exercise](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_01.md) |
+| 2   | Frontend Frameworks and Libraries            | [View Exercise](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_02.md) |
+| 3   | Fullstack Framework Overview                 | [View Exercise](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_03.md) |
+| 4   | Cardano Interaction using Libraries and SDKs | [View Exercise](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_04.md) |
+| 5   | Querying On-chain Data                       | [View Exercise](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_05.md) |
+| 6   | Making Transactions                          | [View Exercise](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_06.md) |
+| 7   | Minting and Burning Assets                   | [View Exercise](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_07.md) |
+| 8   | Introduction to eUTxO Model and Aiken Syntax | [View Exercise](https://github.com/htlabs-xyz/Cardano-App-Development-Course/blob/main/Exercises/Video_08.md) |
+
+---
+
+## **Supporting Document**
+
+All related links and outputs are compiled here:  
+[Google Sheet Summary of Outputs](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml)
+
+---
+
+### **Notes**
+
+- Since the course is designed for the Vietnamese community, some deliverables (posts, survey, AMA discussions) are presented in **Vietnamese** for effective communication.
+
+---

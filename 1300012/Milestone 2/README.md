@@ -113,6 +113,33 @@ Exercises reinforce learning objectives, encourage experimentation, and measure 
 
 ---
 
+## **6. LMS for lessons.**
+
+Each lesson is posted on Lms for easy access by learners
+
+| #   | Title                                        | LMS Link                                                                                                                                            |
+| --- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Web3 and Web Development Basics              | [Lesson LMS](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/lesson/v1-web3-and-web-development-basic/)                |
+| 2   | Frontend Frameworks and Libraries            | [Lesson LMS](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/lesson/v2-frontend-framework-and-library/)                |
+| 3   | Fullstack Framework Overview                 | [Lesson LMS](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/lesson/v3-fullstacks-framework/)                          |
+| 4   | Cardano Interaction using Libraries and SDKs | [Lesson LMS](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/lesson/v4-cardano-interaction-using-libraries-and-sdk/)   |
+| 5   | Querying On-chain Data                       | [Lesson LMS](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/lesson/v5-query-data-onchain-2/)                          |
+| 6   | Making Transactions                          | [Lesson LMS](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/lesson/v6-making-transaction/)                            |
+| 7   | Minting and Burning Assets                   | [Lesson LMS](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/lesson/v7-minting-burning-assets/)                        |
+| 8   | Introduction to eUTxO Model and Aiken Syntax | [Lesson LMS](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/lesson/v8-introduction-eutxo-model-datums-redeemers-etc/) |
+
+## 🧾 Acceptance Criteria Summary
+
+| Criteria     | Status | Description                                     |
+| ------------ | ------ | ----------------------------------------------- |
+| Slides       | ✅     | Clear, structured, visually aligned with videos |
+| Articles     | ✅     | Well-structured with practical examples         |
+| Videos       | ✅     | Clear audio, visuals, consistent presentation   |
+| Repositories | ✅     | Organized with detailed README instructions     |
+| Exercises    | ✅     | Practical and appropriately challenging         |
+
+---
+
 ## **Supporting Document**
 
 All related links and outputs are compiled here:  

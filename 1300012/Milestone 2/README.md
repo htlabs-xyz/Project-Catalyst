@@ -84,7 +84,7 @@ All repositories are public, organized, and ready for learner use.
 
 | #   | Title                                        | Repository Link                                                                                   |
 | --- | -------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 1   | Web3 and Web Development Basics              | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_01) |
+| 1   | Web3 and Web Development Basics              | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_02) |
 | 2   | Frontend Frameworks and Libraries            | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_02) |
 | 3   | Fullstack Framework Overview                 | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_03) |
 | 4   | Cardano Interaction using Libraries and SDKs | [View Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_04) |

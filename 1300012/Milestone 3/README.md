@@ -81,12 +81,12 @@ All repositories are public and contain complete code examples with documentatio
 
 | #   | Repository                         | Description                          | Link                                                                                           |
 | --- | ---------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| 1   | NFT Marketplace – Idea & Structure | Base project and folder organization | [Repo 1](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/video_10) |
-| 2   | UI Design                          | Components, assets, and layout setup | [Repo 2](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/video_10) |
-| 3   | Aiken Smart Contract               | Full Aiken code implementation       | [Repo 3](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/video_11) |
-| 4   | Smart Contract Testing             | Unit tests and validation            | [Repo 4](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/video_12) |
-| 5   | Frontend Integration               | Contract interaction via Mesh/Lucid  | [Repo 5](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/video_13) |
-| 6   | Deployment                         | Final build and Vercel configuration | [Repo 6](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/video_13) |
+| 1   | NFT Marketplace – Idea & Structure | Base project and folder organization | [Repo 1](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_10) |
+| 2   | UI Design                          | Components, assets, and layout setup | [Repo 2](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_10) |
+| 3   | Aiken Smart Contract               | Full Aiken code implementation       | [Repo 3](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_11) |
+| 4   | Smart Contract Testing             | Unit tests and validation            | [Repo 4](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_12) |
+| 5   | Frontend Integration               | Contract interaction via Mesh/Lucid  | [Repo 5](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_13) |
+| 6   | Deployment                         | Final build and Vercel configuration | [Repo 6](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_13) |
 
 Each repository includes:
 

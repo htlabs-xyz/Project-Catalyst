@@ -31,7 +31,7 @@ All videos are published on **YouTube**, complete with detailed descriptions and
 | 1   | Analyzing Ideas for an NFT Marketplace                           | [Video 1](https://www.youtube.com/watch?v=cbhqCtb6h2I&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=5) |
 | 2   | Designing the NFT Marketplace User Interface                     | [Video 2](https://www.youtube.com/watch?v=BD7fy84fnB4&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=1) |
 | 3   | Aiken Smart Contract                                             | [Video 3](https://www.youtube.com/watch?v=wXbVWQnll_8&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=6) |
-| 4   | Writing Test Cases for Smart Contracts                           | [Video 4](https://www.youtube.com/watch?v=wvL8ta-LR1k&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=3) |
+| 4   | Writing Test Cases and Offchain Code for Smart Contracts         | [Video 4](https://www.youtube.com/watch?v=wvL8ta-LR1k&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=3) |
 | 5   | Developing the Frontend Marketplace with Corresponding Functions | [Video 5](https://www.youtube.com/watch?v=H66gvghC9JM&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=1) |
 | 6   | Finalizing and Deploying the Marketplace to Vercel               | [Video 6](https://www.youtube.com/watch?v=N0ZYzLP9ajY&list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb&index=2) |
 
@@ -41,14 +41,14 @@ All videos are published on **YouTube**, complete with detailed descriptions and
 
 Each video lesson is accompanied by a dedicated **slide deck (PDF format)** to support teaching.
 
-| #   | Slide Title                                      | Description                                                 | Link                                                                                                             |
-| --- | ------------------------------------------------ | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| 1   | **Analyzing Ideas for an NFT Marketplace**       | Course overview, market analysis, and architecture concept  | [Slide 1](https://drive.google.com/open?id=14NANPiz9sFisgywiOxmOXIGwbBEkbFDN&usp=drive_copy)                     |
-| 2   | **Designing the NFT Marketplace User Interface** | UI/UX wireframe, layout, and design system                  | [Slide 2](https://docs.google.com/presentation/d/1F5I4pl6Brr2i9VsC9R7V-_jr15eu-c-d/edit?slide=id.p1#slide=id.p1) |
-| 3   | **Aiken Smart Contract**                         | Smart contract structure, functions, and logic explained    | [Slide 3](https://docs.google.com/presentation/d/1YJhb8DRTnxt-BOdgqAwzCFNG06cXMk14/edit?slide=id.p1#slide=id.p1) |
-| 4   | **Writing Test Cases for Smart Contracts**       | Testing methodology, scripts, and validation cases          | [Slide 4](https://docs.google.com/presentation/d/1Y97-6Fx-F-haBJB1KJOM46XGxPjAp2kj/edit?slide=id.p1#slide=id.p1) |
-| 5   | **Developing the Frontend Marketplace**          | Frontend integration with smart contract and APIs           | [Slide 5](https://docs.google.com/presentation/d/1oSPN1u0rpjD56KZEcH__--4CyULElQA8/edit?slide=id.p1#slide=id.p1) |
-| 6   | **Finalizing and Deploying the Marketplace**     | Environment setup, deployment to Vercel, and best practices | [Slide 6](https://drive.google.com/open?id=1sqxxUyrd1-iQpSFSt9wO-l6Zd_grLZPa&usp=drive_copy)                     |
+| #   | Slide Title                                                        | Description                                                 | Link                                                                                                             |
+| --- | -------------------------------------------------------------------| ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| 1   | **Analyzing Ideas for an NFT Marketplace**                         | Course overview, market analysis, and architecture concept  | [Slide 1](https://drive.google.com/open?id=14NANPiz9sFisgywiOxmOXIGwbBEkbFDN&usp=drive_copy)                     |
+| 2   | **Designing the NFT Marketplace User Interface**                   | UI/UX wireframe, layout, and design system                  | [Slide 2](https://docs.google.com/presentation/d/1F5I4pl6Brr2i9VsC9R7V-_jr15eu-c-d/edit?slide=id.p1#slide=id.p1) |
+| 3   | **Aiken Smart Contract**                                           | Smart contract structure, functions, and logic explained    | [Slide 3](https://docs.google.com/presentation/d/1YJhb8DRTnxt-BOdgqAwzCFNG06cXMk14/edit?slide=id.p1#slide=id.p1) |
+| 4   | **Writing Test Cases and Offchain Code for Smart Contracts**       | Testing methodology, scripts, and validation cases          | [Slide 4](https://docs.google.com/presentation/d/1Y97-6Fx-F-haBJB1KJOM46XGxPjAp2kj/edit?slide=id.p1#slide=id.p1) |
+| 5   | **Developing the Frontend Marketplace**                            | Frontend integration with smart contract and APIs           | [Slide 5](https://docs.google.com/presentation/d/1oSPN1u0rpjD56KZEcH__--4CyULElQA8/edit?slide=id.p1#slide=id.p1) |
+| 6   | **Finalizing and Deploying the Marketplace**                       | Environment setup, deployment to Vercel, and best practices | [Slide 6](https://drive.google.com/open?id=1sqxxUyrd1-iQpSFSt9wO-l6Zd_grLZPa&usp=drive_copy)                     |
 
 ---
 
@@ -81,12 +81,12 @@ All repositories are public and contain complete code examples with documentatio
 
 | #   | Repository                         | Description                          | Link                                                                                           |
 | --- | ---------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| 1   | NFT Marketplace – Idea & Structure | Base project and folder organization | [Repo 1](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_10) |
-| 2   | UI Design                          | Components, assets, and layout setup | [Repo 2](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_10) |
-| 3   | Aiken Smart Contract               | Full Aiken code implementation       | [Repo 3](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_11) |
-| 4   | Smart Contract Testing             | Unit tests and validation            | [Repo 4](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_12) |
-| 5   | Frontend Integration               | Contract interaction via Mesh/Lucid  | [Repo 5](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_13) |
-| 6   | Deployment                         | Final build and Vercel configuration | [Repo 6](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_13) |
+| 1   | NFT Marketplace – Idea & Structure | Base project and folder organization | This lession no have project code                                                              |
+| 2   | UI Design                          | Components, assets, and layout setup | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_10) |
+| 3   | Aiken Smart Contract               | Full Aiken code implementation       | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_11) |
+| 4   | Testing and Offchain code          | Unit tests and validation            | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_12) |
+| 5   | Frontend Integration               | Contract interaction via Mesh/Lucid  | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_13) |
+| 6   | Deployment                         | Final build and Vercel configuration | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_13) |
 
 Each repository includes:
 

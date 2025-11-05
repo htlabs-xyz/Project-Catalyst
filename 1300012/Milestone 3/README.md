@@ -81,7 +81,7 @@ All repositories are public and contain complete code examples with documentatio
 
 | #   | Repository                         | Description                          | Link                                                                                           |
 | --- | ---------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| 1   | NFT Marketplace – Idea & Structure | Base project and folder organization | This lession no have project code                                                              |
+| 1   | NFT Marketplace – Idea & Structure | Base project and folder organization | This lesson no have project code                                                              |
 | 2   | UI Design                          | Components, assets, and layout setup | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_10) |
 | 3   | Aiken Smart Contract               | Full Aiken code implementation       | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_11) |
 | 4   | Testing and Offchain code          | Unit tests and validation            | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_12) |

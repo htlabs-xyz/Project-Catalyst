@@ -86,7 +86,7 @@ All repositories are public and contain complete code examples with documentatio
 | 3   | Aiken Smart Contract               | Full Aiken code implementation       | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_11) |
 | 4   | Testing and Offchain code          | Unit tests and validation            | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_12) |
 | 5   | Frontend Integration               | Contract interaction via Mesh/Lucid  | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_13) |
-| 6   | Deployment                         | Final build and Vercel configuration | [Repo](https://github.com/htlabs-xyz/Cardano-App-Development-Course/tree/main/Code/Video_13) |
+| 6   | Deployment                         | Final build and Vercel configuration | This lesson no have project code |
 
 Each repository includes:
 

@@ -87,7 +87,7 @@ Please include the steps or processes that demonstrate that you can be trusted t
 
 # MILESTONES
 
-## [PROJECT MILESTONES] What are the key milestones you need to achieve in order to complete your project successfully?
+## What are the key milestones you need to achieve in order to complete your project successfully?
 Please note milestones are only indicative during the proposal submission stage. Each funded project will formalize a milestone schedule and amounts during the onboarding stage.
 
 ## What are the key milestones you need to achieve in order to complete your project successfully?

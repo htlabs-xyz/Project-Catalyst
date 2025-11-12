@@ -1,10 +1,10 @@
-### Proposal setup
+# Proposal setup
 
 ## Please provide your proposal title
 Please note we suggest you use no more than 60 characters for your proposal title so that it can be easily viewed in the voting app.
 The title should clearly express what the proposal is about. Voters can see the title in the voting app, even without opening the proposal, so a clear, unambiguous, and concise title is very important.
 
-### Proposal Summary
+# Proposal Summary
 
 ## [Budget Information] Enter the amount of funding you are requesting in ADA
 Each funding category has a minimum and maximum amount of funding a single proposal can request.
@@ -38,7 +38,7 @@ In the case of third-party software, indicate whether you have the necessary lic
 Describe any dependencies or write 'No dependencies'
 If "YES", please describe the dependencies and why you believe them essential to the project's delivery. If "NO", please write "No dependencies".
 
-### Campaign Category
+# Campaign Category
 
 ## Category Questions
 General Guidance
@@ -63,7 +63,7 @@ Avoid inflated claims, keep it data-based and credible.
 
 
 
-### PROJECT & SOLUTION (IMPORTANT)
+# PROJECT & SOLUTION (IMPORTANT)
 
 ## [SOLUTION] Please describe your proposed solution (10000-character limit including spaces)
 How you write this section will depend on what type of proposal you are writing. You might want to include details on:
@@ -85,7 +85,7 @@ Please describe your existing capabilities that demonstrate how and why you beli
 Please include the steps or processes that demonstrate that you can be trusted to manage funds properly.
 
 
-### MILESTONES
+# MILESTONES
 
 ## [PROJECT MILESTONES] What are the key milestones you need to achieve in order to complete your project successfully?
 Please note milestones are only indicative during the proposal submission stage. Each funded project will formalize a milestone schedule and amounts during the onboarding stage.
@@ -105,7 +105,7 @@ D. Evidence of completion (Specify the evidence that will demonstrate this miles
 E. Delivery Month (Enter the month when this milestone is expected to be delivered)
 G. Cost in ADA (Important: Read the milestone guideline (https://docs.projectcatalyst.io/current-fund/project-onboarding/milestone-based-proposals) before proceeding)
 
-### Final Pitch
+# Final Pitch
 
 ## [RESOURCES] Who is in the project team and what are their roles?
 List your team, their Linkedin profiles (or similar) and state what aspect of the proposal’s work each team member will undertake.

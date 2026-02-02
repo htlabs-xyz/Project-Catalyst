@@ -25,7 +25,8 @@ Two introductory articles were created and distributed on community platforms to
 
 - [Facebook Post #1 – Course Introduction & Objectives](https://www.facebook.com/share/p/1GQkEUswfH)
 - [Facebook Post #2 – Benefits & How to Join](https://www.facebook.com/share/p/1CH9r88hvb)
-
+- [Telegram Post #1](https://t.me/easterntownhallvietnam/21702)
+- [Telegram Post #1](https://t.me/easterntownhallvietnam/21707)]
 **Distribution Summary:**
 
 - Shared in **Cardano Vietnam Telegram groups**

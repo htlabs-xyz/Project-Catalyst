@@ -23,8 +23,8 @@ This report summarizes the completion evidence for each deliverable, demonstrati
 
 Two introductory articles were created and distributed on community platforms to raise awareness about the course and its benefits.
 
-- [Facebook Post #1 – Course Introduction & Objectives](https://www.facebook.com/share/p/xxxxxxxx)
-- [Facebook Post #2 – Benefits & How to Join](https://www.facebook.com/share/p/yyyyyyyy)
+- [Facebook Post #1 – Course Introduction & Objectives](https://www.facebook.com/share/p/1GQkEUswfH)
+- [Facebook Post #2 – Benefits & How to Join](https://www.facebook.com/share/p/1CH9r88hvb)
 
 **Distribution Summary:**
 

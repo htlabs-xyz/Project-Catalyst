@@ -45,8 +45,8 @@ Fully functional prototypes were developed and tested for each project. The foll
 |---|---|---|---|
 | 1 | DHT22 Sensor Data on Cardano | [Watch Video](https://youtu.be/khH-3ZzBanU) | [iot1-sensor-data-store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store) |
 | 2 | Smart Lock State Sync | [Watch Video](https://youtu.be/8k02ehV1r7Q) | [iot2-sync-sate-onchain](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-sate-onchain) |
-| 3 | Cardano Asset State Monitor (ESP32) | [Watch Video](https://youtu.be/79a9eahkA5k) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) |
-| 4 | Student NFC Identity on Cardano | [Watch Video](https://youtu.be/L75_IOXbAu0) | [iot4-nfc-tag-identification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) |
+| 3 | Cardano Asset State Monitor (ESP32) | [Watch Video](https://youtu.be/L75_IOXbAu0) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) |
+| 4 | Student NFC Identity on Cardano | [Watch Video](https://youtu.be/79a9eahkA5k) | [iot4-nfc-tag-identification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) |
 | 5 | QR Code Supply Chain Traceability | [Watch Video](https://youtu.be/h_saOa3uWoo) | [iot5-qr-code-traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability) |
 
 Each video demonstrates:
@@ -89,5 +89,5 @@ Each project includes:
 | Stable prototypes performing data transmission, validation, and storage | ✅ Met | 5 demo videos |
 | Source code free of critical errors with detailed instructions | ✅ Met | Public repo with READMEs |
 | 5 System architecture documents and data flow diagrams | ✅ Met | [IoT1](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot1-sensor-data-store/ARCHITECTURE.md), [IoT2](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-sate-onchain/ARCHITECTURE.md), [IoT3](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/ARCHITECTURE.md), [IoT4](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot4-nfc-tag-identification/ARCHITECTURE.md), [IoT5](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/ARCHITECTURE.md) |
-| 5 Videos demonstrating working prototypes | ✅ Met | [IoT1](https://youtu.be/khH-3ZzBanU), [IoT2](https://youtu.be/8k02ehV1r7Q), [IoT3](https://youtu.be/79a9eahkA5k), [IoT4](https://youtu.be/L75_IOXbAu0), [IoT5](https://youtu.be/h_saOa3uWoo) |
+| 5 Videos demonstrating working prototypes | ✅ Met | [IoT1](https://youtu.be/khH-3ZzBanU), [IoT2](https://youtu.be/8k02ehV1r7Q), [IoT3](https://youtu.be/L75_IOXbAu0), [IoT4](https://youtu.be/79a9eahkA5k), [IoT5](https://youtu.be/h_saOa3uWoo) |
 | Public repository with source code and instructions for all 5 projects | ✅ Met | [GitHub Repository](https://github.com/htlabs-xyz/cardano-iot-example) |

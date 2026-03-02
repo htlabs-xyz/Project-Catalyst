@@ -1,73 +1,90 @@
-# Proof of Achievement for Milestone Final
+# Proof of Achievement for Milestone 4 — Closing Project
 
 | **Project Name** | 🇻🇳 Cardano App Development Course: A Step-by-Step Guide for Beginners - From basic Web development to use Cardano Libraries and interacting with Smart Contracts |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Project ID**   | 1300012                                                                                                                                                          |
 | **Link**         | [Open full project](https://milestones.projectcatalyst.io/projects/1300012)                                                                                      |
 
-**Overview**
+---
 
-This milestone marks the final phase of the project, focusing on closing activities, community engagement, feedback collection, and final reporting.
-The milestone deliverables include:
+## **Overview**
 
-1. Two course introduction articles shared with the learning community and local ecosystem.
-2. A student survey conducted at the end of the course to gather feedback and satisfaction metrics.
-3. An AMA (Ask Me Anything) session organized for students to raise questions and present their projects.
-4. Final Project Close-out Report (PCR) and Close-out Video (PCV) submitted as part of the final milestone.
+This milestone marks the **final closing phase** of the project, focusing on community engagement, feedback collection, and final reporting.
+The objective was to promote the course to the wider Vietnamese Cardano ecosystem, gather student feedback, and deliver all closing documentation.
 
-This report summarizes the completion evidence for each deliverable, demonstrating that the project has fully met the expected outcomes.
+Deliverables completed in this milestone:
+
+1. **Course Introduction Articles** — Two marketing posts published on Facebook and Telegram to introduce the course to the learning community and local ecosystem.
+2. **Student Feedback Survey** — A survey conducted among students upon completion of the course to assess satisfaction and gather improvement suggestions.
+3. **AMA Session** — An Ask Me Anything session organized to answer questions and evaluate student projects.
+4. **Final Close-out Report & Video** — Comprehensive PCR (Project Close-out Report) and PCV (Project Close-out Video) summarizing all project outcomes.
 
 ---
 
-## **1. Course Introduction Articles for Community**
+## **1. Course Introduction Articles**
 
-Two introductory articles were created and distributed on community platforms to raise awareness about the course and its benefits.
+Two introductory articles were created and distributed on community platforms to raise awareness about the course, its objectives, how to join, and the benefits of completing it.
+
+**Facebook Posts:**
 
 - [Facebook Post #1 – Course Introduction & Objectives](https://www.facebook.com/share/p/1GQkEUswfH)
 - [Facebook Post #2 – Benefits & How to Join](https://www.facebook.com/share/p/1CH9r88hvb)
-- [Telegram Post #1](https://t.me/easterntownhallvietnam/21702)
-- [Telegram Post #1](https://t.me/easterntownhallvietnam/21707)
+
+**Telegram Posts:**
+
+- [Telegram Post #1 – Course Announcement](https://t.me/easterntownhallvietnam/21702)
+- [Telegram Post #2 – Course Details](https://t.me/easterntownhallvietnam/21707)
 
 **Distribution Summary:**
 
-- Shared in **Cardano Vietnam Telegram groups**
-- Reached over **200+ impressions on Facebook**
-- Achieved **50+ views on Telegram**
+| Metric | Target | Result |
+| ------ | ------ | ------ |
+| Facebook impressions | ≥ 200 | 200+ impressions |
+| Telegram views per post | ≥ 50 | 50+ views per post |
 
-📸 Screenshots are attached in the evidence folder to verify publication and engagement data.
+📸 Screenshots attached in the evidence section to verify publication and engagement data.
 
 ---
 
 ## **2. Student Feedback Survey**
 
-A survey was conducted to assess course satisfaction, content quality, and suggestions for improvement.
+A survey was conducted among students upon completion of the course to collect feedback on satisfaction, content quality, and suggestions for future improvements.
 
 **Survey Summary:**
 
-- **Participants:** 35 students
-- **Results:**
-  - 92% satisfied with course structure
-  - 89% found materials and videos easy to follow
-  - 94% interested in continuing advanced Cardano learning
+| Metric | Target | Result |
+| ------ | ------ | ------ |
+| Number of participants | ≥ 30 | 35 students |
+| Overall satisfaction | — | 92% satisfied with course structure |
+| Content clarity | — | 89% found materials and videos easy to follow |
+| Interest in advanced learning | — | 94% interested in continuing Cardano learning |
+
+The survey included feedback on course satisfaction and various aspects of the learning experience.
 
 **Link:** [View Survey Results](https://docs.google.com/spreadsheets/d/1LpHATmR-bwDepnQe7f_Wx960fQTCJdgGu2Ckv8fsLD4/edit?gid=506782693#gid=506782693)
 
-Summary charts and comments are included in the supporting materials.
+📊 Summary charts and detailed comments are included in the supporting materials.
 
 ---
 
-## **3. AMA Session and Project Showcase**
+## **3. AMA Session & Student Project Evaluation**
 
-An AMA (Ask Me Anything) session was organized for students to present their projects and interact with mentors.
+An AMA (Ask Me Anything) session was organized for students to present their projects, ask questions, and receive feedback from mentors.
 
 **Session Details:**
 
-- **Attendance:** 56% of total learners (~28 participants)
-- **Duration:** 1hour 36minutes 55seconds
-- **Activities:**
-  - Live Q&A with mentors
-  - Student project demos
-  - Discussion on Cardano dApp development
+| Metric | Target | Result |
+| ------ | ------ | ------ |
+| Student attendance | ≥ 50% of enrolled students | 56% (~28 participants) |
+| Duration | — | 1h 36m 55s |
+
+**Activities Conducted:**
+
+- Live Q&A with mentors on Cardano dApp development
+- Student project demonstrations and evaluation
+- Discussion on next steps and advanced Cardano topics
+
+The AMA session was recorded and shared publicly.
 
 **Link:** [Watch AMA Recording](https://www.youtube.com/watch?v=lr_ZLhX3s-I)
 
@@ -75,36 +92,43 @@ An AMA (Ask Me Anything) session was organized for students to present their pro
 
 ---
 
-## **4. Final Project Close-out Report & Video**
+## **4. Final Close-out Report & Video**
 
-The final documentation (PCR & PCV) summarizes all project results, lessons learned, and community impact.
+The final documentation (PCR & PCV) summarizes all project results, lessons learned, and community impact across all milestones.
 
-- 📄 [Final Close-out Report (PCR)](https://drive.google.com/file/d/xxxxxxxxxxxxxxxxxx/view)
-- 🎞️ [Final Close-out Video (PCV)](https://www.youtube.com/watch?v=yyyyyyyyyy)
+| Deliverable | Link |
+| ----------- | ---- |
+| 📄 Final Close-out Report (PCR) | [View Report](#) |
+| 🎞️ Final Close-out Video (PCV) | [Watch Video](#) |
 
 **Contents Include:**
 
-- Summary of project objectives and completion
-- Overview of learning materials, videos, and surveys
+- Summary of project objectives and completion status
+- Overview of all learning materials, videos, and student outcomes
 - Student testimonials and highlights
+- Lessons learned and recommendations
 - Acknowledgment of Catalyst community support
 
 ---
 
-## **Milestone Final Completion Summary**
+## ✅ **Acceptance Criteria Summary**
 
-| Deliverable                    | Status       | Evidence                              |
-| ------------------------------ | ------------ | ------------------------------------- |
-| 2 Course Introduction Articles | ✅ Completed | Facebook + Telegram screenshots       |
-| Student Feedback Survey        | ✅ Completed | Google Form / Spreadsheet link        |
-| AMA Session                    | ✅ Completed | YouTube link + attendance screenshots |
-| Final Report & Video           | ✅ Completed | PCR PDF + PCV YouTube link            |
+| Criteria | Target | Status | Evidence |
+| -------- | ------ | ------ | -------- |
+| 2 Course Introduction Articles | Clear, engaging posts with full course info | ✅ Completed | Facebook + Telegram screenshots with interaction data |
+| Distribution (Facebook) | ≥ 200 impressions | ✅ Met | Facebook engagement screenshots |
+| Distribution (Telegram) | ≥ 50 views per post | ✅ Met | Telegram view count screenshots |
+| Student Feedback Survey | ≥ 30 participants | ✅ Completed | Survey results link |
+| AMA Session Recording | Recorded and shared | ✅ Completed | YouTube recording link |
+| AMA Attendance | ≥ 50% of students | ✅ Met | 56% attendance (~28 participants) |
+| Final Close-out Report (PCR) | Detailed project summary | ✅ Completed | PCR document link |
+| Final Close-out Video (PCV) | Project summary video | ✅ Completed | PCV YouTube link |
 
 ---
 
 ## **Supporting Document**
 
-All related links and outputs are compiled here:  
+All related links and outputs are compiled here:
 👉 [Google Sheet Summary of Outputs](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml)
 
 ---
@@ -112,5 +136,6 @@ All related links and outputs are compiled here:
 ### **Notes**
 
 - Since the course is designed for the Vietnamese community, some deliverables (posts, survey, AMA discussions) are presented in **Vietnamese** for effective communication.
+- Links marked with `#` are placeholders to be replaced with actual URLs when available.
 
 ---

@@ -7,78 +7,87 @@
 
 **Overview**
 
-This milestone focuses on the **architecture design and prototype development** for 5 IoT–Cardano integration templates. Each project explores how IoT data can be validated and stored securely on the Cardano blockchain. All milestone deliverables have been successfully completed and verified, including:
+This milestone focuses on **architecture design and prototype development** for 5 IoT–Cardano integration templates. Each project demonstrates how IoT data can be transmitted, validated, and stored securely on the Cardano blockchain. All milestone deliverables have been completed:
 
-1. Detailed system architecture documents for all 5 projects.
-2. Working prototypes demonstrating data transmission, validation, and on-chain storage.
-3. Comprehensive deployment and development guides with open-source code.
-
-This report provides comprehensive documentation of all completed activities and progress made in this milestone.
+1. Detailed system architecture documents with data flow diagrams for all 5 projects.
+2. Working prototypes with data transmission, validation, and on-chain storage functionalities.
+3. Development and deployment guides with open-source code for all 5 projects.
 
 ---
 
-## **1. System Architecture and Data Flow Documents.**
+## **1. System Architecture and Data Flow Documents**
 
-The following documents describe the architectural design, data flow, and integration process between IoT devices and the Cardano blockchain for each of the five project templates.
+The following documents describe the architectural design, component interactions, and data flow for integrating IoT devices with the Cardano blockchain.
 
-| **Project Template**            | **Architecture Document** | **Project Link**  |
-| ------------------------------- | ------------------------- | ----------------- |
-| Smart Agriculture Monitoring    | [View Document](#)        | [Open Project](#) |
-| Energy Consumption Tracking     | [View Document](#)        | [Open Project](#) |
-| Environmental Data Logging      | [View Document](#)        | [Open Project](#) |
-| Asset Tracking and Verification | [View Document](#)        | [Open Project](#) |
-| Smart Supply Chain Validation   | [View Document](#)        | [Open Project](#) |
+| # | **Project** | **Architecture Document** | **Source Code** |
+|---|---|---|---|
+| 1 | DHT22 Sensor Data on Cardano | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot1-sensor-data-store/ARCHITECTURE.md) | [iot1-sensor-data-store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store) |
+| 2 | Smart Lock State Sync | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-sate-onchain/ARCHITECTURE.md) | [iot2-sync-sate-onchain](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-sate-onchain) |
+| 3 | Cardano Asset State Monitor (ESP32) | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/ARCHITECTURE.md) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) |
+| 4 | Student NFC Identity on Cardano | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot4-nfc-tag-identification/ARCHITECTURE.md) | [iot4-nfc-tag-identification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) |
+| 5 | QR Code Supply Chain Traceability | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/ARCHITECTURE.md) | [iot5-qr-code-traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability) |
 
-Each document includes component diagrams, module breakdowns, and detailed workflow illustrations to guide developers and learners through the integration process.
-
----
-
-## **2. 5 Videos demonstrating working prototypes for each project.**
-
-To validate the architecture, fully functional prototypes were developed and tested.  
-The following demonstration videos show real-time data flow from IoT sensors to Cardano, including data validation and storage transactions.
-
-| **Project Template**            | **Video Link**   | **Project Link**  |
-| ------------------------------- | ---------------- | ----------------- |
-| Smart Agriculture Monitoring    | [Watch Video](#) | [Open Project](#) |
-| Energy Consumption Tracking     | [Watch Video](#) | [Open Project](#) |
-| Environmental Data Logging      | [Watch Video](#) | [Open Project](#) |
-| Asset Tracking and Verification | [Watch Video](#) | [Open Project](#) |
-| Smart Supply Chain Validation   | [Watch Video](#) | [Open Project](#) |
-
-All videos were recorded in HD quality with clear narration and screen capture of the testing process.
+Each architecture document includes:
+- System overview and key capabilities
+- Component architecture diagram (ASCII)
+- Data flow diagrams for all major operations
+- Smart contract design (Aiken/Plutus v3)
+- Technology stack breakdown
+- Security considerations
 
 ---
 
-## **3. Public repository with source code and implementation instructions for all 5 projects.**
+## **2. Working Prototype Demonstration Videos**
 
-Each repository below contains the complete source code, configuration files, and documentation required to replicate the prototype.  
-The repositories are organized by project template and follow a consistent folder structure for ease of navigation.
+Fully functional prototypes were developed and tested for each project. The following videos demonstrate real-time data flow from IoT devices to Cardano, including data transmission, validation, and on-chain storage.
 
-| **Project Template**            | **Repository Link**    | **Deployment Guide**  | **Project Link**  |
-| ------------------------------- | ---------------------- | --------------------- | ----------------- |
-| Smart Agriculture Monitoring    | [GitHub Repository](#) | [Deployment Guide](#) | [Open Project](#) |
-| Energy Consumption Tracking     | [GitHub Repository](#) | [Deployment Guide](#) | [Open Project](#) |
-| Environmental Data Logging      | [GitHub Repository](#) | [Deployment Guide](#) | [Open Project](#) |
-| Asset Tracking and Verification | [GitHub Repository](#) | [Deployment Guide](#) | [Open Project](#) |
-| Smart Supply Chain Validation   | [GitHub Repository](#) | [Deployment Guide](#) | [Open Project](#) |
+| # | **Project** | **Demo Video** | **Source Code** |
+|---|---|---|---|
+| 1 | DHT22 Sensor Data on Cardano | [Watch Video](https://youtu.be/khH-3ZzBanU) | [iot1-sensor-data-store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store) |
+| 2 | Smart Lock State Sync | [Watch Video](https://youtu.be/8k02ehV1r7Q) | [iot2-sync-sate-onchain](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-sate-onchain) |
+| 3 | Cardano Asset State Monitor (ESP32) | [Watch Video](https://youtu.be/79a9eahkA5k) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) |
+| 4 | Student NFC Identity on Cardano | [Watch Video](https://youtu.be/L75_IOXbAu0) | [iot4-nfc-tag-identification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) |
+| 5 | QR Code Supply Chain Traceability | [Watch Video](https://youtu.be/h_saOa3uWoo) | [iot5-qr-code-traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability) |
 
-Each repository includes:
+Each video demonstrates:
+- Hardware setup and IoT device connectivity
+- Real-time data collection from sensors/devices
+- Data transmission to Cardano blockchain
+- On-chain validation and storage confirmation
+- Data retrieval and verification
 
+---
+
+## **3. Public Repository with Source Code and Implementation Instructions**
+
+All source code is hosted in a single public repository with dedicated folders for each project template.
+
+**Repository:** [https://github.com/htlabs-xyz/cardano-iot-example](https://github.com/htlabs-xyz/cardano-iot-example)
+
+| # | **Project** | **Source Code** | **Deployment Guide** | **Tech Stack** |
+|---|---|---|---|---|
+| 1 | DHT22 Sensor Data on Cardano | [iot1-sensor-data-store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot1-sensor-data-store/README.md) | TypeScript, Python, Mesh SDK, Blockfrost |
+| 2 | Smart Lock State Sync | [iot2-sync-sate-onchain](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-sate-onchain) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-sate-onchain/README.md) | Aiken, TypeScript, Bun, Mesh SDK |
+| 3 | Cardano Asset State Monitor (ESP32) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/README.md) | C++, PlatformIO, ArduinoJson, TinyCBOR |
+| 4 | Student NFC Identity on Cardano | [iot4-nfc-tag-identification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot4-nfc-tag-identification/README.md) | Python, PyCardano, NFC (PN532), CIP-25 |
+| 5 | QR Code Supply Chain Traceability | [iot5-qr-code-traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/README.md) | Next.js, Aiken, Mesh SDK, CIP-68 |
+
+Each project includes:
 - Step-by-step installation and configuration instructions
-- Full source code and dependencies
-- Sample IoT simulation data for testing
-- README for developers and learners
+- Full source code with dependencies
+- Environment variable templates (`.env.example`)
+- Smart contract source code (Aiken validators where applicable)
+- Hardware wiring diagrams and connection tables
 
 ---
 
 ## **Milestone Summary**
 
-| **Acceptance Criteria**                      | **Result** |
-| -------------------------------------------- | ---------- |
-| Completed architectural documentation        | ✅ Met     |
-| Functional prototypes implemented and tested | ✅ Met     |
-| Public repositories with full source code    | ✅ Met     |
-| Deployment and setup instructions verified   | ✅ Met     |
-
-All deliverables were completed and approved according to the project’s roadmap and Catalyst milestone review standards.
+| **Acceptance Criteria** | **Status** | **Evidence** |
+|---|---|---|
+| Completed architectural documents for all 5 projects | ✅ Met | 5 ARCHITECTURE.md files in repo |
+| Stable prototypes performing data transmission, validation, and storage | ✅ Met | 5 demo videos |
+| Source code free of critical errors with detailed instructions | ✅ Met | Public repo with READMEs |
+| 5 System architecture documents and data flow diagrams | ✅ Met | [IoT1](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot1-sensor-data-store/ARCHITECTURE.md), [IoT2](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-sate-onchain/ARCHITECTURE.md), [IoT3](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/ARCHITECTURE.md), [IoT4](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot4-nfc-tag-identification/ARCHITECTURE.md), [IoT5](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/ARCHITECTURE.md) |
+| 5 Videos demonstrating working prototypes | ✅ Met | [IoT1](https://youtu.be/khH-3ZzBanU), [IoT2](https://youtu.be/8k02ehV1r7Q), [IoT3](https://youtu.be/79a9eahkA5k), [IoT4](https://youtu.be/L75_IOXbAu0), [IoT5](https://youtu.be/h_saOa3uWoo) |
+| Public repository with source code and instructions for all 5 projects | ✅ Met | [GitHub Repository](https://github.com/htlabs-xyz/cardano-iot-example) |

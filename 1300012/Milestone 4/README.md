@@ -50,7 +50,7 @@ A survey was conducted to assess course satisfaction, content quality, and sugge
   - 89% found materials and videos easy to follow
   - 94% interested in continuing advanced Cardano learning
 
-**Link:** [View Survey Results](https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxxxxxxx)
+**Link:** [View Survey Results](https://docs.google.com/spreadsheets/d/1LpHATmR-bwDepnQe7f_Wx960fQTCJdgGu2Ckv8fsLD4/edit?gid=506782693#gid=506782693)
 
 Summary charts and comments are included in the supporting materials.
 

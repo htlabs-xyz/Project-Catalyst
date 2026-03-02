@@ -26,7 +26,8 @@ Two introductory articles were created and distributed on community platforms to
 - [Facebook Post #1 – Course Introduction & Objectives](https://www.facebook.com/share/p/1GQkEUswfH)
 - [Facebook Post #2 – Benefits & How to Join](https://www.facebook.com/share/p/1CH9r88hvb)
 - [Telegram Post #1](https://t.me/easterntownhallvietnam/21702)
-- [Telegram Post #1](https://t.me/easterntownhallvietnam/21707)]
+- [Telegram Post #1](https://t.me/easterntownhallvietnam/21707)
+
 **Distribution Summary:**
 
 - Shared in **Cardano Vietnam Telegram groups**
@@ -62,13 +63,13 @@ An AMA (Ask Me Anything) session was organized for students to present their pro
 **Session Details:**
 
 - **Attendance:** 56% of total learners (~28 participants)
-- **Duration:** 1h 45m
+- **Duration:** 1hour 36minutes 55seconds
 - **Activities:**
   - Live Q&A with mentors
   - Student project demos
   - Discussion on Cardano dApp development
 
-**Link:** [Watch AMA Recording](https://www.youtube.com/watch?v=xxxxxxxxxx)
+**Link:** [Watch AMA Recording](https://www.youtube.com/watch?v=lr_ZLhX3s-I)
 
 📸 Screenshots and participant list attached.
 

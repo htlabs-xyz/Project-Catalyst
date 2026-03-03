@@ -23,7 +23,7 @@ The following documents describe the architectural design, component interaction
 |---|---|---|---|
 | 1 | DHT22 Sensor Data on Cardano | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot1-sensor-data-store/ARCHITECTURE.md) | [iot1-sensor-data-store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store) |
 | 2 | Smart Lock State Sync | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-sate-onchain/ARCHITECTURE.md) | [iot2-sync-sate-onchain](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-sate-onchain) |
-| 3 | Cardano Asset State Monitor (ESP32) | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/ARCHITECTURE.md) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) |
+| 3 | Vending Machines (ESP32) | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/ARCHITECTURE.md) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) |
 | 4 | Student NFC Identity on Cardano | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot4-nfc-tag-identification/ARCHITECTURE.md) | [iot4-nfc-tag-identification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) |
 | 5 | QR Code Supply Chain Traceability | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/ARCHITECTURE.md) | [iot5-qr-code-traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability) |
 
@@ -45,7 +45,7 @@ Fully functional prototypes were developed and tested for each project. The foll
 |---|---|---|---|
 | 1 | DHT22 Sensor Data on Cardano | [Watch Video](https://youtu.be/khH-3ZzBanU) | [iot1-sensor-data-store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store) |
 | 2 | Smart Lock State Sync | [Watch Video](https://youtu.be/8k02ehV1r7Q) | [iot2-sync-sate-onchain](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-sate-onchain) |
-| 3 | Cardano Asset State Monitor (ESP32) | [Watch Video](https://youtu.be/L75_IOXbAu0) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) |
+| 3 | Vending Machines (ESP32) | [Watch Video](https://youtu.be/L75_IOXbAu0) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) |
 | 4 | Student NFC Identity on Cardano | [Watch Video](https://youtu.be/79a9eahkA5k) | [iot4-nfc-tag-identification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) |
 | 5 | QR Code Supply Chain Traceability | [Watch Video](https://youtu.be/h_saOa3uWoo) | [iot5-qr-code-traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability) |
 
@@ -68,7 +68,7 @@ All source code is hosted in a single public repository with dedicated folders f
 |---|---|---|---|---|
 | 1 | DHT22 Sensor Data on Cardano | [iot1-sensor-data-store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot1-sensor-data-store/README.md) | TypeScript, Python, Mesh SDK, Blockfrost |
 | 2 | Smart Lock State Sync | [iot2-sync-sate-onchain](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-sate-onchain) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-sate-onchain/README.md) | Aiken, TypeScript, Bun, Mesh SDK |
-| 3 | Cardano Asset State Monitor (ESP32) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/README.md) | C++, PlatformIO, ArduinoJson, TinyCBOR |
+| 3 | Vending Machines (ESP32) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/README.md) | C++, PlatformIO, ArduinoJson, TinyCBOR |
 | 4 | Student NFC Identity on Cardano | [iot4-nfc-tag-identification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot4-nfc-tag-identification/README.md) | Python, PyCardano, NFC (PN532), CIP-25 |
 | 5 | QR Code Supply Chain Traceability | [iot5-qr-code-traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/README.md) | Next.js, Aiken, Mesh SDK, CIP-68 |
 

@@ -32,7 +32,7 @@ The **Cardano Open: Ecosystem** challenge aims to grow the Cardano ecosystem thr
 | Challenge KPI | Outcome |
 | ------------- | ------- |
 | Number of educational resources created | 14 video tutorials, 14 slide decks, 14 articles, 12 code repositories, 14 exercises |
-| Community engagement and participation | 50+ enrolled learners, 35 survey respondents, 28 AMA participants |
+| Community engagement and participation | 50+ enrolled learners, 30 survey respondents, 28 AMA participants |
 | Open-source contributions | All source code publicly available on [GitHub](https://github.com/htlabs-xyz/Cardano-App-Development-Course) |
 | Developer onboarding to Cardano | Course covers full development pipeline from web basics to smart contract deployment |
 
@@ -45,7 +45,7 @@ The **Cardano Open: Ecosystem** challenge aims to grow the Cardano ecosystem thr
 | Publicly shared educational materials | Complete course content | 14 videos, 14 articles, 14 slide decks — all published |
 | Video tutorials published | Full video course | 14 videos on [YouTube Playlist](https://www.youtube.com/playlist?list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb) |
 | Community participation rate | Active engagement | 50+ learners enrolled, 92% satisfaction rate |
-| Feedback and contributions | Student feedback collected | 35 survey responses with detailed feedback |
+| Feedback and contributions | Student feedback collected | 30 survey responses with detailed feedback |
 | Course completion and project demos | Student project showcase | AMA session with 56% attendance, student project demonstrations |
 
 ---
@@ -75,7 +75,7 @@ The **Cardano Open: Ecosystem** challenge aims to grow the Cardano ecosystem thr
 
 **Article 2 highlights:** AMA session covering Web2 vs Web3 fundamentals, learning roadmap from basics to smart contracts, and on-chain/off-chain architecture communication patterns.
 
-- Conducted student feedback survey with 35 participants (92% satisfaction)
+- Conducted student feedback survey with 30 participants (92% satisfaction)
 - Organized [AMA session](https://www.youtube.com/watch?v=lr_ZLhX3s-I) with 56% student attendance for project evaluation
 
 ### Collaboration & Knowledge Sharing
@@ -144,7 +144,7 @@ The 94% interest rate in advanced learning among course graduates demonstrates s
 | LMS Course Page | [cardano2vn.io](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/) |
 | GitHub Repository | [Cardano-App-Development-Course](https://github.com/htlabs-xyz/Cardano-App-Development-Course) |
 | YouTube Playlist | [All Course Videos](https://www.youtube.com/playlist?list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb) |
-| Student Survey Results | [View Results](https://docs.google.com/spreadsheets/d/e/2PACX-1vRHn4b9j-AJVbn9Wi_XlqXY0zpAMyJ2ZWn0hPiIn6DrQBAMmBamex-BVxTcnfICZHxEPcFxhA-TCloi/pubhtml) |
+| Student Survey Results | [View Results](https://docs.google.com/spreadsheets/d/e/2PACX-1vRHn4b9j-AJVbn9Wi_XlqXY0zpAMyJ2ZWn0hPiIn6DrQBAMmBamex-BVxTcnfICZHxEPcFxhA-TCloi/pubhtml?gid=880169993&single=true) |
 | AMA Session Recording | [Watch on YouTube](https://www.youtube.com/watch?v=lr_ZLhX3s-I) |
 | Master Plan & Outputs | [Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml) |
 | Close-out Video (PCV) | [Watch on YouTube](#) |

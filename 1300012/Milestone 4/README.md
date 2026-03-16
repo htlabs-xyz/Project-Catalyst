@@ -23,17 +23,16 @@ Deliverables completed in this milestone:
 
 ## **1. Course Introduction Articles**
 
-Two introductory articles were created and distributed on community platforms to raise awareness about the course, its objectives, how to join, and the benefits of completing it.
+Two introductory articles were created and distributed on community platforms (Facebook, Telegram Eastern Town Hall Vietnam, Telegram Cardano2VN) to raise awareness about the course, its objectives, how to join, and the benefits of completing it.
 
-**Facebook Posts:**
+| No | Title | Release Date | Links |
+| -- | ----- | ------------ | ----- |
+| 1 | 🔥KHÓA HỌC: XÂY DỰNG DAPP TRÊN CARDANO TỪ CON SỐ KHÔNG | 11/30/2025 | [Facebook](https://www.facebook.com/share/p/1GQkEUswfH) · [Telegram ETHVN](https://t.me/easterntownhallvietnam/21702) · [Telegram C2VN](https://t.me/cardano2vn/1/3403) |
+| 2 | AMA Lộ trình và Tư duy kiến trúc để phát triển DApp | 12/22/2025 | [Facebook](https://www.facebook.com/share/p/1CH9r88hvb) · [Telegram ETHVN](https://t.me/easterntownhallvietnam/21707) · [Telegram C2VN](https://t.me/cardano2vn/1/3408) |
 
-- [Facebook Post #1 – Course Introduction & Objectives](https://www.facebook.com/share/p/1GQkEUswfH)
-- [Facebook Post #2 – Benefits & How to Join](https://www.facebook.com/share/p/1CH9r88hvb)
+**Article 1 highlights:** Course roadmap from Zero to Hero on Cardano ecosystem — covering Web3 mindset, MeshJS wallet integration, Blockfrost API on-chain data, Aiken smart contracts, and Native Assets management. Published on LMS ([lms.cardano2vn.io](https://lms.cardano2vn.io)) with intro video ([YouTube](https://youtu.be/Qjc5DFhyX_Y)) and community discussion ([Telegram](https://t.me/cardano2vn)).
 
-**Telegram Posts:**
-
-- [Telegram Post #1 – Course Announcement](https://t.me/easterntownhallvietnam/21702)
-- [Telegram Post #2 – Course Details](https://t.me/easterntownhallvietnam/21707)
+**Article 2 highlights:** AMA session covering Web2 vs Web3 fundamentals, learning roadmap from basics to smart contracts, and on-chain/off-chain architecture communication patterns.
 
 **Distribution Summary:**
 
@@ -54,14 +53,14 @@ A survey was conducted among students upon completion of the course to collect f
 
 | Metric | Target | Result |
 | ------ | ------ | ------ |
-| Number of participants | ≥ 30 | 35 students |
+| Number of participants | ≥ 30 | 30 students |
 | Overall satisfaction | — | 92% satisfied with course structure |
 | Content clarity | — | 89% found materials and videos easy to follow |
 | Interest in advanced learning | — | 94% interested in continuing Cardano learning |
 
 The survey included feedback on course satisfaction and various aspects of the learning experience.
 
-**Link:** [View Survey Results](https://docs.google.com/spreadsheets/d/1LpHATmR-bwDepnQe7f_Wx960fQTCJdgGu2Ckv8fsLD4/edit?gid=506782693#gid=506782693)
+**Link:** [View Survey Results](https://docs.google.com/spreadsheets/d/e/2PACX-1vRHn4b9j-AJVbn9Wi_XlqXY0zpAMyJ2ZWn0hPiIn6DrQBAMmBamex-BVxTcnfICZHxEPcFxhA-TCloi/pubhtml?gid=880169993&single=true)
 
 📊 Summary charts and detailed comments are included in the supporting materials.
 
@@ -98,7 +97,7 @@ The final documentation (PCR & PCV) summarizes all project results, lessons lear
 
 | Deliverable | Link |
 | ----------- | ---- |
-| 📄 Final Close-out Report (PCR) | [View Report](#) |
+| 📄 Final Close-out Report (PCR) | [View Report](1300012-PCR-Final-Close-out-Report.md) |
 | 🎞️ Final Close-out Video (PCV) | [Watch Video](#) |
 
 **Contents Include:**
@@ -118,7 +117,7 @@ The final documentation (PCR & PCV) summarizes all project results, lessons lear
 | 2 Course Introduction Articles | Clear, engaging posts with full course info | ✅ Completed | Facebook + Telegram screenshots with interaction data |
 | Distribution (Facebook) | ≥ 200 impressions | ✅ Met | Facebook engagement screenshots |
 | Distribution (Telegram) | ≥ 50 views per post | ✅ Met | Telegram view count screenshots |
-| Student Feedback Survey | ≥ 30 participants | ✅ Completed | Survey results link |
+| Student Feedback Survey | ≥ 30 participants | ✅ Met | Survey results link (30 participants) |
 | AMA Session Recording | Recorded and shared | ✅ Completed | YouTube recording link |
 | AMA Attendance | ≥ 50% of students | ✅ Met | 56% attendance (~28 participants) |
 | Final Close-out Report (PCR) | Detailed project summary | ✅ Completed | PCR document link |
@@ -136,6 +135,6 @@ All related links and outputs are compiled here:
 ### **Notes**
 
 - Since the course is designed for the Vietnamese community, some deliverables (posts, survey, AMA discussions) are presented in **Vietnamese** for effective communication.
-- Links marked with `#` are placeholders to be replaced with actual URLs when available.
+- The PCV link marked with `#` is a placeholder to be replaced with the actual URL when available.
 
 ---

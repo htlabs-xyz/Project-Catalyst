@@ -147,13 +147,13 @@ The 94% interest rate in advanced learning among course graduates demonstrates s
 | Student Survey Results | [View Results](https://docs.google.com/spreadsheets/d/e/2PACX-1vRHn4b9j-AJVbn9Wi_XlqXY0zpAMyJ2ZWn0hPiIn6DrQBAMmBamex-BVxTcnfICZHxEPcFxhA-TCloi/pubhtml?gid=880169993&single=true) |
 | AMA Session Recording | [Watch on YouTube](https://www.youtube.com/watch?v=lr_ZLhX3s-I) |
 | Master Plan & Outputs | [Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml) |
-| Close-out Video (PCV) | [Watch on YouTube](https://youtu.be/TejTZo2JTQk) |
+| Close-out Video (PCV) | [Watch on YouTube](https://youtu.be/_vhclBj5mMo) |
 
 ---
 
 ## 9. Close-out Video
 
-📹 **Project Close-out Video (PCV):** [Watch on YouTube](https://youtu.be/TejTZo2JTQk)
+📹 **Project Close-out Video (PCV):** [Watch on YouTube](https://youtu.be/_vhclBj5mMo)
 
 The close-out video provides a visual summary of the project, including:
 - Challenge context and funding received

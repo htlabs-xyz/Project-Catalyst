@@ -63,7 +63,18 @@ The **Cardano Open: Ecosystem** challenge aims to grow the Cardano ecosystem thr
 - Each lesson includes: video, slides, article, code repository, and practical exercise
 
 ### Community Engagement
-- Published 2 introductory articles on [Facebook](https://www.facebook.com/share/p/1GQkEUswfH) and [Telegram](https://t.me/easterntownhallvietnam/21702) reaching 200+ impressions
+
+#### Course Introduction Articles
+
+| No | Title | Release Date | Links |
+| -- | ----- | ------------ | ----- |
+| 1 | 🔥KHÓA HỌC: XÂY DỰNG DAPP TRÊN CARDANO TỪ CON SỐ KHÔNG | 11/30/2025 | [Facebook](https://www.facebook.com/share/p/1GQkEUswfH) · [Telegram ETHVN](https://t.me/easterntownhallvietnam/21702) · [Telegram C2VN](https://t.me/cardano2vn/1/3403) |
+| 2 | AMA Lộ trình và Tư duy kiến trúc để phát triển DApp | 12/22/2025 | [Facebook](https://www.facebook.com/share/p/1CH9r88hvb) · [Telegram ETHVN](https://t.me/easterntownhallvietnam/21707) · [Telegram C2VN](https://t.me/cardano2vn/1/3408) |
+
+**Article 1 highlights:** Course roadmap from Zero to Hero on Cardano ecosystem — covering Web3 mindset, MeshJS wallet integration, Blockfrost API on-chain data, Aiken smart contracts, and Native Assets management. Published on LMS ([lms.cardano2vn.io](https://lms.cardano2vn.io)) with intro video ([YouTube](https://youtu.be/Qjc5DFhyX_Y)) and community discussion ([Telegram](https://t.me/cardano2vn)).
+
+**Article 2 highlights:** AMA session covering Web2 vs Web3 fundamentals, learning roadmap from basics to smart contracts, and on-chain/off-chain architecture communication patterns.
+
 - Conducted student feedback survey with 35 participants (92% satisfaction)
 - Organized [AMA session](https://www.youtube.com/watch?v=lr_ZLhX3s-I) with 56% student attendance for project evaluation
 

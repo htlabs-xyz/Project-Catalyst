@@ -98,7 +98,7 @@ The final documentation (PCR & PCV) summarizes all project results, lessons lear
 | Deliverable | Link |
 | ----------- | ---- |
 | 📄 Final Close-out Report (PCR) | [View Report](1300012-PCR-Final-Close-out-Report.md) |
-| 🎞️ Final Close-out Video (PCV) | [Watch Video](#) |
+| 🎞️ Final Close-out Video (PCV) | [Watch Video](https://youtu.be/TejTZo2JTQk) |
 
 **Contents Include:**
 
@@ -135,6 +135,6 @@ All related links and outputs are compiled here:
 ### **Notes**
 
 - Since the course is designed for the Vietnamese community, some deliverables (posts, survey, AMA discussions) are presented in **Vietnamese** for effective communication.
-- The PCV link marked with `#` is a placeholder to be replaced with the actual URL when available.
+
 
 ---

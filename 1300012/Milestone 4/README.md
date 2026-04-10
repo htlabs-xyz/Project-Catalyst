@@ -14,7 +14,7 @@ The objective was to promote the course to the wider Vietnamese Cardano ecosyste
 
 Deliverables completed in this milestone:
 
-1. **Course Introduction Articles** — Two marketing posts published on Facebook and Telegram to introduce the course to the learning community and local ecosystem.
+1. **Course Introduction Articles** — Five marketing posts published on Facebook and Telegram to introduce the course to the learning community and local ecosystem.
 2. **Student Feedback Survey** — A survey conducted among students upon completion of the course to assess satisfaction and gather improvement suggestions.
 3. **AMA Session** — An Ask Me Anything session organized to answer questions and evaluate student projects.
 4. **Final Close-out Report & Video** — Comprehensive PCR (Project Close-out Report) and PCV (Project Close-out Video) summarizing all project outcomes.
@@ -23,16 +23,25 @@ Deliverables completed in this milestone:
 
 ## **1. Course Introduction Articles**
 
-Two introductory articles were created and distributed on community platforms (Facebook, Telegram Eastern Town Hall Vietnam, Telegram Cardano2VN) to raise awareness about the course, its objectives, how to join, and the benefits of completing it.
+Five introductory articles were created and distributed on community platforms (Facebook, Telegram Eastern Town Hall Vietnam, Telegram Cardano2VN, Telegram FimiDev, Telegram cungnhauhocSC) to raise awareness about the course, its objectives, how to join, and the benefits of completing it.
 
 | No | Title | Release Date | Links |
 | -- | ----- | ------------ | ----- |
 | 1 | 🔥KHÓA HỌC: XÂY DỰNG DAPP TRÊN CARDANO TỪ CON SỐ KHÔNG | 11/30/2025 | [Facebook](https://www.facebook.com/share/p/1GQkEUswfH) · [Telegram ETHVN](https://t.me/easterntownhallvietnam/21702) · [Telegram C2VN](https://t.me/cardano2vn/1/3403) |
 | 2 | AMA Lộ trình và Tư duy kiến trúc để phát triển DApp | 12/22/2025 | [Facebook](https://www.facebook.com/share/p/1CH9r88hvb) · [Telegram ETHVN](https://t.me/easterntownhallvietnam/21707) · [Telegram C2VN](https://t.me/cardano2vn/1/3408) |
+| 3 | 🔥 BIẾT REACT/NEXTJS, GIỜ VÀO WEB3 BẰNG CỬA NÀO? | 03/27/2026 | [Facebook](https://www.facebook.com/htlabs.xyz/posts/pfbid0f4ZEmE9Vs49hDRibhRiKbwCTbgeh2JUKh88iMu29BPUEduQsM64rvqL7z235Jci1l) · [Telegram cungnhauhocSC](https://t.me/cungnhauhocSC/794) · [Telegram C2VN](https://t.me/cardano2vn/1/3430) · [Telegram FimiDev](https://t.me/FimiDev/1/2687) · [Telegram ETHVN](https://t.me/easterntownhallvietnam/21832) |
+| 4 | 🚀 HỌC BLOCKCHAIN MÀ CHỈ HIỂU KHÁI NIỆM THÌ CHƯA ĐỦ | 03/30/2026 | [Facebook](https://www.facebook.com/htlabs.xyz/posts/pfbid02E51YmEHp2Dm9PzGJDGzRCifP3WTm8azdydd9aj4orLbHgHFkv89U2UaK6B9to4SMl) · [Telegram cungnhauhocSC](https://t.me/cungnhauhocSC/795) · [Telegram C2VN](https://t.me/cardano2vn/1/3433) · [Telegram FimiDev](https://t.me/FimiDev/1/2689) · [Telegram ETHVN](https://t.me/easterntownhallvietnam/21838) |
+| 5 | 🛒 TỪ SỐ 0 ĐẾN NFT MARKETPLACE TRÊN CARDANO | 04/03/2026 | [Telegram FimiDev](https://t.me/FimiDev/1/2690) · [Telegram C2VN](https://t.me/cardano2vn/1/3434) · [Telegram ETHVN](https://t.me/easterntownhallvietnam/21844) · [Telegram cungnhauhocSC](https://t.me/cungnhauhocSC/796) |
 
 **Article 1 highlights:** Course roadmap from Zero to Hero on Cardano ecosystem — covering Web3 mindset, MeshJS wallet integration, Blockfrost API on-chain data, Aiken smart contracts, and Native Assets management. Published on LMS ([lms.cardano2vn.io](https://lms.cardano2vn.io)) with intro video ([YouTube](https://youtu.be/Qjc5DFhyX_Y)) and community discussion ([Telegram](https://t.me/cardano2vn)).
 
 **Article 2 highlights:** AMA session covering Web2 vs Web3 fundamentals, learning roadmap from basics to smart contracts, and on-chain/off-chain architecture communication patterns.
+
+**Article 3 highlights:** Targeted at Web2 developers (React/Next.js) transitioning to Web3. Covers DApp architecture, Cardano wallet integration, on-chain data querying, MeshJS/Lucid/Blockfrost, and Aiken smart contract introduction with a structured, hands-on learning path.
+
+**Article 4 highlights:** Emphasizes practical DApp building over theory — covers UI for Web3 apps, frontend logic, on-chain data queries, transactions, native assets, and smart contract interaction as a complete integrated flow from idea to deployable product.
+
+**Article 5 highlights:** Uses NFT Marketplace as a hands-on case study — covering flow analysis, UI design for digital assets, list/buy/delist/update operations, Aiken smart contracts, and full frontend-to-blockchain integration into a demo-ready portfolio project.
 
 **Distribution Summary:**
 
@@ -41,7 +50,7 @@ Two introductory articles were created and distributed on community platforms (F
 | Facebook impressions | ≥ 200 | 200+ impressions |
 | Telegram views per post | ≥ 50 | 50+ views per post |
 
-📸 Screenshots attached in the evidence section to verify publication and engagement data.
+All posts are publicly accessible via the links above.
 
 ---
 
@@ -49,26 +58,27 @@ Two introductory articles were created and distributed on community platforms (F
 
 A survey was conducted among students upon completion of the course to collect feedback on satisfaction, content quality, and suggestions for future improvements.
 
-**Survey Summary:**
+**Survey Summary (31 responses):**
 
-| Metric | Target | Result |
-| ------ | ------ | ------ |
-| Number of participants | ≥ 30 | 30 students |
-| Overall satisfaction | — | 92% satisfied with course structure |
-| Content clarity | — | 89% found materials and videos easy to follow |
-| Interest in advanced learning | — | 94% interested in continuing Cardano learning |
+| Metric | Result |
+| ------ | ------ |
+| Overall course rating 4–5/5 | 96.8% rated Good or Excellent |
+| Teaching speed appropriate | 83.9% |
+| Would definitely recommend (NPS 9–10) | 71% |
+| Interest in advanced Cardano learning | 94% |
+| Top improvement requests | More hands-on examples (36.7%) · PDF/reference docs (33.3%) · More content detail (26.7%) |
 
-The survey included feedback on course satisfaction and various aspects of the learning experience.
+**Links:** [View Survey Results (Vietnamese & English)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQW0eMx0XW7U18PoGIlOO_nVtjoBCQ0NuY1jhBNgaeF8wzy_EbLhRD6S9iPncE4Di0_XVFmYmGwqyX/pubhtml) · [View Feedback Report with Charts](feedback-report.pdf)
 
-**Link:** [View Survey Results](https://docs.google.com/spreadsheets/d/e/2PACX-1vRHn4b9j-AJVbn9Wi_XlqXY0zpAMyJ2ZWn0hPiIn6DrQBAMmBamex-BVxTcnfICZHxEPcFxhA-TCloi/pubhtml?gid=880169993&single=true)
-
-📊 Summary charts and detailed comments are included in the supporting materials.
+> Survey is available in both **Vietnamese** (original) and **English** for international reviewers.
 
 ---
 
 ## **3. AMA Session & Student Project Evaluation**
 
-An AMA (Ask Me Anything) session was organized for students to present their projects, ask questions, and receive feedback from mentors.
+An AMA (Ask Me Anything) session was organized for enrolled students to ask questions and receive guidance from mentors on Cardano dApp development topics covered throughout the course.
+
+**Clarification on scope:** This AMA session was designed as a live Q&A to support students during and after the learning process — covering technical questions, architecture decisions, and the development roadmap. A student project showcase was planned as an optional component, but no student groups registered to present their work, so the session focused entirely on Q&A and open discussion.
 
 **Session Details:**
 
@@ -80,14 +90,12 @@ An AMA (Ask Me Anything) session was organized for students to present their pro
 **Activities Conducted:**
 
 - Live Q&A with mentors on Cardano dApp development
-- Student project demonstrations and evaluation
-- Discussion on next steps and advanced Cardano topics
+- Discussion on Web2 vs Web3 architecture and development best practices
+- Guidance on next steps and advanced Cardano topics
 
 The AMA session was recorded and shared publicly.
 
 **Link:** [Watch AMA Recording](https://www.youtube.com/watch?v=lr_ZLhX3s-I)
-
-📸 Screenshots and participant list attached.
 
 ---
 
@@ -114,12 +122,13 @@ The final documentation (PCR & PCV) summarizes all project results, lessons lear
 
 | Criteria | Target | Status | Evidence |
 | -------- | ------ | ------ | -------- |
-| 2 Course Introduction Articles | Clear, engaging posts with full course info | ✅ Completed | Facebook + Telegram screenshots with interaction data |
+| 2 Course Introduction Articles | Clear, engaging posts with full course info | ✅ Exceeded (5 articles delivered) | Facebook + Telegram screenshots with interaction data |
 | Distribution (Facebook) | ≥ 200 impressions | ✅ Met | Facebook engagement screenshots |
 | Distribution (Telegram) | ≥ 50 views per post | ✅ Met | Telegram view count screenshots |
-| Student Feedback Survey | ≥ 30 participants | ✅ Met | Survey results link (30 participants) |
-| AMA Session Recording | Recorded and shared | ✅ Completed | YouTube recording link |
+| Student Feedback Survey | ≥ 30 participants | ✅ Met | 31 participants — [Feedback Report](feedback-report.pdf) |
+| AMA Session Recording | Recorded and shared | ✅ Completed | [YouTube recording](https://www.youtube.com/watch?v=lr_ZLhX3s-I) |
 | AMA Attendance | ≥ 50% of students | ✅ Met | 56% attendance (~28 participants) |
+| AMA Content | Live Q&A session for students | ✅ Completed | Session focused on Q&A; student project showcase was optional — no groups registered to present |
 | Final Close-out Report (PCR) | Detailed project summary | ✅ Completed | PCR document link |
 | Final Close-out Video (PCV) | Project summary video | ✅ Completed | PCV YouTube link |
 

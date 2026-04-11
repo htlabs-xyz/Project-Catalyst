@@ -220,12 +220,6 @@ The C2VN Learning Management System will continue to grow with new Cardano-focus
 
 All new courses will incorporate lessons learned from this cohort: supplementary PDF materials, intermediate exercises, and bilingual documentation where possible.
 
-### Improving This Course
-
-- Add PDF reference guides and cheatsheets for each lesson module
-- Introduce intermediate checkpoint exercises before the NFT Marketplace capstone
-- Provide additional explanations for complex topics (eUTxO, smart contract architecture)
-- Maintain and update content as Cardano libraries (MeshJS, Aiken) evolve
 
 ### Community and Ecosystem
 

@@ -68,7 +68,7 @@ A survey was conducted among students upon completion of the course to collect f
 | Interest in advanced Cardano learning | 94% |
 | Top improvement requests | More hands-on examples (36.7%) · PDF/reference docs (33.3%) · More content detail (26.7%) |
 
-**Links:** [View Survey Results (Vietnamese & English)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQW0eMx0XW7U18PoGIlOO_nVtjoBCQ0NuY1jhBNgaeF8wzy_EbLhRD6S9iPncE4Di0_XVFmYmGwqyX/pubhtml) · [View Feedback Report with Charts](feedback-report.pdf)
+**Links:** [View Survey Results (Vietnamese & English)](https://docs.google.com/spreadsheets/d/1G7nbqwxpkl4ek3dLmaaZ9o86O00h1ZVw2v0Q_3e4gSA/edit?usp=sharing) · [View Feedback Report with Charts](feedback-report.pdf)
 
 > Survey is available in both **Vietnamese** (original) and **English** for international reviewers.
 

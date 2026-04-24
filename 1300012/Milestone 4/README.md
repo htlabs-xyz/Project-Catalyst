@@ -68,9 +68,9 @@ A survey was conducted among students upon completion of the course to collect f
 | Interest in advanced Cardano learning | 94% |
 | Top improvement requests | More hands-on examples (36.7%) · PDF/reference docs (33.3%) · More content detail (26.7%) |
 
-**Links:** [View Survey Results (Vietnamese & English)](https://docs.google.com/spreadsheets/d/1G7nbqwxpkl4ek3dLmaaZ9o86O00h1ZVw2v0Q_3e4gSA/edit?usp=sharing) · [View Feedback Report with Charts](feedback-report.pdf)
+**Links:** [View Survey Results](https://docs.google.com/spreadsheets/d/1G7nbqwxpkl4ek3dLmaaZ9o86O00h1ZVw2v0Q_3e4gSA/edit?gid=836569943#gid=836569943) · [View Feedback Report with Charts](feedback-report.pdf)
 
-> Survey is available in both **Vietnamese** (original) and **English** for international reviewers.
+> The survey is conducted in **Vietnamese** (the course's delivery language). The Feedback Report (PDF) summarizes results in English for reviewers.
 
 ---
 
@@ -123,8 +123,8 @@ The final documentation (PCR & PCV) summarizes all project results, lessons lear
 | Criteria | Target | Status | Evidence |
 | -------- | ------ | ------ | -------- |
 | 2 Course Introduction Articles | Clear, engaging posts with full course info | ✅ Exceeded (5 articles delivered) | Facebook + Telegram screenshots with interaction data |
-| Distribution (Facebook) | ≥ 200 impressions | ✅ Met | Facebook engagement screenshots |
-| Distribution (Telegram) | ≥ 50 views per post | ✅ Met | Telegram view count screenshots |
+| Distribution (Facebook) | ≥ 200 impressions | ✅ Met | Facebook engagement screenshots — see [Master Plan & Outputs (Marketing tab)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml) |
+| Distribution (Telegram) | ≥ 50 views per post | ✅ Met | Telegram view count screenshots — see [Master Plan & Outputs (Marketing tab)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml) |
 | Student Feedback Survey | ≥ 30 participants | ✅ Met | 31 participants — [Feedback Report](feedback-report.pdf) |
 | AMA Session Recording | Recorded and shared | ✅ Completed | [YouTube recording](https://www.youtube.com/watch?v=lr_ZLhX3s-I) |
 | AMA Attendance | ≥ 50% of students | ✅ Met | 56% attendance (~28 participants) |

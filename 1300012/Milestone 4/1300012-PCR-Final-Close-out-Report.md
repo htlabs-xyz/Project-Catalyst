@@ -157,7 +157,7 @@ The 94% interest rate in advanced learning among course graduates demonstrates s
 | LMS Course Page | [cardano2vn.io](https://lms.cardano2vn.io/courses/xay-dung-dapp-tren-cardano-tu-con-so-khong/) |
 | GitHub Repository | [Cardano-App-Development-Course](https://github.com/htlabs-xyz/Cardano-App-Development-Course) |
 | YouTube Playlist | [All Course Videos](https://www.youtube.com/playlist?list=PLhI9Wzsh5RIYsmVlYBq8dAjynrH-j2gZb) |
-| Student Survey Results | [View Results](https://docs.google.com/spreadsheets/d/1G7nbqwxpkl4ek3dLmaaZ9o86O00h1ZVw2v0Q_3e4gSA/edit?gid=836569943#gid=836569943) (Vietnamese — English summary in [Feedback Report](feedback-report.pdf)) |
+| Student Survey Results | [View Results](https://docs.google.com/spreadsheets/d/1G7nbqwxpkl4ek3dLmaaZ9o86O00h1ZVw2v0Q_3e4gSA/edit?gid=836569943#gid=836569943) (Vietnamese) · [Response Charts](feedback-report.pdf) |
 | AMA Session Recording | [Watch on YouTube](https://www.youtube.com/watch?v=lr_ZLhX3s-I) |
 | Master Plan & Outputs | [Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQgrml0-rdHdsCxCBKuRESihX2Lmxmb74hR1DKKzIdKg9S-lcENKbUPPERZVvbTCaPdCJjE60pXKgRd/pubhtml) |
 | Close-out Video (PCV) | [Watch on YouTube](https://youtu.be/_vhclBj5mMo) |

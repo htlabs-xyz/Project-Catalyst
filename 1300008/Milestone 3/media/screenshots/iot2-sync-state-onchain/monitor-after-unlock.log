@@ -1,0 +1,7 @@
+=== monitor run at 21:14:03.829 ===
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+status {
+  authority: "addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7",
+  isLocked: false,
+}
+=== duration: 1.791729141 s ===

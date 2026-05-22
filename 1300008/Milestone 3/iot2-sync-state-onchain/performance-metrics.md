@@ -1,8 +1,8 @@
 # Performance Metrics — Smart Lock State Sync
 
-**Status:** Drafted — to be filled with at least 3 before/after metrics or reliability measurements.
+**Status:** Verified on 2026-05-22 with two confirmed on-chain transitions and one monitor round-trip.
 
-This document captures the optimization impact on the prototype. Before-values labelled **observed during prototype development** come from development-time observation; after-values labelled **measured during Milestone 3 re-validation** come from this milestone's re-run.
+Optimization impact for the locker off-chain pipeline. Before-values labelled **observed during prototype development** come from development-time observation; after-values labelled **measured during Milestone 3 re-validation** come from the re-run on 2026-05-22.
 
 - Source code: [`iot2-sync-state-onchain`](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-state-onchain)
 - Related testing evidence: [`testing-log.md`](./testing-log.md)
@@ -11,20 +11,27 @@ This document captures the optimization impact on the prototype. Before-values l
 
 | # | Metric | Before optimization | After optimization | Improvement | Measurement method | Evidence |
 |---|---|---|---|---|---|---|
-| 1 | TODO | TODO (observed during prototype development) | TODO (measured during Milestone 3 re-validation) | TODO | TODO | TODO |
-| 2 | TODO | TODO | TODO | TODO | TODO | TODO |
-| 3 | TODO | TODO | TODO | TODO | TODO | TODO |
+| 1 | Spend-tx submit success | Blocker — every spend/mint tx rejected with `PPViewHashesDontMatch` (observed during prototype development before Mesh fix) | 2/2 spend/mint txs accepted and confirmed on Preprod 2026-05-22 (measured during Milestone 3 re-validation) | From 0 % to 100 % submit acceptance | Wall-clock submit → Blockfrost `/txs/{hash}` returns 200 with `block_height` | [init-lock-tx-output.log](../media/screenshots/iot2-sync-state-onchain/init-lock-tx-output.log), [unlock-tx-output.log](../media/screenshots/iot2-sync-state-onchain/unlock-tx-output.log), txs [`b77d733d…`](https://preprod.cexplorer.io/tx/b77d733d261fbb515d3e7201b17b32ae78f3559d92de101d67b778e3aebd24e2) and [`1a406691…`](https://preprod.cexplorer.io/tx/1a4066911f8c563edb64d9d87bac42175f1fc1edad51e395d507ef53bc35e257) |
+| 2 | Init (mint locker) submit-to-confirmation | not separately logged (observed during prototype development) | ~16 s end-to-end (measured during Milestone 3 re-validation 2026-05-22): bun script submit `19:30:39 +07` → Blockfrost block_time `19:30:55 +07` (block 4738053) | n/a — first reliable measurement | Wall-clock between `bun run` start and the `transaction confirmed` line printed by `provider.onTxConfirmed` | [init-lock-tx-output.log](../media/screenshots/iot2-sync-state-onchain/init-lock-tx-output.log), Blockfrost `/txs/b77d733d…/` `block_time` |
+| 3 | Unlock (spend script) submit-to-confirmation | not separately logged (observed during prototype development) | ~69 s end-to-end (measured during Milestone 3 re-validation 2026-05-22): bun script submit `19:32:41 +07` → Blockfrost block_time `19:33:50 +07` (block 4738060) | n/a — first reliable measurement | Same method as #2 | [unlock-tx-output.log](../media/screenshots/iot2-sync-state-onchain/unlock-tx-output.log), Blockfrost `/txs/1a406691…/` `block_time` |
+| 4 | Monitor round-trip (`bun run monitor.ts`) | raw hex datum, no parsed output (observed during prototype development before monitor rewrite) | 1.79 s wall-clock; deserialised `{ authority, isLocked }` printed in human-readable form (measured during Milestone 3 re-validation 2026-05-22 at 21:14:03 +07) | Structured output + sub-2 s round-trip | Shell `date +%s.%N` before/after `bun run monitor.ts` | [monitor-after-unlock.log](../media/screenshots/iot2-sync-state-onchain/monitor-after-unlock.log) |
+| 5 | Cross-system propagation: tx confirmation → ESP32 client detection | not separately logged (observed during prototype development) | 5.5 s (measured during Milestone 3 re-validation 2026-05-22): unlock block_time `19:33:50.000 +07` → ESP32 logs `>>> State changed: UNLOCKED` at `19:33:55.500 +07` | n/a — first reliable measurement | Blockfrost `block_time` of unlock tx vs host-timestamped serial line from iot3 firmware | [iot3 test6-unlock-serial.log](../media/screenshots/iot3-vending-machines/test6-unlock-serial.log) line 62 |
 
 ## 2. Reliability
 
 | # | Scenario | Run count | Passed | Failed | Success rate |
 |---|---|---|---|---|---|
-| 1 | TODO | TODO | TODO | TODO | TODO |
+| 1 | Authorized state transitions submitted and confirmed on Preprod | 2 (init + unlock on 2026-05-22) | 2 | 0 | 100% (2/2) |
+| 2 | Monitor round-trips returning parsed `{ authority, isLocked }` | 1 (post-unlock check on 2026-05-22) | 1 | 0 | 100% (1/1) |
+| 3 | Downstream client (iot3 ESP32) detection of authorised state change | 1 (unlock event on 2026-05-22) | 1 | 0 | 100% (1/1) |
+| 4 | Unauthorized signer rejection by `locker.spend` validator | 0 runtime runs this milestone — code review only | n/a | n/a | n/a |
 
-Reliability rows must always state run count. `100%` is only allowed when `passed = run count`.
+Reliability rows always state run count. `100%` is only used where `passed = run count`. Item 4 carried forward as backlog (requires a second funded Preprod wallet).
 
 ## 3. Measurement Notes
 
-- Describe the measurement instrument or method for each metric (manual stopwatch, log timestamp diff, oscilloscope, Blockfrost API latency, `time` shell built-in, etc.).
-- State whether the before-value is from development observation or from a Milestone 2 captured log.
-- TODO: HTLABS team to confirm method per metric.
+- Submit-to-confirmation timing is the most useful end-to-end metric for an off-chain → on-chain pipeline. Calculated as `Blockfrost block_time` (UTC, converted to +07) minus the bun-script submit instant captured by `date +%H:%M:%S.%3N`.
+- Block confirmation latency on Preprod varies (~16 s vs ~69 s above) because tx propagation may miss a slot leader window — this is testnet-network behaviour, not an off-chain optimisation regression.
+- Monitor round-trip excludes Bun cold-start by warming the JIT once before the measured run.
+- Cross-system latency (metric #5) is the integration story: it combines Blockfrost indexing lag, ESP32 poll interval (`POLL_INTERVAL_MS = 1000`), and Blockfrost API round-trip. The 5.5 s figure is dominated by the ESP32 poll cycle.
+- Where a Milestone 2 captured log is not available for a "before" value, the row is labelled explicitly **observed during prototype development** rather than fabricating a number.

@@ -7,93 +7,53 @@
 
 ---
 
-## **Overview**
+## Overview
 
-This milestone focuses on **comprehensive testing and performance optimization** for the 5 IoT–Cardano integration templates.  
-The goal was to ensure that each prototype operates stably and efficiently under real-world conditions, while also identifying and resolving key issues discovered during development.
+This milestone documents **testing, issue resolution, and performance optimization** for the 5 IoT–Cardano integration templates delivered in Milestone 2.
 
-Deliverables completed and verified in this milestone include:
+The milestone-level consolidated report is available at [`comprehensive-testing-and-optimization.md`](./comprehensive-testing-and-optimization.md).
 
-1. **Testing Logs** — Screenshots and videos demonstrating testing processes for all prototypes.
-2. **Issue Resolution Document** — Documentation of all identified bugs, their root causes, and implemented solutions.
-3. **Performance Metrics Report** — Quantitative comparison of system performance before and after optimization.
+### Retrospective Documentation Note
 
-All deliverables were applied and validated across the 5 IoT project templates.
+Testing and optimization were performed during Milestone 2 prototype development and demo preparation. The structured process logs (per-test-case tables, before/after measurement tables, issue post-mortems) were not captured as standalone documents at that time.
 
----
+For Milestone 3 we have:
 
-## **1. Testing Logs**
+1. Re-run the validation scenarios on the completed prototypes and captured fresh evidence (screenshots, serial monitor output, transaction hashes, video links).
+2. Reconstructed the issue and optimization history honestly from development records, commit history, and re-testing.
+3. Used a single shared methodology (see [`evidence-index.md`](./evidence-index.md)) so every template is reviewed against the same template.
 
-Images and videos were captured to document each testing process, showing live data transmission, validation on-chain, and system behavior under varying loads.
-
-| **Project Template**            | **Testing Evidence**   | **Project Link**  |
-| ------------------------------- | ---------------------- | ----------------- |
-| Smart Agriculture Monitoring    | [View Testing Logs](#) | [Open Project](#) |
-| Energy Consumption Tracking     | [View Testing Logs](#) | [Open Project](#) |
-| Environmental Data Logging      | [View Testing Logs](#) | [Open Project](#) |
-| Asset Tracking and Verification | [View Testing Logs](#) | [Open Project](#) |
-| Smart Supply Chain Validation   | [View Testing Logs](#) | [Open Project](#) |
-
-Each testing session included:
-
-- Functional validation of all key modules.
-- Stress tests to verify stability under continuous IoT data input.
-- Performance monitoring (CPU, memory, transaction latency).
+Where a metric originates from observed development behavior rather than a logged Milestone 2 measurement, the document states so explicitly. Reliability numbers are accompanied by run count.
 
 ---
 
-## **2. Issue Resolution Document**
+## Deliverables by Template
 
-This report details all identified issues, along with their causes, severity, and implemented fixes.  
-The optimization process resulted in improved system stability and reduced transaction latency.
+| # | Project Template | Testing Log | Issue Resolution | Performance Metrics | Demo Video | Source Code |
+|---|---|---|---|---|---|---|
+| 1 | DHT22 Sensor Data | [Testing Log](./iot1-sensor-data-store/testing-log.md) | [Issue Resolution](./iot1-sensor-data-store/issue-resolution.md) | [Performance](./iot1-sensor-data-store/performance-metrics.md) | [Watch](https://youtu.be/khH-3ZzBanU) | [Repo](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store) |
+| 2 | Smart Lock State Sync | [Testing Log](./iot2-sync-state-onchain/testing-log.md) | [Issue Resolution](./iot2-sync-state-onchain/issue-resolution.md) | [Performance](./iot2-sync-state-onchain/performance-metrics.md) | [Watch](https://youtu.be/8k02ehV1r7Q) | [Repo](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-state-onchain) |
+| 3 | Vending Machines (ESP32) | [Testing Log](./iot3-vending-machines/testing-log.md) | [Issue Resolution](./iot3-vending-machines/issue-resolution.md) | [Performance](./iot3-vending-machines/performance-metrics.md) | [Watch](https://youtu.be/L75_IOXbAu0) | [Repo](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) |
+| 4 | Student NFC Identity | [Testing Log](./iot4-nfc-tag-identification/testing-log.md) | [Issue Resolution](./iot4-nfc-tag-identification/issue-resolution.md) | [Performance](./iot4-nfc-tag-identification/performance-metrics.md) | [Watch](https://youtu.be/79a9eahkA5k) | [Repo](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) |
+| 5 | QR Code Supply Chain | [Testing Log](./iot5-qr-code-traceability/testing-log.md) | [Issue Resolution](./iot5-qr-code-traceability/issue-resolution.md) | [Performance](./iot5-qr-code-traceability/performance-metrics.md) | [Watch](https://youtu.be/h_saOa3uWoo) | [Repo](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability) |
 
-| **Project Template**            | **Issue Report**   | **Project Link**  |
-| ------------------------------- | ------------------ | ----------------- |
-| Smart Agriculture Monitoring    | [Open Document](#) | [Open Project](#) |
-| Energy Consumption Tracking     | [Open Document](#) | [Open Project](#) |
-| Environmental Data Logging      | [Open Document](#) | [Open Project](#) |
-| Asset Tracking and Verification | [Open Document](#) | [Open Project](#) |
-| Smart Supply Chain Validation   | [Open Document](#) | [Open Project](#) |
-
-Each document includes:
-
-- Description of identified issues.
-- Root cause analysis.
-- Implemented solution and verification results.
-- Screenshot or test output for validation.
+The full evidence matrix with file paths, video links, screenshot links, and per-deliverable status is in [`evidence-index.md`](./evidence-index.md).
 
 ---
 
-## **3. Performance Metrics Report**
+## Acceptance Criteria Mapping
 
-This section provides quantitative performance comparisons before and after optimization.  
-The results demonstrate significant improvements in processing time, stability, and reliability.
-
-| **Project Template**            | **Performance Report** | **Project Link**  |
-| ------------------------------- | ---------------------- | ----------------- |
-| Smart Agriculture Monitoring    | [View Report](#)       | [Open Project](#) |
-| Energy Consumption Tracking     | [View Report](#)       | [Open Project](#) |
-| Environmental Data Logging      | [View Report](#)       | [Open Project](#) |
-| Asset Tracking and Verification | [View Report](#)       | [Open Project](#) |
-| Smart Supply Chain Validation   | [View Report](#)       | [Open Project](#) |
-
-**Summary of Performance Improvements:**
-
-- Transaction latency reduced by 15–30%.
-- CPU utilization optimized by 20%.
-- System uptime increased to 99.5% across all prototypes.
-- Data validation and on-chain storage achieved 100% reliability in all tests.
+| Acceptance Criterion | Where to Verify |
+|---|---|
+| Prototype performs stably and efficiently | Per-template `testing-log.md` (test cases + reliability runs) and `performance-metrics.md` |
+| Issues identified with clear analysis and solutions | Per-template `issue-resolution.md` (issue → root cause → fix → verification) |
+| Optimizations lead to measurable improvements | Per-template `performance-metrics.md` (before/after with measurement method and evidence link) |
 
 ---
 
-## ✅ **Milestone Summary**
+## Repositories and Hosting
 
-| **Acceptance Criteria**                             | **Result** |
-| --------------------------------------------------- | ---------- |
-| Prototype performs stably and efficiently           | ✅         |
-| Issues identified with clear analysis and solutions | ✅         |
-| Optimizations lead to measurable improvements       | ✅         |
-
-All deliverables have been validated and meet the milestone’s technical and performance criteria.
-
----
+- **Source code:** https://github.com/htlabs-xyz/cardano-iot-example
+- **Milestone 2 PoA:** https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%202
+- **Milestone 3 PoA (this folder):** https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%203
+- **Screenshots:** [`./media/screenshots/`](./media/screenshots/)

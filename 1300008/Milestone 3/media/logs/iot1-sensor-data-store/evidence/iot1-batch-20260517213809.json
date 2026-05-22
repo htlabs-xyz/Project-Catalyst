@@ -1,0 +1,40 @@
+{
+  "runId": "20260517213809",
+  "records": [
+    {
+      "sample": 1,
+      "sensorName": "dht22_20260517213809_01",
+      "temperature": 31.4,
+      "humidity": 79.3,
+      "temperatureOnChain": 31400,
+      "humidityOnChain": 79300,
+      "txHash": "2e1cab5debadde58e97c6b5a9c4281b0c87627d75a4399a942e3ce064070862f",
+      "explorer": "https://preprod.cexplorer.io/tx/2e1cab5debadde58e97c6b5a9c4281b0c87627d75a4399a942e3ce064070862f",
+      "confirmedAt": "2026-05-17T21:38:59.122Z"
+    },
+    {
+      "sample": 2,
+      "sensorName": "dht22_20260517213809_02",
+      "temperature": 31.4,
+      "humidity": 79.5,
+      "temperatureOnChain": 31400,
+      "humidityOnChain": 79500,
+      "txHash": "329dc4dace3481236c32d4608816e7fd7578f96831a1ebfb4de05286fcb51585",
+      "explorer": "https://preprod.cexplorer.io/tx/329dc4dace3481236c32d4608816e7fd7578f96831a1ebfb4de05286fcb51585",
+      "confirmedAt": "2026-05-17T21:39:59.993Z"
+    }
+  ],
+  "summary": {
+    "count": 2,
+    "temperature": {
+      "min": 31.4,
+      "max": 31.4,
+      "avg": 31.4
+    },
+    "humidity": {
+      "min": 79.3,
+      "max": 79.5,
+      "avg": 79.4
+    }
+  }
+}

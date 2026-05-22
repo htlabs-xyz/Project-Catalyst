@@ -1,0 +1,13 @@
+
+> dht22-realtime-monitor@1.0.0 batch
+> tsx scripts/batch-write.ts
+
+◇ injected env (2) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+sample 1/9: dht22_20260517213809_01 31.4C 79.3%
+submitted: 2e1cab5debadde58e97c6b5a9c4281b0c87627d75a4399a942e3ce064070862f
+confirmed: 2e1cab5debadde58e97c6b5a9c4281b0c87627d75a4399a942e3ce064070862f
+sample 2/9: dht22_20260517213809_02 31.4C 79.5%
+submitted: 329dc4dace3481236c32d4608816e7fd7578f96831a1ebfb4de05286fcb51585
+confirmed: 329dc4dace3481236c32d4608816e7fd7578f96831a1ebfb4de05286fcb51585
+sample 3/9: dht22_20260517213809_03 31.5C 79.2%

@@ -1,0 +1,51 @@
+IoT1 Mesh SDK cost-model re-validation
+Date: 2026-05-22 Asia/Bangkok
+Device: Raspberry Pi 5, Ubuntu Server, Cardano preprod
+Project path: ~/projects/iot1-sensor-data-store
+
+Dependency check after upgrade:
+
+dht22-realtime-monitor@1.0.0 /home/tid/projects/iot1-sensor-data-store
+└─┬ @meshsdk/core@1.9.0-beta.103
+  ├── @meshsdk/common@1.9.0-beta.103
+  ├─┬ @meshsdk/core-cst@1.9.0-beta.103
+  │ └── @meshsdk/common@1.9.0-beta.103 deduped
+  ├─┬ @meshsdk/provider@1.9.0-beta.101
+  │ ├── @meshsdk/common@1.9.0-beta.100
+  │ └─┬ @meshsdk/core-cst@1.9.0-beta.100
+  │   └── @meshsdk/common@1.9.0-beta.100 deduped
+  ├─┬ @meshsdk/transaction@1.9.0-beta.103
+  │ └── @meshsdk/common@1.9.0-beta.103 deduped
+  └─┬ @meshsdk/wallet@1.9.0-beta.103
+    ├── @meshsdk/common@1.9.0-beta.103 deduped
+    └── @meshsdk/transaction@1.9.0-beta.103 deduped
+
+Test command:
+
+npm start -- --write
+
+Run 1:
+
+Sensor Name: dht22_sensor_01
+Temperature: 32.8C
+Humidity: 74.7%
+completing cost models...
+fetching cost models from fetcher...
+Transaction submitted and confirmed:
+765d5d1d8c5d260899bf812e03bc8ab79da046c53337c3937fff74a9302b3ba9
+https://preprod.cexplorer.io/tx/765d5d1d8c5d260899bf812e03bc8ab79da046c53337c3937fff74a9302b3ba9
+
+Run 2:
+
+Sensor Name: dht22_sensor_01
+Temperature: 32.7C
+Humidity: 75.8%
+completing cost models...
+fetching cost models from fetcher...
+Transaction submitted and confirmed:
+caad0c3af2df35bda0cd75308c27d12cb3ad2c1972b133a85fb1cfe529ffd144
+https://preprod.cexplorer.io/tx/caad0c3af2df35bda0cd75308c27d12cb3ad2c1972b133a85fb1cfe529ffd144
+
+Conclusion:
+
+The previous PPViewHashesDontMatch failure on the Plutus spend/update branch was caused by older Mesh SDK transaction/cost-model handling. Upgrading @meshsdk/core from 1.9.0-beta.102 to 1.9.0-beta.103 caused the builder to fetch cost models during transaction build. Two consecutive updates using the same sensor asset name dht22_sensor_01 submitted and confirmed successfully.

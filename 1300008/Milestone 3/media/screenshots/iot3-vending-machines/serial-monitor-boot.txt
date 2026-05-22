@@ -1,0 +1,33 @@
+--- reset sent ---
+[  0.00s] ESP-ROM:esp32c3-api1-20210207
+[  0.00s] Build:Feb  7 2021
+[  0.00s] rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+[  0.00s] Saved PC:0x4203cc52
+[  0.00s] SPIWP:0xee
+[  0.00s] mode:DIO, clock div:1
+[  0.00s] load:0x3fcd5810,len:0x438
+[  0.00s] load:0x403cc710,len:0x90c
+[  0.00s] load:0x403ce710,len:0x2624
+[  0.00s] entry 0x403cc710
+[  1.02s] === ESP32 Cardano Pump Controller ===
+[  1.02s] =====================================
+[  1.02s] Connecting WiFi...
+[  3.69s] .....
+[  3.69s] WiFi OK!
+[  6.58s] >>> State changed: LOCKED
+[  6.58s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[  8.30s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 10.02s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 11.73s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 13.45s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 15.18s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 18.62s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 18.62s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 20.32s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 22.05s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 22.25s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 23.97s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 25.69s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 27.41s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 29.12s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true
+[ 30.85s] Authority: addr_test1qrkelya7r44ruaqdafgecg3x26k32jma9xd3jf22rqhwljc78quuslza9pdh3swe6cglgmdwq7xp6m6zdr5lt9cs59rsj52qrw | Locked: true

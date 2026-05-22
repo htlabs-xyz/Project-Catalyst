@@ -25,6 +25,8 @@ bin/
 # misc
 .DS_Store
 *.pem
+.ssh/
+cardano-iot-example/
 
 # debug
 npm-debug.log*

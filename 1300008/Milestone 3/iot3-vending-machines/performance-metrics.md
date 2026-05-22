@@ -1,6 +1,6 @@
 # Performance Metrics — Vending Machines (ESP32)
 
-**Status:** Build/upload/WiFi/poll-cycle verified 2026-05-18; trigger latency and long-run heap verified 2026-05-22 (Tests 6 & 8); pump duration video and WiFi-reconnect runtime evidence pending operator action.
+**Status:** Build/upload/WiFi/poll-cycle verified 2026-05-18; trigger latency, WiFi-reconnect, and long-run heap verified 2026-05-22 (Tests 6, 7, 8). Only pump-duration video (metric #5) remains pending — needs physical pump/LED wired to `PUMP_PIN`.
 
 Optimization impact for the ESP32 Cardano pump controller. Before-values labelled **observed during prototype development** come from development-time observation; after-values labelled **measured during Milestone 3 re-validation** come from this milestone's re-run.
 
@@ -27,7 +27,7 @@ Optimization impact for the ESP32 Cardano pump controller. Before-values labelle
 |---|---|---|---|---|---|
 | 1 | Successful Blockfrost polls in 22-min window | 806 | 806 | 0 | 100% (806/806) |
 | 2 | Datum parses (authority + locked extracted) | 806 | 806 | 0 | 100% (806/806) |
-| 3 | WiFi auto-reconnect events recovered | TODO — operator router toggle pending | TODO | TODO | TODO |
+| 3 | WiFi auto-reconnect events recovered | 1 (operator router outage 4 min 43 s on 2026-05-22) | 1 (resumed polling at 20:25:36.372 without restart) | 0 | 100% (1/1) |
 | 4 | Pump trigger on detected state change | 1 (unlock tx `1a406691…`) | 1 (`>>> State changed: UNLOCKED` logged 2026-05-22 19:33:55.500 +07, 5.5 s after on-chain confirmation) | 0 | 100% (1/1) |
 
 Reliability rows must always state run count. `100%` is only allowed when `passed = run count`.

@@ -1,0 +1,171 @@
+20:20:22.373 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:24.081 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:25.785 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:27.503 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:30.921 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:30.922 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:32.627 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:34.344 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:36.056 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:37.768 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:39.470 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:41.185 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:42.898 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:44.608 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:20:53.452 [2663033][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 200 - BEACON_TIMEOUT
+20:20:53.470 [2663043][E][ssl_client.cpp:37] _handle_error(): [data_to_read():361]: (-76) UNKNOWN ERROR CODE (004C)
+20:20:53.476 [2663053][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+20:20:53.482 Asset state error: Asset txs HTTP -5
+20:20:53.483 [heap] 229988 bytes free
+20:20:53.498 WiFi lost, reconnecting...
+20:20:56.008 [2665483][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:20:58.514 [2667899][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:20:58.703 WiFi lost, reconnecting...
+20:21:01.199 [2670488][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:03.704 [2672904][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:03.893 WiFi lost, reconnecting...
+20:21:06.355 [2675494][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:08.817 [2677910][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:09.005 WiFi lost, reconnecting...
+20:21:11.475 [2680500][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:13.990 [2682916][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:14.179 WiFi lost, reconnecting...
+20:21:16.685 [2685506][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:19.198 [2687922][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:19.390 WiFi lost, reconnecting...
+20:21:21.818 [2690512][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:24.198 [2692928][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:24.376 WiFi lost, reconnecting...
+20:21:26.851 [2695518][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:29.357 [2697934][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:29.545 WiFi lost, reconnecting...
+20:21:32.019 [2700524][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:34.496 [2702940][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:34.686 WiFi lost, reconnecting...
+20:21:37.093 [2705530][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:39.308 [2707946][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:21:39.477 WiFi lost, reconnecting...
+20:21:40.154 [2708868][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 202 - AUTH_FAIL
+20:21:44.067 WiFi lost, reconnecting...
+20:21:46.274 [2715542][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 205 - CONNECTION_FAIL
+20:21:48.654 WiFi lost, reconnecting...
+20:21:48.656 [2718141][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+20:21:53.248 WiFi lost, reconnecting...
+20:21:53.249 [2723154][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+20:21:56.904 [2727141][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 1 - UNSPECIFIED
+20:21:57.001 [2727246][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 202 - AUTH_FAIL
+20:21:57.916 WiFi lost, reconnecting...
+20:22:00.326 [2730574][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 201 - NO_AP_FOUND
+20:22:02.922 WiFi lost, reconnecting...
+20:22:02.924 [2733172][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+20:22:07.935 WiFi lost, reconnecting...
+20:22:07.936 [2738186][W][WiFiGeneric.cpp:1062] _eventCallback(): Reason: 8 - ASSOC_LEAVE
+20:22:17.950 [2748201][I][ssl_client.cpp:112] start_ssl_client(): select returned due to timeout 5000 ms for fd 48
+20:22:17.960 [2748210][E][WiFiClientSecure.cpp:144] connect(): start_ssl_client: -1
+20:22:17.966 [2748216][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:22:17.973 Asset state error: Asset txs HTTP -1
+20:22:17.974 [heap] 229152 bytes free
+20:22:23.983 [2754231][I][ssl_client.cpp:112] start_ssl_client(): select returned due to timeout 5000 ms for fd 48
+20:22:23.992 [2754240][E][WiFiClientSecure.cpp:144] connect(): start_ssl_client: -1
+20:22:23.998 [2754246][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:22:24.004 Asset state error: Asset txs HTTP -1
+20:22:30.013 [2760261][I][ssl_client.cpp:112] start_ssl_client(): select returned due to timeout 5000 ms for fd 48
+20:22:30.022 [2760270][E][WiFiClientSecure.cpp:144] connect(): start_ssl_client: -1
+20:22:30.028 [2760276][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:22:30.037 Asset state error: Asset txs HTTP -1
+20:22:36.043 [2766291][I][ssl_client.cpp:112] start_ssl_client(): select returned due to timeout 5000 ms for fd 48
+20:22:36.054 [2766300][E][WiFiClientSecure.cpp:144] connect(): start_ssl_client: -1
+20:22:36.059 [2766306][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:22:36.066 Asset state error: Asset txs HTTP -1
+20:22:42.074 [2772321][I][ssl_client.cpp:112] start_ssl_client(): select returned due to timeout 5000 ms for fd 48
+20:22:42.082 [2772330][E][WiFiClientSecure.cpp:144] connect(): start_ssl_client: -1
+20:22:42.088 [2772336][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:22:42.095 Asset state error: Asset txs HTTP -1
+20:22:49.122 [2779368][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:22:49.129 [2779377][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:22:56.185 [2786434][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for Asset state error: Asset txs HTTP -1
+20:22:56.186 cardano-preprod.blockfrost.io
+20:22:56.193 [2786443][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:22:56.200 Asset state error: Asset txs HTTP -1
+20:23:03.252 [2793501][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:23:03.260 [2793510][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:23:03.267 Asset state error: Asset txs HTTP -1
+20:23:10.217 [2800465][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:23:10.225 [2800474][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:23:10.232 Asset state error: Asset txs HTTP -1
+20:23:17.280 [2807529][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:23:17.289 [2807538][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:23:17.295 Asset state error: Asset txs HTTP -1
+20:23:17.982 [heap] 229212 bytes free
+20:23:24.346 [2814595][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:23:24.357 [2814604][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:23:24.361 Asset state error: Asset txs HTTP -1
+20:23:31.315 [2821558][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:23:31.322 [2821567][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:23:31.329 Asset state error: Asset txs HTTP -1
+20:23:38.374 [2828623][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:23:38.382 [2828632][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:23:38.389 Asset state error: Asset txs HTTP -1
+20:23:45.442 [2835691][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:23:45.450 [2835700][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:23:45.457 Asset state error: Asset txs HTTP -1
+20:23:52.408 [2842653][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:23:52.417 [2842662][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:23:52.421 Asset state error: Asset txs HTTP -1
+20:23:59.471 [2849718][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:23:59.478 [2849726][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:23:59.484 Asset state error: Asset txs HTTP -1
+20:24:06.539 [2856785][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:24:06.545 [2856794][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:24:06.551 Asset state error: Asset txs HTTP -1
+20:24:13.500 [2863747][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:24:13.507 [2863755][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:24:13.513 Asset state error: Asset txs HTTP -1
+20:24:20.566 [2870813][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:24:20.573 [2870821][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:24:20.580 Asset state error: Asset txs HTTP -1
+20:24:20.582 [heap] 229212 bytes free
+20:24:27.530 [2877776][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:24:27.537 [2877784][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:24:27.544 Asset state error: Asset txs HTTP -1
+20:24:34.596 [2884843][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:24:34.606 [2884851][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:24:34.610 Asset state error: Asset txs HTTP -1
+20:24:41.658 [2891907][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:24:41.667 [2891916][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:24:41.674 Asset state error: Asset txs HTTP -1
+20:24:48.623 [2898870][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:24:48.630 [2898879][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:24:48.637 Asset state error: Asset txs HTTP -1
+20:24:55.690 [2905936][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:24:55.695 [2905945][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:24:55.703 Asset state error: Asset txs HTTP -1
+20:25:02.757 [2913002][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:25:02.763 [2913010][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:25:02.770 Asset state error: Asset txs HTTP -1
+20:25:09.716 [2919965][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:25:09.727 [2919974][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:25:09.733 Asset state error: Asset txs HTTP -1
+20:25:16.787 [2927033][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:25:16.795 [2927041][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:25:16.800 Asset state error: Asset txs HTTP -1
+20:25:23.850 [2934097][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:25:23.857 [2934106][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:25:23.864 Asset state error: Asset txs HTTP -1
+20:25:23.864 [heap] 229212 bytes free
+20:25:30.814 [2941062][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for cardano-preprod.blockfrost.io
+20:25:30.822 [2941070][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+20:25:30.829 Asset state error: Asset txs HTTP -1
+20:25:36.372 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:37.951 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:39.543 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:41.187 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:42.821 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:44.466 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:46.098 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:47.741 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:49.380 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:51.018 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:52.657 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:54.289 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false
+20:25:55.940 Authority: addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7 | Locked: false

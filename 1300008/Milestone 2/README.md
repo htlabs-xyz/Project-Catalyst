@@ -20,7 +20,7 @@ Thank you for your support. We would like to submit our PoA for MS2 with the fol
 | # | **Project** | **Architecture Document** |
 |---|---|---|
 | 1 | DHT22 Sensor Data | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot1-sensor-data-store/ARCHITECTURE.md) |
-| 2 | Smart Lock State Sync | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-sate-onchain/ARCHITECTURE.md) |
+| 2 | Smart Lock State Sync | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-state-onchain/ARCHITECTURE.md) |
 | 3 | Vending Machines (ESP32) | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/ARCHITECTURE.md) |
 | 4 | Student NFC Identity | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot4-nfc-tag-identification/ARCHITECTURE.md) |
 | 5 | QR Code Supply Chain | [View Document](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/ARCHITECTURE.md) |
@@ -58,7 +58,7 @@ Source code: [GitHub Repository - cardano-iot-example](https://github.com/htlabs
 | # | **Project** | **Source Code** | **Deployment Guide** | **Tech Stack** |
 |---|---|---|---|---|
 | 1 | DHT22 Sensor Data | [iot1-sensor-data-store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot1-sensor-data-store/README.md) | TypeScript, Python, Mesh SDK, Blockfrost |
-| 2 | Smart Lock State Sync | [iot2-sync-sate-onchain](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-sate-onchain) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-sate-onchain/README.md) | Aiken, TypeScript, Bun, Mesh SDK |
+| 2 | Smart Lock State Sync | [iot2-sync-state-onchain](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-state-onchain) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot2-sync-state-onchain/README.md) | Aiken, TypeScript, Bun, Mesh SDK |
 | 3 | Vending Machines (ESP32) | [iot3-vending-machines](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot3-vending-machines/README.md) | C++, PlatformIO, ArduinoJson, TinyCBOR |
 | 4 | Student NFC Identity | [iot4-nfc-tag-identification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot4-nfc-tag-identification/README.md) | Python, PyCardano, NFC (PN532), CIP-25 |
 | 5 | QR Code Supply Chain | [iot5-qr-code-traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability) | [README](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/README.md) | Next.js, Aiken, Mesh SDK, CIP-68 |

@@ -9,10 +9,10 @@ This document reconstructs the issues and hardening work performed on the protot
 
 ## 1. Issues and Hardening Items
 
-| # | Issue | Severity | Symptom | Root cause | Fix or optimization | Verification |
-|---|---|---|---|---|---|---|
-| 1 | TODO | TODO | TODO | TODO | TODO | TODO |
-| 2 | TODO | TODO | TODO | TODO | TODO | TODO |
+| #   | Issue | Severity | Symptom | Root cause | Fix or optimization | Verification |
+| --- | ----- | -------- | ------- | ---------- | ------------------- | ------------ |
+| 1   | TODO  | TODO     | TODO    | TODO       | TODO                | TODO         |
+| 2   | TODO  | TODO     | TODO    | TODO       | TODO                | TODO         |
 
 ## 2. Verification Method
 
@@ -27,3 +27,5 @@ Each verification entry must reference either:
 List any issues that are known but not fixed in this milestone, with mitigation and planned resolution date.
 
 - TODO: HTLABS team to confirm.
+
+

@@ -1,0 +1,38 @@
+Independence@Independence MINGW64 /d/Workspaces/htlabs/cardano-iot-example/iot5-qr-code-traceability (master)
+$ bun run update
+$ bun run ./cli/update.ts
+┌──────────────────────────────────────────────┐
+│          UPDATE PRODUCT METADATA    │
+└──────────────────────────────────────────────┘
+
+PolicyId: 4dc321a864af8fc5406a08dc2006458e765b4725b980188a43cce123
+Asset: Huawei Watch GT4 Pro
+Asset Name (hex): 487561776569205761746368204754342050726f
+
+Preparing updated metadata...
+✓ Metadata ready
+New location: American
+
+Building update transaction...
+completing cost models...
+fetching cost models from fetcher...
+✓ Unsigned tx created
+
+Signing transaction...
+✓ Signed successfully
+
+Submitting to network...
+✓ Tx submitted!
+
+Tx Hash: 044d57b450d477e83043bc346bd2589288a1e10705a4e2260e369dcc7489fccb
+Explorer: https://preprod.cexplorer.io/tx/044d57b450d477e83043bc346bd2589288a1e10705a4e2260e369dcc7489fccb
+
+Awaiting confirmation...
+
+ SUCCESS
+Transaction confirmed on-chain!
+
+Explorer: https://preprod.cexplorer.io/tx/044d57b450d477e83043bc346bd2589288a1e10705a4e2260e369dcc7489fccb
+┌──────────────────────────────────────────────┐
+│      UPDATE COMPLETED (129.3s)         │
+└──────────────────────────────────────────────┘

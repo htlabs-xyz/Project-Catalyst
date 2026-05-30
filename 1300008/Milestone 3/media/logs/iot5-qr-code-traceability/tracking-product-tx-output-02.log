@@ -2,7 +2,7 @@ Independence@Independence MINGW64 /d/Workspaces/htlabs/cardano-iot-example/iot5-
 $ bun run tracking
 $ bun run ./cli/tracking.ts
 ┌──────────────────────────────────────────────┐
-│          TRACKING NFT                      │
+│          TRACKING NFT                        │
 └──────────────────────────────────────────────┘
 
 PolicyId: 4dc321a864af8fc5406a08dc2006458e765b4725b980188a43cce123
@@ -30,8 +30,8 @@ Fetching tracking data...
   },
   "transaction_history": [
     {
-      "txHash": "d3fbfeff8ede5409c630f9ae71eb90d51ce6929892ace9d9e70a0c90dc7709be",
-      "datetime": 1780124341,
+      "txHash": "0a8dc11d571fc7b2f00f98f63f26a621af090f944a9dff530606ea9fe4c9ba9e",
+      "datetime": 1780131215,
       "fee": "867145",
       "status": "Completed",
       "action": "Transfer",
@@ -49,8 +49,8 @@ Fetching tracking data...
       }
     },
     {
-      "txHash": "3fefd6f62bfadf2e465a16be060c8051b8eb0b8277b11a3e23f3de71f52d51f4",
-      "datetime": 1780123700,
+      "txHash": "43cd79b57a86c7cc608d1bd205f925f970a6383a514c6270b1aee85d55a3b97a",
+      "datetime": 1780130953,
       "fee": "878717",
       "status": "Completed",
       "action": "Mint",

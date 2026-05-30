@@ -1,0 +1,71 @@
+Independence@Independence MINGW64 /d/Workspaces/htlabs/cardano-iot-example/iot5-qr-code-traceability (master)
+$ bun run tracking
+$ bun run ./cli/tracking.ts
+┌──────────────────────────────────────────────┐
+│          TRACKING NFT                      │
+└──────────────────────────────────────────────┘
+
+PolicyId: 4dc321a864af8fc5406a08dc2006458e765b4725b980188a43cce123
+Asset: Huawei Watch GT4 Pro
+Unit: 4dc321a864af8fc5406a08dc2006458e765b4725b980188a43cce123000643b0487561776569205761746368204754342050726f
+
+Fetching tracking data...
+✓ Tracking loaded
+
+┌──────────────────────────────────────────────┐
+│              TRACKING RESULT                 │
+└──────────────────────────────────────────────┘
+{
+  "metadata": {
+    "name": "Huawei Watch GT 4 Pro",
+    "description": "The Huawei Watch GT 4 Pro is a high-end smartwatch featuring an aerospace-grade titanium case, spherical sapphire crystal glass, and a 1.5-inch LTPO AMOLED display (466×466 pixels, ~310 ppi). It offers up to 14 days of battery life (typical usage), HUAWEI TruSense health system (heart rate, SpO2, ECG, stress, sleep, skin temperature), 100+ sports modes, dual-band multi-system GPS, 5 ATM water resistance (50 meters), HarmonyOS, Bluetooth 5.2, NFC, and premium design for active, modern lifestyles.",
+    "brand": "Huawei",
+    "model": "Watch GT 4 Pro",
+    "material": "Aerospace Titanium + Sapphire Glass",
+    "battery": "Up to 14 days",
+    "image": "ipfs://QmYourIPFSHashhuaweiwatchgt4frontpng",
+    "mediaType": "image/png",
+    "roadmap": "[Viet Nam, China, American, Russia]",
+    "location": "China"
+  },
+  "transaction_history": [
+    {
+      "txHash": "d3fbfeff8ede5409c630f9ae71eb90d51ce6929892ace9d9e70a0c90dc7709be",
+      "datetime": 1780124341,
+      "fee": "867145",
+      "status": "Completed",
+      "action": "Transfer",
+      "metadata": {
+        "name": "Huawei Watch GT 4 Pro",
+        "description": "The Huawei Watch GT 4 Pro is a high-end smartwatch featuring an aerospace-grade titanium case, spherical sapphire crystal glass, and a 1.5-inch LTPO AMOLED display (466×466 pixels, ~310 ppi). It offers up to 14 days of battery life (typical usage), HUAWEI TruSense health system (heart rate, SpO2, ECG, stress, sleep, skin temperature), 100+ sports modes, dual-band multi-system GPS, 5 ATM water resistance (50 meters), HarmonyOS, Bluetooth 5.2, NFC, and premium design for active, modern lifestyles.",
+        "brand": "Huawei",
+        "model": "Watch GT 4 Pro",
+        "material": "Aerospace Titanium + Sapphire Glass",
+        "battery": "Up to 14 days",
+        "image": "ipfs://QmYourIPFSHashhuaweiwatchgt4frontpng",
+        "mediaType": "image/png",
+        "roadmap": "[Viet Nam, China, American, Russia]",
+        "location": "China"
+      }
+    },
+    {
+      "txHash": "3fefd6f62bfadf2e465a16be060c8051b8eb0b8277b11a3e23f3de71f52d51f4",
+      "datetime": 1780123700,
+      "fee": "878717",
+      "status": "Completed",
+      "action": "Mint",
+      "metadata": {
+        "name": "Huawei Watch GT 4 Pro - Premium Titanium Smartwatch",
+        "description": "The Huawei Watch GT 4 Pro is a high-end smartwatch featuring an aerospace-grade titanium case, spherical sapphire crystal glass, and a 1.5-inch LTPO AMOLED display (466×466 pixels, ~310 ppi). It offers up to 14 days of battery life (typical usage), HUAWEI TruSense health system (heart rate, SpO2, ECG, stress, sleep, skin temperature), 100+ sports modes, dual-band multi-system GPS, 5 ATM water resistance (50 meters), HarmonyOS, Bluetooth 5.2, NFC, and premium design for active, modern lifestyles.",
+        "brand": "Huawei",
+        "model": "Watch GT 4 Pro",
+        "material": "Aerospace Titanium + Sapphire Glass",
+        "battery": "Up to 14 days",
+        "image": "ipfs://QmYourIPFSHashhuaweiwatchgt4frontpng",
+        "mediaType": "image/png",
+        "roadmap": "[Viet Nam, China, American, Russia]",
+        "location": "Viet Nam"
+      }
+    }
+  ]
+}

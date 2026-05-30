@@ -9,17 +9,17 @@ This document captures the optimization impact on the prototype. Before-values l
 
 ## 1. Performance Comparison
 
-| # | Metric | Before optimization | After optimization | Improvement | Measurement method | Evidence |
-|---|---|---|---|---|---|---|
-| 1 | TODO | TODO (observed during prototype development) | TODO (measured during Milestone 3 re-validation) | TODO | TODO | TODO |
-| 2 | TODO | TODO | TODO | TODO | TODO | TODO |
-| 3 | TODO | TODO | TODO | TODO | TODO | TODO |
+| #   | Metric | Before optimization                          | After optimization                               | Improvement | Measurement method | Evidence |
+| --- | ------ | -------------------------------------------- | ------------------------------------------------ | ----------- | ------------------ | -------- |
+| 1   | TODO   | TODO (observed during prototype development) | TODO (measured during Milestone 3 re-validation) | TODO        | TODO               | TODO     |
+| 2   | TODO   | TODO                                         | TODO                                             | TODO        | TODO               | TODO     |
+| 3   | TODO   | TODO                                         | TODO                                             | TODO        | TODO               | TODO     |
 
 ## 2. Reliability
 
-| # | Scenario | Run count | Passed | Failed | Success rate |
-|---|---|---|---|---|---|
-| 1 | TODO | TODO | TODO | TODO | TODO |
+| #   | Scenario | Run count | Passed | Failed | Success rate |
+| --- | -------- | --------- | ------ | ------ | ------------ |
+| 1   | TODO     | TODO      | TODO   | TODO   | TODO         |
 
 Reliability rows must always state run count. `100%` is only allowed when `passed = run count`.
 

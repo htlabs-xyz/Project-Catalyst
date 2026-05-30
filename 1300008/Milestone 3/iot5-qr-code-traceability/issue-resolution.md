@@ -1,6 +1,6 @@
 # Issue Resolution — QR Code Supply Chain
 
-**Status:** Drafted — to be filled with at least 2 real issues or hardening items.
+**Status:** Complete — three runtime-verified fixes plus one carried-forward hardening item.
 
 This document reconstructs the issues and hardening work performed on the prototype. Each row identifies the issue, its root cause, the fix applied, and how the fix was verified during Milestone 3 re-validation.
 
@@ -27,4 +27,3 @@ Each verification entry must reference either:
 List any issues that are known but not fixed in this milestone, with mitigation and planned resolution date.
 
 - TODO: HTLABS team to confirm.
-

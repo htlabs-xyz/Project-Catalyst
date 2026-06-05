@@ -1,0 +1,9 @@
+{
+  "event": "scan",
+  "verified": false,
+  "error": "Invalid or empty card data",
+  "uid": "7E631507",
+  "label": "Card C = invalid/unknown tag",
+  "timestamp": "2026-06-05T20:30:33.504121",
+  "total_time": 0.512392
+}

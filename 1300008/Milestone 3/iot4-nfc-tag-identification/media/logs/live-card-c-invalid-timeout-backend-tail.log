@@ -1,0 +1,80 @@
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Scan result: {'verified': True, 'student_id': '20267543', 'student_name': 'Dang Duc Nam', 'department': 'Computer Engineering', 'issued_at': '2026-02-04', 'event': 'scan', 'uid': 'AEA51107', 'timestamp': '2026-06-05T20:28:42.997184'}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Scan result: {'verified': True, 'student_id': '20267543', 'student_name': 'Dang Duc Nam', 'department': 'Computer Engineering', 'issued_at': '2026-02-04', 'event': 'scan', 'uid': 'AEA51107', 'timestamp': '2026-06-05T20:28:46.426139'}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Scan result: {'verified': True, 'student_id': '20267543', 'student_name': 'Dang Duc Nam', 'department': 'Computer Engineering', 'issued_at': '2026-02-04', 'event': 'scan', 'uid': 'AEA51107', 'timestamp': '2026-06-05T20:28:49.863805'}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323637353433", "s": "20267543"}
+Waiting for NFC card...
+.
+Found card with UID: ['0xae', '0xa5', '0x11', '0x7']
+Authentication failed for block 8!
+Scan result: {'event': 'scan', 'verified': False, 'error': 'Could not read card data', 'uid': 'AEA51107', 'timestamp': '2026-06-05T20:28:53.140091'}
+Waiting for NFC card...
+.
+Found card with UID: ['0xc3', '0x19', '0xec', '0xfd']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323633333437", "s": "20263347"}
+Scan result: {'verified': True, 'student_id': '20263347', 'student_name': 'Tran Minh Phuong', 'department': 'Computer Engineering', 'issued_at': '2026-02-02', 'event': 'scan', 'uid': 'C319ECFD', 'timestamp': '2026-06-05T20:28:54.830858'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x6a', '0xa9', '0xdb', '0x5']
+Authentication failed for block 6!
+Scan result: {'event': 'scan', 'verified': False, 'error': 'Could not read card data', 'uid': '6AA9DB05', 'timestamp': '2026-06-05T20:28:58.109447'}
+Waiting for NFC card...
+......................................................
+Found card with UID: ['0x6a', '0xa9', '0xdb', '0x5']
+Authentication failed for block 4!
+Scan result: {'event': 'scan', 'verified': False, 'error': 'Could not read card data', 'uid': '6AA9DB05', 'timestamp': '2026-06-05T20:29:28.366383'}
+INFO:     127.0.0.1:39208 - "POST /api/verify HTTP/1.1" 408 Request Timeout

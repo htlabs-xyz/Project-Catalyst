@@ -1,0 +1,12 @@
+board: OK
+busio: OK
+digitalio: OK
+adafruit_pn532: OK
+fastapi: OK
+uvicorn: OK
+pycardano: ImportError: cannot import name 'CBORDecodeValueError' from 'cbor2' (/home/tid/iot4-nfc-tag-identification/.venv/lib/python3.14/site-packages/cbor2/__init__.py)
+dotenv: OK
+requests: OK
+--- NFC init check ---
+Found PN532 with firmware version: 1.6
+PN532 init: OK

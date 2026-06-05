@@ -1,0 +1,85 @@
+{
+  "finished_at": "2026-06-05T20:36:41.930902",
+  "run_count": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "case": "network/blockfrost_unavailable_invalid_project_id",
+      "expected": "Verification fails closed and returns verified=false with a blockchain error.",
+      "actual": {
+        "verified": false,
+        "error": "Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636",
+        "student_id": "20265866"
+      },
+      "status": "Pass",
+      "timestamp": "2026-06-05T20:36:41.386427",
+      "total_time": 1.595987
+    },
+    {
+      "case": "nfc_module_unavailable_route_behavior",
+      "expected": "Health shows NFC disconnected/degraded and manual verify fails with HTTP 503.",
+      "actual": {
+        "health": {
+          "status": "degraded",
+          "timestamp": "2026-06-05T20:36:41.929365",
+          "services": {
+            "nfc_reader": "disconnected",
+            "blockchain": "connected"
+          },
+          "websocket_clients": 0
+        },
+        "manual_verify": {
+          "exception_type": "HTTPException",
+          "status_code": 503,
+          "detail": "NFC reader not initialized"
+        }
+      },
+      "status": "Pass",
+      "timestamp": "2026-06-05T20:36:41.929767",
+      "total_time": 0.543229
+    },
+    {
+      "case": "broken_or_non_identity_nfc_card_card_c",
+      "expected": "Malformed/non-identity card data is rejected with verified=false.",
+      "actual": {
+        "event": "scan",
+        "verified": false,
+        "error": "Invalid or empty card data",
+        "uid": "7E631507",
+        "label": "Card C = invalid/unknown tag",
+        "timestamp": "2026-06-05T20:30:33.504121",
+        "total_time": 0.512392
+      },
+      "status": "Pass",
+      "timestamp": "2026-06-05T20:36:41.929983",
+      "evidence": "milestone3-logs/live-card-c-invalid-direct-result.json",
+      "total_time": 0.000127
+    },
+    {
+      "case": "transaction_build_precondition_missing_config",
+      "expected": "Mint/build transaction path is blocked before tx construction when required config is missing.",
+      "actual": {
+        "validate_config_errors": [
+          "BLOCKFROST_PROJECT_ID not set",
+          "MNEMONIC not set"
+        ]
+      },
+      "status": "Pass",
+      "timestamp": "2026-06-05T20:36:41.930815",
+      "total_time": 0.000772
+    },
+    {
+      "case": "transaction_build_precondition_no_utxo",
+      "expected": "If wallet UTxO list is empty, mint flow must not build or submit a transaction.",
+      "actual": {
+        "utxo_count": 0,
+        "action": "do_not_build_transaction",
+        "error": "No funds / no UTxO available for mint transaction"
+      },
+      "status": "Pass",
+      "timestamp": "2026-06-05T20:36:41.930872",
+      "total_time": 3e-06
+    }
+  ]
+}

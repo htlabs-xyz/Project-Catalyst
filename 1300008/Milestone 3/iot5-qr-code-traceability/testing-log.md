@@ -52,29 +52,30 @@ The following decentralized environment and configuration matrix were utilized t
 - **Anchor Initialization (Checkpoint 1 - Create/Mint) Transaction Hash:**
   [`8c03ad9cfe563b69cc8ba34845fa5af317a91fbeb3de0a66388d003f6da9af50`](https://preprod.cexplorer.io/tx/8c03ad9cfe563b69cc8ba34845fa5af317a91fbeb3de0a66388d003f6da9af50)
   - _On-Chain Payload Detail:_ Instantiated the token identifier pair conforming to the CIP-68 standard. The initial state inside the Inline Datum was registered at `Viet Nam`. The reference UTxO is securely locked at the spending validator script address (`traceability.store`).
-  - _Log Data Record:_ [Checkpoint 1](../media/logs/iot5-qr-code-traceability/tracking-product-metadata-01.log)
+  - _Log Data Record:_ [Create CLI Tx Output](./media/logs/create-product-tx-output.log); [Metadata Query Snapshot](./media/logs/tracking-product-metadata-01.log) (query snapshot, may reflect a separate run than the documented lifecycle hashes)
 - **Anchor Update (Checkpoint 2 - Ha Noi -> China) Transaction Hash:**
   [`62ad9ccb67262eec861ce452e05beaa59f1e0a3c082ba2e236ef4047b8a5f143`](https://preprod.cexplorer.io/tx/62ad9ccb67262eec861ce452e05beaa59f1e0a3c082ba2e236ef4047b8a5f143)
   - _On-Chain Payload Detail:_ Spent the existing reference UTxO at the script address, evaluated the validator `Redeemer` update payload, and yielded a new UTxO output locked back into the script containing an appended distribution checkpoint (`China`) attached onto the location tracking array.
-  - _Log Data Record:_ [Checkpoint 2](../media/logs/iot5-qr-code-traceability/tracking-product-metadata-02.log)
+  - _Log Data Record:_ [Update 1 CLI Tx Output](./media/logs/update-product-tx-output-01.log); [Tracking Query Snapshot](./media/logs/tracking-product-tx-output-02.log) (query snapshot, may reflect a separate run than the documented lifecycle hashes)
 - **Anchor Update (Checkpoint 3 - China -> American) Transaction Hash:**
   [`044d57b450d477e83043bc346bd2589288a1e10705a4e2260e369dcc7489fccb`](https://preprod.cexplorer.io/tx/044d57b450d477e83043bc346bd2589288a1e10705a4e2260e369dcc7489fccb)
   - _On-Chain Payload Detail:_ Advanced the eUTxO state transition pipeline. Supply chain geolocation strings are accumulated on-chain within the datum structure, ensuring historical paths are fully preserved and unalterable.
-  - _Log Data Record:_ [Checkpoint 3](../media/logs/iot5-qr-code-traceability/tracking-product-metadata-03.log)
+  - _Log Data Record:_ [Update 2 CLI Tx Output](./media/logs/update-product-tx-output-02.log); [Tracking Query Snapshot](./media/logs/tracking-product-tx-output-03.log) (query snapshot, may reflect a separate run than the documented lifecycle hashes)
 - **Anchor Burn (Checkpoint 4 - Burn) Transaction Hash:**
   [`9093e0b4e9c8fffe5d3d42de47e083aa3060c4ed602052b44149e3bb15e5fe2b`](https://preprod.cexplorer.io/tx/9093e0b4e9c8fffe5d3d42de47e083aa3060c4ed602052b44149e3bb15e5fe2b)
   - _On-Chain Payload Detail:_ Triggered asset decommissioning logic. The smart contract validates the burn criteria, burning both the Reference Token (Label 100) and the User Token (Label 222) simultaneously by specifying negative values (`-1`). This unlocks the storage min-ADA allocation locked within the validator script UTxO, refunding it back to the operator wallet.
+  - _Log Data Record:_ [Burn CLI Tx Output](./media/logs/burn-product-tx-output.log)
 - **Aiken Script Logic Core Repository:** [`validators/traceability.ak`](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/contract/validators/traceability.ak)
 - **Cardano Improvement Proposal Architecture:** [CIP-68 Reference Token / Metadata Specification (Labels 100 & 222)](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0068)
 - **Structural System Architecture Overview:** [`ARCHITECTURE.md`](https://github.com/htlabs-xyz/cardano-iot-example/blob/master/iot5-qr-code-traceability/ARCHITECTURE.md)
 - **Production Infrastructure Artifact Instance:** [Vercel Cloud Deployment Engine](https://iot5-qr-code-traceability.vercel.app)
-- **Milestone Verification Media Directory:** [Link Here](../media/screenshots/iot5-qr-code-traceability/) (Contains structural frame evidence for verified scanning triggers, lifecycle banners, and Blockfrost data payload queries)
+- **Milestone Verification Media Directory:** [IoT5 screenshots](./media/screenshots/) (Contains structural frame evidence for verified scanning triggers, lifecycle banners, and Blockfrost data payload queries)
 
 ---
 
 ## 4. Operational Observations & Engineering Notes
 
-- **Validation Metrics:** All 7 distinct test matrix paths passed verification with zero critical regressions during the final Milestone 3 re-validation auditing pipeline on 2026-05-30.
+- **Validation Metrics:** All 8 distinct test matrix paths passed verification with zero critical regressions during the final Milestone 3 re-validation auditing pipeline on 2026-05-30.
 - **CIP-68 Protocol Hardening:** Product metadata configurations adhere strictly to CIP-68 standards. Reference token payloads host state properties inside Inline Datums via label prefix `000643b0` (Label 100), separating asset data structural layers from user-held verification tokens under prefix `000a4c20` (Label 222), which circulate freely across end-user wallets or distributed terminals.
 - **Settlement Latency Analysis:** Network finalization timelines remain dependent on active Cardano Preprod slot scheduling and Blockfrost caching invalidation loops. Mean transaction block inclusion settled at 43.4 seconds for initial structural mints.
 - **Client Synchronization Logic:** The scanning engine enforces a localized post-decode hash verification gate inside `ProductScanner.tsx`, mitigating race conditions caused by network latency and preventing edge devices from rendering stale off-chain metadata snapshots out of sync with the ledger.

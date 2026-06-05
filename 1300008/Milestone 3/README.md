@@ -56,4 +56,4 @@ The full evidence matrix with file paths, video links, screenshot links, and per
 - **Source code:** https://github.com/htlabs-xyz/cardano-iot-example
 - **Milestone 2 PoA:** https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%202
 - **Milestone 3 PoA (this folder):** https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%203
-- **Screenshots:** [`./media/screenshots/`](./media/screenshots/)
+- **Evidence media:** kept inside each template folder under `./iot*/media/`.

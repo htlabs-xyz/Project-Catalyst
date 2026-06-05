@@ -1,0 +1,16 @@
+INFO:     Started server process [29085]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+Starting NFC Verification Kiosk API...
+Blockchain connection: OK
+Found PN532 with firmware version: 1.6
+NFC reader: OK
+API ready on port 5000
+NFC scanner started
+INFO:     127.0.0.1:59282 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59296 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29085]

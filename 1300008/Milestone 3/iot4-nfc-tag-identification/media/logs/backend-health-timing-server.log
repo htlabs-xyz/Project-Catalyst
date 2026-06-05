@@ -1,0 +1,32 @@
+INFO:     Started server process [28878]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+Starting NFC Verification Kiosk API...
+Blockchain connection: OK
+Found PN532 with firmware version: 1.6
+NFC reader: OK
+API ready on port 5000
+NFC scanner started
+INFO:     127.0.0.1:51506 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51512 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51526 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51540 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51556 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51572 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51574 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51582 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39778 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39780 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39794 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39800 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39816 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39818 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39822 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39838 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39844 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39854 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28878]

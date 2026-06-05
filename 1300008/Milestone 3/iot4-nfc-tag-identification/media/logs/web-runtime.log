@@ -1,0 +1,11 @@
+
+> nfc-kiosk-ui@1.0.0 start
+> next start -H 127.0.0.1 -p 3001
+
+   ▲ Next.js 15.5.11
+   - Local:        http://127.0.0.1:3001
+   - Network:      http://127.0.0.1:3001
+
+ ✓ Starting...
+ ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
+ ✓ Ready in 1039ms

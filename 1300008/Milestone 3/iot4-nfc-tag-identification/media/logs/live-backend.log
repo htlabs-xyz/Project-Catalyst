@@ -1,0 +1,282 @@
+INFO:     Started server process [30827]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+Starting NFC Verification Kiosk API...
+Blockchain connection: OK
+Found PN532 with firmware version: 1.6
+NFC reader: OK
+API ready on port 5000
+NFC scanner started
+INFO:     127.0.0.1:43126 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43138 - "GET /api/health HTTP/1.1" 200 OK
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:15.553530'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:18.622821'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:22.041774'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:25.506102'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:28.992453'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:32.429096'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:35.846436'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+INFO:     127.0.0.1:37550 - "POST /api/verify HTTP/1.1" 200 OK
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:39.562744'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:42.979732'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:46.358417'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:49.802752'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:53.238233'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:25:56.712113'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:26:00.219205'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:26:03.652225'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Scan result: {'verified': False, 'error': 'Blockchain error: 403 Client Error: Forbidden for url: https://cardano-preprod.blockfrost.io/api/v0/assets/a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b5354553230323635383636', 'student_id': '20265866', 'event': 'scan', 'uid': '77721307', 'timestamp': '2026-06-05T20:26:07.078705'}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+Waiting for NFC card...
+.
+Found card with UID: ['0x77', '0x72', '0x13', '0x7']
+JSON data: {"p": "a68ad25f3cc7a544973209252e32f8a702cd10d0a36dc594a7cb580b", "a": "5354553230323635383636", "s": "20265866"}
+INFO:     127.0.0.1:36628 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [30827]

@@ -1,0 +1,9 @@
+Card C = invalid/unknown tag
+Started: 2026-06-05T20:30:32.991757
+Found PN532 with firmware version: 1.6
+
+Found card UID: 7E631507
+Raw card data: Uinstagram.com/_dijnie
+JSON parse error: Expecting value: line 1 column 1 (char 0)
+RESULT_JSON:{"event": "scan", "verified": false, "error": "Invalid or empty card data", "uid": "7E631507", "label": "Card C = invalid/unknown tag", "timestamp": "2026-06-05T20:30:33.504121", "total_time": 0.512392}
+Finished: 2026-06-05T20:30:33.504445

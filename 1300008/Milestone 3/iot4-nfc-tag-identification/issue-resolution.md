@@ -1,8 +1,8 @@
 # Issue Resolution — Student NFC Identity
 
-**Status:** Drafted — to be filled with at least 2 real issues or hardening items.
+**Status:** Complete for runtime/log evidence — Raspberry Pi environment, dependency issues, valid tag scans, and invalid tag rejection documented.
 
-This document reconstructs the issues and hardening work performed on the prototype. Each row identifies the issue, its root cause, the fix applied, and how the fix was verified during Milestone 3 re-validation.
+This document reconstructs the issues and hardening work performed on the prototype. Each row identifies the issue, its root cause, the fix applied or proposed, and how the fix was verified during Milestone 3 re-validation.
 
 - Source code: [`iot4-nfc-tag-identification`](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification)
 - Related testing evidence: [`testing-log.md`](./testing-log.md)
@@ -11,19 +11,31 @@ This document reconstructs the issues and hardening work performed on the protot
 
 | # | Issue | Severity | Symptom | Root cause | Fix or optimization | Verification |
 |---|---|---|---|---|---|---|
-| 1 | TODO | TODO | TODO | TODO | TODO | TODO |
-| 2 | TODO | TODO | TODO | TODO | TODO | TODO |
+| 1 | Raspberry Pi project was not deployed before re-validation | Medium | The Pi had SPI/I2C devices available but no IoT4 source tree under the expected runtime paths. | Milestone 2 prototype existed in the local repo, but the Raspberry Pi had not been prepared as the Milestone 3 evidence host. | Copied `iot4-nfc-tag-identification` to `/home/tid/iot4-nfc-tag-identification` and created a dedicated Python venv. | Test case 1 in [`testing-log.md`](./testing-log.md); post-fix install/import logs under [`./media/logs/`](./media/logs/) |
+| 2 | Python dependency install failed for Raspberry Pi GPIO stack | High | Backend requirements could not install cleanly until native build dependencies were present. | `lgpio` needs native build/runtime packages on Raspberry Pi. The Pi did not initially have all required packages installed. | Installed Raspberry Pi build prerequisites including `python3.14-venv`, `build-essential`, `python3-dev`, `swig`, `liblgpio-dev`, `liblgpio1`, and `python3-lgpio`. | [post-fix requirements install](./media/logs/backend-requirements-after-fix.log) and [post-fix backend import](./media/logs/backend-import-after-fix.log) |
+| 3 | `pycardano` import failed with latest `cbor2` | High | Initial import check failed: `ImportError: cannot import name 'CBORDecodeValueError' from 'cbor2'`. | `pycardano` version in this prototype is not compatible with `cbor2` major version 6. | Added `cbor2<6` to `backend/requirements.txt` and reinstalled requirements in the Pi venv. | [initial import/hardware check](./media/logs/import-and-hardware-check.log), [post-fix backend import](./media/logs/backend-import-after-fix.log) |
+| 4 | PN532 wiring/runtime mode needed confirmation on real hardware | Medium | The prototype could not be claimed stable until the reader was initialized on the actual Pi. | NFC behavior depends on SPI wiring, Raspberry Pi interface enablement, and CircuitPython PN532 stack. | Verified `/dev/spidev0.0` availability, initialized PN532 over SPI, and started the backend scanner. | [PN532 init check](./media/logs/import-and-hardware-check.log), [backend startup](./media/logs/backend-startup.log) |
+| 5 | Health endpoint path ambiguity during validation | Low | A smoke test against `/health` returned HTTP 404 even though the service was healthy. | The backend route is `/api/health`, not `/health`. The wrong endpoint was used during the first timing check. | Re-ran the timing check against `/api/health` and kept the 404 log as evidence of the route distinction. | [wrong endpoint timing](./media/logs/backend-health-timing.txt), [correct health timing](./media/logs/backend-health-api-timing.txt), [correct health response](./media/logs/backend-health-api-response.json) |
+| 6 | Web build had Next/SWC version mismatch warning | Medium | Initial Raspberry Pi build succeeded but emitted repeated `Mismatching @next/swc version` warnings. | `next` was specified as a loose semver range while lockfile/native SWC resolution differed. | Locked Next.js to `15.5.19`, updated `package-lock.json`, and rebuilt on Raspberry Pi. | [initial web build](./media/logs/web-build.log), [post-fix web build](./media/logs/web-build-after-fix.log) |
+| 7 | Frontend dependency audit had high severity transitive issues | Hardening | Initial install reported two high and one moderate vulnerabilities. | Transitive `picomatch` dependency resolved to a vulnerable range. | Added an npm `overrides` rule for `picomatch` and updated the lockfile. High severity count reduced to zero; two moderate PostCSS advisories remain nested under Next. | [initial web install](./media/logs/web-npm-install.log), [post-fix web audit](./media/logs/web-audit-after-fix.json) |
+| 8 | Valid Card A scan initially failed blockchain verification | High | Card A NFC data was read, but blockchain verification returned Blockfrost HTTP 403. | The runtime needed the correct Blockfrost project id mapped to the backend's `BLOCKFROST_PROJECT_ID` variable and a mnemonic in `backend/.env`. | Updated the Pi runtime `.env`, restarted backend, and re-ran Card A verification. | [initial Card A response](./media/logs/live-card-a-valid-response.json), [health after env update](./media/logs/live-health-after-env-response.json), [verified Card A response](./media/logs/live-card-a-valid-after-env-response.json) |
+| 9 | Invalid tag identification needed a truly unknown card | Medium | Card B was labelled as invalid, but the scan verified it as a valid student tag. | Operator assumption about Card B was wrong; Card B had valid identity JSON and matching on-chain metadata. | Re-labelled Card B as second valid/student tag and used Card C for invalid/unknown testing. | [Card B response](./media/logs/live-card-b-valid-response.json), [Card C direct result](./media/logs/live-card-c-invalid-direct-result.json) |
+| 10 | Network/API outage must fail closed | High | Verification can fail if Blockfrost is disconnected, unavailable, or configured with a bad credential. | The blockchain query is an external dependency and can return 403/network errors independently of NFC read success. | Verified fault-injection path with intentionally invalid project id; result returned `verified: false` and a blockchain error instead of accepting the card. | [resilience negative tests](./media/logs/resilience-negative-tests.log) |
+| 11 | NFC module unavailable must not crash API | High | If PN532 is disconnected or initialization fails, manual verification must not hang or crash. | NFC scanner state may have no initialized `pn532` object when wiring, SPI, power, or module setup is wrong. | Verified health degrades to `nfc_reader: disconnected` and manual verify raises HTTP 503 `NFC reader not initialized`. | [resilience negative tests](./media/logs/resilience-negative-tests.log) |
+| 12 | Mint/build transaction flow needs precondition checks | Medium | Mint/build transaction can fail when config is missing or wallet has no UTxO. | Transaction construction depends on Blockfrost config, mnemonic-derived wallet, and funded wallet UTxOs. | Verified missing config blocks the path before tx construction; verified empty UTxO should be classified as `do_not_build_transaction`. | [resilience negative tests](./media/logs/resilience-negative-tests.log) |
 
 ## 2. Verification Method
 
-Each verification entry must reference either:
+Verification references are tied to the re-run artifacts captured on the Raspberry Pi:
 
-- A test case row in [`testing-log.md`](./testing-log.md), or
-- A specific commit / pull request in the source repository, or
-- A captured re-test screenshot, log, or transaction hash.
+- Hardware and backend startup: [`backend-startup.log`](./media/logs/backend-startup.log)
+- Dependency and import fix: [`backend-import-after-fix.log`](./media/logs/backend-import-after-fix.log)
+- Health endpoint: [`backend-health-api-response.json`](./media/logs/backend-health-api-response.json)
+- Web build/runtime: [`web-build-after-fix.log`](./media/logs/web-build-after-fix.log), [`web-runtime-after-fix.log`](./media/logs/web-runtime-after-fix.log)
+- Valid/invalid live scans: [`live-card-a-valid-after-env-response.json`](./media/logs/live-card-a-valid-after-env-response.json), [`live-card-b-valid-response.json`](./media/logs/live-card-b-valid-response.json), [`live-card-c-invalid-direct-result.json`](./media/logs/live-card-c-invalid-direct-result.json)
+- Resilience and negative tests: [`resilience-negative-tests.log`](./media/logs/resilience-negative-tests.log), [`resilience-negative-tests.json`](./media/logs/resilience-negative-tests.json)
 
 ## 3. Open Items
 
-List any issues that are known but not fixed in this milestone, with mitigation and planned resolution date.
-
-- TODO: HTLABS team to confirm.
+- Optional physical video can still be added to show hand/tag placement on the PN532 reader. Runtime logs already capture the valid and invalid verification outcomes.
+- `npm audit` still reports two moderate advisories from nested `postcss` under Next.js. The high severity `picomatch` issue is resolved; the remaining advisories should be revisited when Next.js publishes a dependency tree that no longer embeds the affected PostCSS range.

@@ -23,6 +23,7 @@ The main issues were not with the DHT22 hardware itself. The sensor read path wa
 | 6   | Continuous writer sent unintended second transaction                                            | Medium   | After first confirmed tx, the 2-minute interval tried a second submission and hit protocol parameter mismatch                  | `--write` always started an interval; evidence run needed one-shot behavior                                                                                                       | Changed `--write` to submit one record and exit; added `--write --loop` for continuous mode                                                                                     | `npm run help` documents one-shot and loop modes                                                                                                                                                                                                                                                           |
 | 7   | Reusing a Mesh transaction builder across batch samples caused malformed transaction submission | Medium   | Batch sample 2 failed with `Size mismatch when decoding Record`                                                                | One `SensorContract` instance reused one `MeshTxBuilder` across multiple tx builds                                                                                                | Batch script now creates a fresh `SensorContract` per sample                                                                                                                    | Additional batch txs confirmed: `2e1cab...862f`, `329dc4...1585`                                                                                                                                                                                                                                           |
 | 8   | Plutus spend/update branch failed with `PPViewHashesDontMatch`                                  | High     | Updating the existing `dht22_sensor_01` UTxO failed after signing and before submission confirmation                           | Older Mesh SDK transaction/cost-model handling did not fetch the latest cost models for the spend branch, so the script integrity hash did not match the preprod node expectation | Upgraded `@meshsdk/core` from `1.9.0-beta.102` to `1.9.0-beta.103`; the builder now logs `completing cost models...` and `fetching cost models from fetcher...` during tx build | Two consecutive updates to the same `dht22_sensor_01` UTxO confirmed: [765d5d...3ba9](https://preprod.cexplorer.io/tx/765d5d1d8c5d260899bf812e03bc8ab79da046c53337c3937fff74a9302b3ba9), [caad0c...d144](https://preprod.cexplorer.io/tx/caad0c3af2df35bda0cd75308c27d12cb3ad2c1972b133a85fb1cfe529ffd144) |
+| 9   | Intermittent Blockfrost timeout during long batch runs                                          | Low      | Long-running batch/monitor operations occasionally failed with `BlockfrostClientError code: ETIMEDOUT`                          | Preprod Blockfrost API occasionally timed out during repeated transaction/asset queries; underlying confirmed transactions remained valid                                        | Used one-shot writes for proof txs, persisted batch JSON after every confirmed tx, and relied on local 30-sample logs plus confirmed explorer links for final evidence          | Milestone package includes 30 local samples, primary confirmed tx, additional confirmed batch txs, and partial batch JSON written after confirmed samples                                                                                                                                                  |
 
 ## 3. Detailed Issue Analysis
 
@@ -305,13 +306,13 @@ Two consecutive writes using the same sensor asset name `dht22_sensor_01` submit
 caad0c3af2df35bda0cd75308c27d12cb3ad2c1972b133a85fb1cfe529ffd144
 ```
 
-Evidence log: [`../media/logs/iot1-sensor-data-store/iot1-mesh-beta103-update.log`](../media/logs/iot1-sensor-data-store/iot1-mesh-beta103-update.log)
+Evidence log: [`./media/logs/iot1-mesh-beta103-update.log`](./media/logs/iot1-mesh-beta103-update.log)
 
 **Status:** Resolved.
 
 ---
 
-### Issue 8 — Intermittent Blockfrost Timeout During Long Batch Runs
+### Issue 9 — Intermittent Blockfrost Timeout During Long Batch Runs
 
 **Symptom:**  
 Some long-running batch/monitor operations hit Blockfrost timeouts:
@@ -346,7 +347,7 @@ The milestone package includes:
 
 ## 4. Verification Method
 
-- Sensor verification: 30 consecutive DHT22 reads in [`../media/logs/iot1-sensor-data-store/iot1-sensor-30.log`](../media/logs/iot1-sensor-data-store/iot1-sensor-30.log)
+- Sensor verification: 30 consecutive DHT22 reads in [`./media/logs/iot1-sensor-30.log`](./media/logs/iot1-sensor-30.log)
 - Blockchain verification: confirmed preprod transactions linked in [`testing-log.md`](./testing-log.md)
 - Runtime verification: `npm test`, `npm start`, `npm run help`, and `npm run monitor` on RP5
 

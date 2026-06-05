@@ -1,14 +1,14 @@
-Processing esp32dev (platform: espressif32; board: esp32dev; framework: arduino)
+Processing seeed_xiao_esp32c3 (platform: espressif32; board: seeed_xiao_esp32c3; framework: arduino)
 --------------------------------------------------------------------------------
 Verbose mode can be enabled via `-v, --verbose` option
-CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
-PLATFORM: Espressif 32 (7.0.1) > Espressif ESP32 Dev Module
-HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
-DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/seeed_xiao_esp32c3.html
+PLATFORM: Espressif 32 (7.0.1) > Seeed Studio XIAO ESP32C3
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
 PACKAGES: 
  - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
  - tool-esptoolpy @ 2.41100.0 (4.11.0) 
- - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5
 LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
 LDF Modes: Finder ~ chain, Compatibility ~ soft
 Found 35 compatible libraries
@@ -20,112 +20,111 @@ Dependency Graph
 |-- WiFiClientSecure @ 2.0.0
 |-- WiFi @ 2.0.0
 Building in release mode
-Compiling .pio/build/esp32dev/src/bech32.cpp.o
-Compiling .pio/build/esp32dev/src/blockfrost.cpp.o
-Compiling .pio/build/esp32dev/src/datum_parser.cpp.o
-Compiling .pio/build/esp32dev/src/main.cpp.o
-Building .pio/build/esp32dev/bootloader.bin
-Generating partitions .pio/build/esp32dev/partitions.bin
+Compiling .pio/build/seeed_xiao_esp32c3/src/bech32.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/src/blockfrost.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/src/datum_parser.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/src/main.cpp.o
+Building .pio/build/seeed_xiao_esp32c3/bootloader.bin
+Generating partitions .pio/build/seeed_xiao_esp32c3/partitions.bin
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/cborencoder.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/cborencoder_close_container_checked.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/cborerrorstrings.c.o
 esptool.py v4.11.0
-Creating esp32 image...
+Creating esp32c3 image...
 Merged 1 ELF section
-Successfully created esp32 image.
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/cborencoder.c.o
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/cborencoder_close_container_checked.c.o
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/cborerrorstrings.c.o
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/cborparser.c.o
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/cborparser_dup_string.c.o
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/cborpretty.c.o
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/cborpretty_stdio.c.o
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/cbortojson.c.o
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/cborvalidation.c.o
-Compiling .pio/build/esp32dev/lib820/TinyCBOR/tinycbor.cpp.o
-.pio/libdeps/esp32dev/TinyCBOR/src/cbortojson.c: In function 'tagged_value_to_json':
-.pio/libdeps/esp32dev/TinyCBOR/src/cbortojson.c:391:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+Successfully created esp32c3 image.
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/cborparser.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/cborparser_dup_string.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/cborpretty.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/cborpretty_stdio.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/cbortojson.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/cborvalidation.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/libf52/TinyCBOR/tinycbor.cpp.o
+.pio/libdeps/seeed_xiao_esp32c3/TinyCBOR/src/cbortojson.c: In function 'tagged_value_to_json':
+.pio/libdeps/seeed_xiao_esp32c3/TinyCBOR/src/cbortojson.c:391:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
          char *pre = "";
                      ^~
-.pio/libdeps/esp32dev/TinyCBOR/src/cbortojson.c:394:17: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+.pio/libdeps/seeed_xiao_esp32c3/TinyCBOR/src/cbortojson.c:394:17: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
              pre = "~";
                  ^
-Compiling .pio/build/esp32dev/lib1af/WiFi/WiFi.cpp.o
-Compiling .pio/build/esp32dev/lib1af/WiFi/WiFiAP.cpp.o
-Compiling .pio/build/esp32dev/lib1af/WiFi/WiFiClient.cpp.o
-Compiling .pio/build/esp32dev/lib1af/WiFi/WiFiGeneric.cpp.o
-Compiling .pio/build/esp32dev/lib1af/WiFi/WiFiMulti.cpp.o
-Compiling .pio/build/esp32dev/lib1af/WiFi/WiFiSTA.cpp.o
-Compiling .pio/build/esp32dev/lib1af/WiFi/WiFiScan.cpp.o
-Compiling .pio/build/esp32dev/lib1af/WiFi/WiFiServer.cpp.o
-Compiling .pio/build/esp32dev/lib1af/WiFi/WiFiUdp.cpp.o
-Compiling .pio/build/esp32dev/libe83/WiFiClientSecure/WiFiClientSecure.cpp.o
-Compiling .pio/build/esp32dev/libe83/WiFiClientSecure/esp_crt_bundle.c.o
-Compiling .pio/build/esp32dev/libe83/WiFiClientSecure/ssl_client.cpp.o
-Compiling .pio/build/esp32dev/libcd3/HTTPClient/HTTPClient.cpp.o
-Archiving .pio/build/esp32dev/lib820/libTinyCBOR.a
-Indexing .pio/build/esp32dev/lib820/libTinyCBOR.a
-Compiling .pio/build/esp32dev/FrameworkArduino/Esp.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/FirmwareMSC.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/FunctionalInterrupt.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/HWCDC.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/HardwareSerial.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/IPAddress.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/IPv6Address.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/MD5Builder.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/Print.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/Stream.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/StreamString.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/Tone.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/USB.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/USBCDC.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/USBMSC.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/WMath.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/WString.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/base64.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/cbuf.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-adc.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-bt.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-cpu.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-dac.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-gpio.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-i2c-slave.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-i2c.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-ledc.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-matrix.c.o
-Archiving .pio/build/esp32dev/libe83/libWiFiClientSecure.a
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-misc.c.o
-Indexing .pio/build/esp32dev/libe83/libWiFiClientSecure.a
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-psram.c.o
-Archiving .pio/build/esp32dev/lib1af/libWiFi.a
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-rgb-led.c.o
-Indexing .pio/build/esp32dev/lib1af/libWiFi.a
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-rmt.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-sigmadelta.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-spi.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-time.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-timer.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-tinyusb.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-touch.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/esp32-hal-uart.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/firmware_msc_fat.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/libb64/cdecode.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/libb64/cencode.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/main.cpp.o
-Compiling .pio/build/esp32dev/FrameworkArduino/stdlib_noniso.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/wiring_pulse.c.o
-Compiling .pio/build/esp32dev/FrameworkArduino/wiring_shift.c.o
-Archiving .pio/build/esp32dev/libcd3/libHTTPClient.a
-Indexing .pio/build/esp32dev/libcd3/libHTTPClient.a
-Archiving .pio/build/esp32dev/libFrameworkArduino.a
-Indexing .pio/build/esp32dev/libFrameworkArduino.a
-Linking .pio/build/esp32dev/firmware.elf
-Retrieving maximum program size .pio/build/esp32dev/firmware.elf
-Checking size .pio/build/esp32dev/firmware.elf
+Compiling .pio/build/seeed_xiao_esp32c3/lib1af/WiFi/WiFi.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/lib1af/WiFi/WiFiAP.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/lib1af/WiFi/WiFiClient.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/lib1af/WiFi/WiFiGeneric.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/lib1af/WiFi/WiFiMulti.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/lib1af/WiFi/WiFiSTA.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/lib1af/WiFi/WiFiScan.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/lib1af/WiFi/WiFiServer.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/lib1af/WiFi/WiFiUdp.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/libe83/WiFiClientSecure/WiFiClientSecure.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/libe83/WiFiClientSecure/esp_crt_bundle.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/libe83/WiFiClientSecure/ssl_client.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/libcd3/HTTPClient/HTTPClient.cpp.o
+Archiving .pio/build/seeed_xiao_esp32c3/libf52/libTinyCBOR.a
+Indexing .pio/build/seeed_xiao_esp32c3/libf52/libTinyCBOR.a
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/Esp.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/FirmwareMSC.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/FunctionalInterrupt.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/HWCDC.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/IPAddress.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/IPv6Address.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/MD5Builder.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/Print.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/Stream.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/StreamString.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/Tone.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/USB.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/USBCDC.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/USBMSC.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/WMath.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/WString.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/base64.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/cbuf.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-adc.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-bt.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-cpu.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-dac.c.o
+Archiving .pio/build/seeed_xiao_esp32c3/libe83/libWiFiClientSecure.a
+Indexing .pio/build/seeed_xiao_esp32c3/libe83/libWiFiClientSecure.a
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-gpio.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-i2c-slave.c.o
+Archiving .pio/build/seeed_xiao_esp32c3/lib1af/libWiFi.a
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-i2c.c.o
+Indexing .pio/build/seeed_xiao_esp32c3/lib1af/libWiFi.a
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-ledc.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-matrix.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-misc.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-psram.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-rgb-led.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-rmt.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-sigmadelta.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-spi.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-time.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-timer.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-tinyusb.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-touch.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/esp32-hal-uart.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/firmware_msc_fat.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/libb64/cdecode.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/libb64/cencode.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/main.cpp.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/stdlib_noniso.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/wiring_pulse.c.o
+Compiling .pio/build/seeed_xiao_esp32c3/FrameworkArduino/wiring_shift.c.o
+Archiving .pio/build/seeed_xiao_esp32c3/libcd3/libHTTPClient.a
+Indexing .pio/build/seeed_xiao_esp32c3/libcd3/libHTTPClient.a
+Archiving .pio/build/seeed_xiao_esp32c3/libFrameworkArduino.a
+Indexing .pio/build/seeed_xiao_esp32c3/libFrameworkArduino.a
+Linking .pio/build/seeed_xiao_esp32c3/firmware.elf
+Retrieving maximum program size .pio/build/seeed_xiao_esp32c3/firmware.elf
+Checking size .pio/build/seeed_xiao_esp32c3/firmware.elf
 Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
-RAM:   [=         ]  14.4% (used 47160 bytes from 327680 bytes)
-Flash: [=======   ]  72.3% (used 947193 bytes from 1310720 bytes)
-Building .pio/build/esp32dev/firmware.bin
+RAM:   [=         ]  12.2% (used 39924 bytes from 327680 bytes)
+Flash: [=======   ]  68.4% (used 896930 bytes from 1310720 bytes)
+Building .pio/build/seeed_xiao_esp32c3/firmware.bin
 esptool.py v4.11.0
-Creating esp32 image...
-Merged 27 ELF sections
-Successfully created esp32 image.
-========================= [SUCCESS] Took 4.39 seconds =========================
-pio run 2>&1  17.06s user 4.46s system 477% cpu 4.508 total
+Creating esp32c3 image...
+Merged 2 ELF sections
+Successfully created esp32c3 image.
+========================= [SUCCESS] Took 3.43 seconds =========================

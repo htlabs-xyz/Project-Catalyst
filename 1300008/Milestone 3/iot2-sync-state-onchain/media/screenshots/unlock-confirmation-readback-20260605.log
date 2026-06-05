@@ -1,0 +1,24 @@
+# IoT2 lock -> unlock -> confirmation read-back (Milestone 3 re-validation, 2026-06-05, Preprod)
+# Note: the unlock script intentionally does NOT print a stdout 'transaction confirmed' line
+#       (only init/lock do). Unlock confirmation is proven by on-chain state read-back below.
+
+===== STEP 1: lock() =====
+SUBMIT_START 2026-06-05T15:45:21.971551603Z
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+completing cost models...
+fetching cost models from fetcher...
+https://preprod.cexplorer.io/tx/98d74f6faf6a55871cf8391ef4a38ab833423aa533b2833ec079817f952f65a3
+transaction confirmed
+RUN_END 2026-06-05T15:46:00.860423614Z
+
+===== STEP 2: unlock() =====
+SUBMIT_START 2026-06-05T15:46:14.044564406Z
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+completing cost models...
+fetching cost models from fetcher...
+https://preprod.cexplorer.io/tx/62f766faaad1520c1521817cbac61229a1d9fb7dc2aa376df4057ceea3246e5f
+RUN_END 2026-06-05T15:47:47.518720559Z
+
+===== STEP 3: monitor.ts read-back (proves unlock landed: isLocked=false) =====
+MONITOR_AT 2026-06-05T15:48:08.483080357Z
+status { authority: "addr_test1qq3el4egyvccqem6xq6rtzslz4fddjwtslaupflnu83jwnxe0qckjpsmyp4lv93c6zdjj02v5lwh956fue3v3vmvr6wq8amgx7", isLocked: false }

@@ -6,6 +6,20 @@
   <meta name="color-scheme" content="dark light">
   <title>Cardano × Điện mặt trời từ thiện</title>
   <style>
+    @font-face {
+      font-family: "Deck Sans";
+      src: url("__FONT_REGULAR__") format("truetype");
+      font-style: normal;
+      font-weight: 400;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "Deck Sans";
+      src: url("__FONT_BOLD__") format("truetype");
+      font-style: normal;
+      font-weight: 700;
+      font-display: block;
+    }
     :root {
       --forest: #173d2b;
       --forest-2: #22533b;
@@ -21,8 +35,8 @@
       --charcoal: #10231a;
       --red: #a94b45;
       --radius: 28px;
-      --title-font: "Aptos Display", "Trebuchet MS", "Segoe UI", sans-serif;
-      --body-font: Aptos, "Segoe UI", Arial, sans-serif;
+      --title-font: "Deck Sans", "DejaVu Sans", sans-serif;
+      --body-font: "Deck Sans", "DejaVu Sans", sans-serif;
     }
 
     * { box-sizing: border-box; }
@@ -65,6 +79,16 @@
       opacity: 1;
       transform: translateX(0);
       animation: slide-in .38s cubic-bezier(.2,.8,.2,1);
+    }
+    .bg-photo {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      pointer-events: none;
+      user-select: none;
     }
     @keyframes slide-in {
       from { opacity: 0; transform: translateX(38px); }
@@ -137,12 +161,13 @@
 
     /* Slide 1 */
     .hero {
-      background: var(--charcoal) var(--hero) center / cover no-repeat;
+      background: var(--charcoal);
     }
     .hero::before {
       content: "";
       position: absolute;
       inset: 0;
+      z-index: 1;
       background: linear-gradient(90deg, rgba(16,35,26,.98) 0%, rgba(16,35,26,.92) 35%, rgba(16,35,26,.28) 69%, rgba(16,35,26,.04) 100%);
     }
     .hero-copy { position: relative; z-index: 2; width: 890px; padding-top: 18px; }
@@ -187,8 +212,8 @@
 
     /* Slide 3 */
     .split-photo { display: grid; grid-template-columns: 43% 57%; height: 100%; }
-    .equipment-photo { position: relative; background: var(--iot) center / cover no-repeat; }
-    .equipment-label { position: absolute; left: 54px; top: 60px; padding: 22px 30px; border-radius: 22px; color: var(--white); background: rgba(16,35,26,.92); }
+    .equipment-photo { position: relative; overflow: hidden; background: var(--charcoal); }
+    .equipment-label { position: absolute; left: 54px; top: 60px; z-index: 2; padding: 22px 30px; border-radius: 22px; color: var(--white); background: rgba(16,35,26,.92); }
     .equipment-label small { display: block; margin-bottom: 8px; color: var(--sun-2); font-size: 18px; font-weight: 850; }
     .equipment-label strong { font-size: 30px; }
     .metrics-side { padding: 72px 82px 64px; }
@@ -236,8 +261,8 @@
     .principle p { margin: 16px 0 0; color: var(--white); font-size: 32px; font-weight: 800; }
 
     /* Slide 6 */
-    .fundraising { background: var(--cream) var(--fund) center / cover no-repeat; }
-    .fundraising::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(246,241,229,.99) 0%, rgba(246,241,229,.95) 51%, rgba(23,61,43,.12) 76%, rgba(23,61,43,.78) 100%); }
+    .fundraising { background: var(--cream); }
+    .fundraising::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(246,241,229,.99) 0%, rgba(246,241,229,.95) 51%, rgba(23,61,43,.12) 76%, rgba(23,61,43,.78) 100%); }
     .fundraising .slide-inner { z-index: 2; }
     .fundraising .title { max-width: 1130px; font-size: 59px; }
     .nft-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; width: 1280px; margin-top: 58px; }
@@ -261,8 +286,8 @@
     .success-signal p { margin: 16px 0 0; font-size: 27px; font-weight: 800; word-spacing: 12px; }
 
     /* Slide 8 */
-    .closing { background: var(--charcoal) var(--hero) center / cover no-repeat; }
-    .closing::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16,35,26,.98) 0%, rgba(16,35,26,.88) 58%, rgba(16,35,26,.38) 100%); }
+    .closing { background: var(--charcoal); }
+    .closing::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(16,35,26,.98) 0%, rgba(16,35,26,.88) 58%, rgba(16,35,26,.38) 100%); }
     .closing .slide-inner { z-index: 2; }
     .actions { display: grid; gap: 20px; width: 1320px; margin-top: 56px; }
     .action-row { display: grid; grid-template-columns: 64px 210px 1fr; align-items: center; min-height: 118px; padding: 20px 32px; border: 2px solid var(--moss); border-radius: 24px; background: rgba(23,61,43,.91); }
@@ -371,7 +396,8 @@
 
   <div class="stage" id="stage">
     <main id="deck" aria-live="polite">
-      <section class="slide theme-dark hero active" id="slide-1" data-title="Cardano × Điện mặt trời từ thiện" data-notes="Thời lượng: 1 phút.\nĐiều phối giới thiệu đây là technical collaboration thuộc Milestone 4, Project Catalyst 1300008. Nêu mục tiêu: tìm hiểu dự án điện mặt trời từ thiện, đề xuất kiến trúc Cardano và thảo luận mô hình CIP-68 NFT gây quỹ. Mời từng người nói tên, vai trò và xác nhận đồng ý ghi hình công khai." style="--hero:url('__IMG_HERO__')">
+      <section class="slide theme-dark hero active" id="slide-1" data-title="Cardano × Điện mặt trời từ thiện" data-notes="Thời lượng: 1 phút.\nĐiều phối giới thiệu đây là technical collaboration thuộc Milestone 4, Project Catalyst 1300008. Nêu mục tiêu: tìm hiểu dự án điện mặt trời từ thiện, đề xuất kiến trúc Cardano và thảo luận mô hình CIP-68 NFT gây quỹ. Mời từng người nói tên, vai trò và xác nhận đồng ý ghi hình công khai.">
+        <img class="bg-photo" src="__IMG_HERO__" alt="" aria-hidden="true">
         <div class="slide-inner">
           <div class="hero-copy">
             <div class="hero-label">TECHNICAL COLLABORATION</div>
@@ -406,9 +432,10 @@
         </div>
       </section>
 
-      <section class="slide" id="slide-3" data-title="Dữ liệu cần minh bạch" data-notes="Thời lượng: 1–1.5 phút.\nCố vấn hỏi ngắn: inverter/smart meter hỗ trợ API, Modbus hay serial? Internet có ổn định không? Muốn tổng hợp theo giờ hay theo ngày? Team trả lời theo thiết bị thật. Không đọc các con số minh họa như dữ liệu đã đo được." style="--iot:url('__IMG_IOT__')">
+      <section class="slide" id="slide-3" data-title="Dữ liệu cần minh bạch" data-notes="Thời lượng: 1–1.5 phút.\nCố vấn hỏi ngắn: inverter/smart meter hỗ trợ API, Modbus hay serial? Internet có ổn định không? Muốn tổng hợp theo giờ hay theo ngày? Team trả lời theo thiết bị thật. Không đọc các con số minh họa như dữ liệu đã đo được.">
         <div class="split-photo">
           <div class="equipment-photo">
+            <img class="bg-photo" src="__IMG_IOT__" alt="" aria-hidden="true">
             <div class="equipment-label"><small>INVERTER + SMART METER</small><strong>Nguồn dữ liệu thực tế</strong></div>
           </div>
           <div class="metrics-side">
@@ -460,7 +487,8 @@
         </div>
       </section>
 
-      <section class="slide fundraising" id="slide-6" data-title="Gây quỹ mà không đánh đổi quyền cập nhật dữ liệu" data-notes="Thời lượng: 3 phút.\nSo sánh hai lớp asset. Site Identity NFT: một asset cho mỗi công trình, không bán, giữ định danh và telemetry. Supporter NFTs: nhiều NFT cho donor, link tới Site Identity asset, không có quyền cập nhật dữ liệu. Nêu rõ NFT là chứng nhận đóng góp, không phải quyền sở hữu hệ thống hay hứa hẹn lợi nhuận. Cần review pháp lý/thuế trước khi bán công khai." style="--fund:url('__IMG_FUND__')">
+      <section class="slide fundraising" id="slide-6" data-title="Gây quỹ mà không đánh đổi quyền cập nhật dữ liệu" data-notes="Thời lượng: 3 phút.\nSo sánh hai lớp asset. Site Identity NFT: một asset cho mỗi công trình, không bán, giữ định danh và telemetry. Supporter NFTs: nhiều NFT cho donor, link tới Site Identity asset, không có quyền cập nhật dữ liệu. Nêu rõ NFT là chứng nhận đóng góp, không phải quyền sở hữu hệ thống hay hứa hẹn lợi nhuận. Cần review pháp lý/thuế trước khi bán công khai.">
+        <img class="bg-photo" src="__IMG_FUND__" alt="" aria-hidden="true">
         <div class="slide-inner">
           <p class="kicker">Mô hình gây quỹ</p>
           <h2 class="title">Gây quỹ mà không đánh đổi<br>quyền cập nhật dữ liệu</h2>
@@ -489,7 +517,8 @@
         </div>
       </section>
 
-      <section class="slide theme-dark closing" id="slide-8" data-title="Quyết định & bước tiếp theo" data-notes="Thời lượng: 1 phút.\nĐiều phối đọc ba nhóm action items và xin team dự án xác nhận lại bước tiếp theo. Không tuyên bố đã triển khai nếu mới dừng ở tư vấn. Kết thúc bằng câu: một pilot trước, fundraising sau khi telemetry chạy ổn định." style="--hero:url('__IMG_HERO__')">
+      <section class="slide theme-dark closing" id="slide-8" data-title="Quyết định & bước tiếp theo" data-notes="Thời lượng: 1 phút.\nĐiều phối đọc ba nhóm action items và xin team dự án xác nhận lại bước tiếp theo. Không tuyên bố đã triển khai nếu mới dừng ở tư vấn. Kết thúc bằng câu: một pilot trước, fundraising sau khi telemetry chạy ổn định.">
+        <img class="bg-photo" src="__IMG_HERO__" alt="" aria-hidden="true">
         <div class="slide-inner">
           <p class="kicker">Kết quả buổi meet</p>
           <h2 class="title">Quyết định &amp; bước tiếp theo</h2>

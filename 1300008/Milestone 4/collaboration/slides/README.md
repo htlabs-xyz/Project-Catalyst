@@ -44,8 +44,10 @@ The source file uses these placeholders:
 - `__IMG_HERO__`
 - `__IMG_IOT__`
 - `__IMG_FUND__`
+- `__FONT_REGULAR__`
+- `__FONT_BOLD__`
 
-Replace each placeholder with a `data:image/png;base64,...` URI from the corresponding file in `assets/`. The final HTML already contains the embedded images and has no external dependency.
+Replace image placeholders with `data:image/png;base64,...` URIs from `assets/` and font placeholders with `data:font/ttf;base64,...` URIs. The final HTML already contains all images and a Vietnamese-capable DejaVu Sans font, so it has no external dependency or operating-system font requirement.
 
 ## Visual and technical sources
 

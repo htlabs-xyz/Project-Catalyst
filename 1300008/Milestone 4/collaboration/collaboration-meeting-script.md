@@ -1,398 +1,376 @@
-# Technical collaboration meeting script
+# Kịch bản buổi tư vấn kỹ thuật: Cardano cho dự án điện mặt trời từ thiện
 
-## Milestone 4 evidence package
+## Thông tin buổi meet
 
-| Field | Value |
+| Hạng mục | Nội dung |
 | --- | --- |
 | Catalyst project | [HTLABS] 5 Project Templates Combining Blockchain and Internet of Things |
 | Project ID | 1300008 |
-| Milestone output | Collaborate with IoT and blockchain projects that are facing challenges, providing help and guidance based on the project's learnings |
-| Proposed evidence | One recorded technical collaboration meeting, meeting minutes, and a shared action plan |
-| Recommended duration | 60-75 minutes |
-| Meeting title | Technical collaboration session: solving `[CHALLENGE]` for `[PARTNER PROJECT]` |
+| Milestone | Milestone 4 — Community Engagement and Impact Assessment |
+| Hình thức | Một buổi meet trực tuyến có ghi hình |
+| Thời lượng mục tiêu | 18 phút, có thể dao động trong khoảng 15–20 phút |
+| Thành phần | Đại diện HTLabs, team dự án điện mặt trời từ thiện, cố vấn Cardano |
+| Chủ đề | Tư vấn kiến trúc ghi nhận sản lượng điện mặt trời trên Cardano và gây quỹ bằng CIP-68 NFT |
 
-> This document is a preparation template. Replace every `[PLACEHOLDER]` with verified information after a real external partner and challenge have been confirmed. Do not claim that the meeting or follow-up work occurred until evidence is publicly available.
+> Đây là kịch bản chuẩn bị. Chỉ thay các phần `[PLACEHOLDER]` bằng dữ liệu đã được xác minh. Không tuyên bố giải pháp đã được triển khai nếu buổi meet mới chỉ dừng ở mức tư vấn kiến trúc.
 
-## 1. What the meeting must prove
+## 1. Mục tiêu cần thể hiện trong video
 
-The meeting should show that HTLabs did more than present its own work. A reviewer should be able to verify all of the following:
+Trong một video ngắn, reviewer phải nhìn thấy rõ bốn nội dung:
 
-1. `[PARTNER PROJECT]` is an external IoT, blockchain, or IoT-blockchain project.
-2. The partner described a concrete technical problem that affects its project.
-3. HTLabs examined that problem and shared relevant experience from the five Cardano-IoT templates.
-4. The participants discussed a practical solution, not only general advice.
-5. The meeting ended with an agreed action plan, owner, and next step.
-6. The evidence identifies the participants, date, topic, technical discussion, and outcome.
+1. Team dự án bên ngoài giới thiệu dự án lắp đặt điện mặt trời từ thiện cho vùng khó khăn và bài toán đang cần hỗ trợ.
+2. Cố vấn đặt câu hỏi để hiểu nguồn dữ liệu, thiết bị và mô hình vận hành.
+3. Cố vấn đề xuất kiến trúc Cardano phù hợp, có liên hệ với kinh nghiệm của các IoT template do HTLabs xây dựng.
+4. Hai bên thống nhất một hướng thử nghiệm tiếp theo, gồm telemetry điện mặt trời, CIP-68 NFT và phương án gây quỹ minh bạch.
 
-One meeting is strongest when the partner project already combines IoT and blockchain. If the invited partner covers only one field, invite a second external participant from the other field to the same session.
+## 2. Phân vai
 
-## 2. Recommended challenge
-
-Use the partner's real problem. Do not force the partner's situation into a prewritten story. The following challenge pattern fits the HTLabs project's tested experience and can guide the pre-meeting interview:
-
-> How can `[PARTNER PROJECT]` transmit or verify IoT data on Cardano while preserving data integrity, handling intermittent connectivity, controlling transaction/API costs, and preventing unauthorized device actions?
-
-Relevant lessons that HTLabs can offer, depending on the partner's needs:
-
-| Partner challenge | Relevant HTLabs example | Practical lesson to share |
+| Vai trò | Người phụ trách | Nội dung chính |
 | --- | --- | --- |
-| Sensor readings fail or produce invalid data | IoT1: DHT22 sensor data store | Validate readings before submission, retry transient sensor failures, separate data collection from blockchain submission, and avoid treating valid zero values as missing data. |
-| Device state must be controlled on-chain | IoT2: lock/unlock state | Store explicit state in the datum, enforce owner/authority signatures, preserve authority during state transitions, and verify the newly created state UTxO. |
-| Embedded device has unstable connectivity | IoT3: vending machine payment monitor | Use bounded polling, reconnect logic, duplicate-event protection, non-blocking device control, and a maximum actuator duration. |
-| Physical identity can be copied | IoT4: NFC identity | Do not trust a static NFC UID alone; bind identity to Cardano credentials and add cryptographic challenge/signature verification where the threat model requires it. |
-| Product metadata changes throughout a supply chain | IoT5: QR traceability | Use CIP-68 reference/user tokens, protect metadata updates with authorization, and derive the displayed state from the actual output UTxO. |
-| Public API limits or delayed indexing affect reliability | All templates using Blockfrost | Separate transaction confirmation from indexer visibility, use backoff and caching, log transaction hashes, and plan a provider or local-node fallback for production. |
+| Điều phối/đại diện HTLabs | `[TÊN, VAI TRÒ]` | Mở đầu, xác nhận ghi hình, quản lý thời gian và chốt kết quả |
+| Đại diện team điện mặt trời | `[TÊN, VAI TRÒ, TÊN DỰ ÁN]` | Trình bày mục tiêu xã hội, quy trình triển khai và nhu cầu kỹ thuật |
+| Cố vấn Cardano | `[TÊN, VAI TRÒ]` | Phân tích bài toán và đề xuất kiến trúc IoT–Cardano–CIP-68 |
 
-### HTLabs reference links for screen sharing
+## 3. Timeline 18 phút
 
-- [IoT1: DHT22 sensor data store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store)
-- [IoT2: on-chain lock/unlock state](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot2-sync-state-onchain)
-- [IoT3: vending machine payment monitor](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines)
-- [IoT4: NFC identity verification](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot4-nfc-tag-identification)
-- [IoT5: QR supply-chain traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability)
-- [Milestone 3 testing and optimization evidence](https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%203)
-
-## 3. Participants and roles
-
-| Role | Required information | Responsibility during the meeting |
+| Thời gian | Nội dung | Người trình bày |
 | --- | --- | --- |
-| HTLabs facilitator | `[NAME, ROLE]` | Open the session, confirm consent, control the agenda, and summarize decisions. |
-| HTLabs technical contributor | `[NAME, ROLE]` | Diagnose the challenge, share implementation lessons, and propose options. |
-| Partner representative | `[NAME, ROLE, PROJECT, PUBLIC LINK]` | Explain the real project and challenge, evaluate the advice, and confirm the agreed next step. |
-| Optional second partner | `[NAME, ROLE, PROJECT, PUBLIC LINK]` | Add IoT or blockchain expertise if the first partner does not cover both areas. |
-| Evidence recorder | `[NAME]` | Record the call, capture timestamps, maintain minutes, and collect public links. |
+| 00:00–01:00 | Giới thiệu, thành phần và xác nhận ghi hình | Điều phối |
+| 01:00–05:00 | Trình bày dự án điện mặt trời từ thiện | Team dự án |
+| 05:00–06:30 | Câu hỏi làm rõ | Cố vấn và team dự án |
+| 06:30–12:30 | Đề xuất kiến trúc Cardano và cách liên kết dữ liệu với CIP-68 | Cố vấn |
+| 12:30–15:30 | Mô hình NFT gây quỹ và các nguyên tắc minh bạch | Cố vấn |
+| 15:30–17:00 | Team dự án phản hồi và thống nhất hướng thử nghiệm | Hai bên |
+| 17:00–18:00 | Tóm tắt action items và kết thúc | Điều phối |
 
-## 4. Required preparation
+Nếu cần rút xuống 15 phút, giới hạn phần trình bày dự án còn 3 phút và phần kiến trúc còn 5 phút. Nếu có đủ 20 phút, dành thêm 2 phút cho câu hỏi kỹ thuật.
 
-Complete these items before recording:
+---
 
-- Obtain the partner's consent to record and publish the meeting as Catalyst evidence.
-- Collect the partner project's public website or repository link.
-- Ask the partner for a two- or three-sentence written challenge statement.
-- Request a safe architecture diagram, log excerpt, code snippet, or issue link that can be discussed publicly.
-- Remove API keys, wallet mnemonics, personal data, private addresses, and confidential business information.
-- Choose one primary challenge. Additional topics can be listed as follow-up items.
-- Prepare the relevant HTLabs repository files or diagrams for screen sharing.
-- Create a shared meeting-minutes document before the call.
-- Test audio, screen sharing, and recording.
+# 4. Kịch bản chi tiết
 
-### Pre-meeting challenge form
+## 00:00–01:00 — Mở đầu và xác nhận ghi hình
 
-Send these questions to the partner:
+### Điều phối
 
-1. What does your project do, and where are the IoT and blockchain components?
-2. What specific technical problem is currently blocking or slowing the project?
-3. What have you already tried?
-4. What result would make this meeting useful?
-5. Which project information may be recorded and published?
-
-## 5. Run of show and facilitator script
-
-### 00:00-05:00 — Opening, identity, and consent
-
-**Facilitator**
-
-> Welcome to this technical collaboration session between HTLabs and `[PARTNER PROJECT]`. This session supports Project Catalyst Fund 13 project 1300008, which produced five open templates for integrating IoT systems with Cardano.
+> Xin chào mọi người. Đây là buổi technical collaboration giữa HTLabs và `[TÊN DỰ ÁN ĐIỆN MẶT TRỜI]`.
 >
-> Today's purpose is to understand `[PARTNER PROJECT]`'s challenge with `[SHORT CHALLENGE]`, share relevant lessons from our implementation and testing, and leave with a practical action plan.
+> Buổi meet là một hoạt động thuộc Milestone 4 của Project Catalyst project 1300008. Mục tiêu hôm nay là tìm hiểu dự án điện mặt trời từ thiện của team, sau đó cố vấn sẽ đề xuất cách dùng Cardano để ghi nhận dữ liệu sản lượng điện và kết nối dữ liệu này với CIP-68 NFT nhằm hỗ trợ hoạt động gây quỹ.
 >
-> Before we begin, please introduce yourself, your role, and your project. Please also confirm that you agree to this meeting being recorded and published as public Project Catalyst evidence.
+> Buổi meet sẽ kéo dài khoảng 18 phút và được ghi hình làm bằng chứng công khai cho Project Catalyst. Mời các thành viên giới thiệu ngắn gọn tên, vai trò và xác nhận đồng ý ghi hình.
 
-**Partner representative**
+### Đại diện team dự án
 
-> My name is `[NAME]`. I am `[ROLE]` at `[PARTNER PROJECT]`. Our public project link is `[URL]`. I agree / do not agree to the recording and publication terms described above.
+> Tôi là `[TÊN]`, phụ trách `[VAI TRÒ]` tại `[TÊN DỰ ÁN]`. Tôi đồng ý buổi meet được ghi hình và công khai trong hồ sơ Project Catalyst.
 
-**Facilitator checkpoint**
+### Cố vấn
 
-- Record each participant's name, role, and project.
-- Capture verbal consent in the recording.
-- Stop recording and resolve the issue if any participant does not consent.
+> Tôi là `[TÊN]`, cố vấn về `[CARDANO/BLOCKCHAIN/SMART CONTRACT]`. Tôi đồng ý buổi meet được ghi hình và công khai trong hồ sơ Project Catalyst.
 
-### 05:00-15:00 — Partner project and challenge
+---
 
-**Facilitator**
+## 01:00–05:00 — Team trình bày dự án điện mặt trời từ thiện
 
-> Please give us a short overview of the system. What data or physical event starts the workflow, what happens off-chain, and what must happen on Cardano?
+### Đại diện team dự án
 
-> What is failing today, or what risk are you trying to prevent?
+> Dự án của chúng tôi tập trung chế tạo, triển khai và lắp đặt hệ thống điện mặt trời cho các khu vực khó khăn, nơi khả năng tiếp cận nguồn điện ổn định còn hạn chế.
+>
+> Một dự án điển hình gồm các bước: khảo sát địa điểm, xác định nhu cầu sử dụng điện, lựa chọn tấm pin và inverter, huy động tài trợ, lắp đặt, bàn giao và theo dõi hệ thống sau triển khai.
+>
+> Hệ thống có thể thu thập các thông số như:
+>
+> - công suất tức thời, đơn vị W hoặc kW;
+> - sản lượng điện theo ngày và sản lượng tích lũy, đơn vị kWh;
+> - điện áp, dòng điện và trạng thái inverter;
+> - thời gian hoạt động và thời điểm thiết bị gửi dữ liệu gần nhất.
+>
+> Hiện tại, các thông số này thường nằm trong thiết bị hoặc dashboard riêng của nhà sản xuất. Nhà tài trợ khó kiểm chứng công trình còn hoạt động hay đã tạo ra bao nhiêu điện sau khi lắp đặt.
+>
+> Team muốn tìm một giải pháp minh bạch hơn: dữ liệu điện được ghi nhận theo cách có thể kiểm chứng, mỗi công trình có một định danh số, và cộng đồng có thể mua NFT để đóng góp kinh phí cho việc lắp đặt thêm các hệ thống mới.
+>
+> Chúng tôi mong cố vấn hướng dẫn kiến trúc phù hợp trên Cardano, đặc biệt là cách liên kết dữ liệu sản lượng điện với CIP-68 NFT mà không làm hệ thống quá phức tạp hoặc tốn nhiều phí giao dịch.
 
-> Can you show the architecture, issue, log, or workflow that illustrates the problem?
+### Hình ảnh nên share trong phần này
 
-> What have you tried, and what happened?
+Team chỉ cần một slide gồm:
 
-> What would a successful outcome look like after this session?
+- một ảnh hệ thống điện mặt trời hoặc sơ đồ dự kiến;
+- khu vực thụ hưởng;
+- thiết bị đo/inverter dự kiến;
+- bốn chỉ số: `current_power_kw`, `daily_energy_kwh`, `total_energy_kwh`, `last_reported_at`;
+- vấn đề cần giải quyết: minh bạch dữ liệu và gây quỹ.
 
-**Evidence recorder**
+Không hiển thị địa chỉ nhà riêng, thông tin cá nhân của người thụ hưởng, API key hoặc thông tin truy cập thiết bị.
 
-Capture the following in the minutes:
+---
 
-- Current architecture or workflow.
-- Reproducible symptom or risk.
-- Constraints such as hardware, network, security, budget, transaction frequency, or API limits.
-- Previous attempts.
-- Desired outcome.
+## 05:00–06:30 — Cố vấn đặt câu hỏi làm rõ
 
-**Facilitator summary**
+### Cố vấn
 
-> Let me confirm the problem in one sentence: `[PARTNER PROJECT]` needs to `[DESIRED OUTCOME]`, but `[OBSERVED PROBLEM]` occurs because or when `[KNOWN CONDITION]`. Is that accurate?
+> Cảm ơn team. Trước khi đề xuất kiến trúc, tôi xin xác nhận một số điểm.
+>
+> Thứ nhất, inverter hoặc smart meter có API, Modbus, cổng serial hay cách nào để gateway đọc dữ liệu tự động không?
 
-Do not continue until the partner confirms or corrects this statement.
+### Team dự án
 
-### 15:00-25:00 — Joint diagnosis
+> `[TRẢ LỜI THỰC TẾ VỀ THIẾT BỊ VÀ GIAO THỨC]`.
 
-**HTLabs technical contributor**
+### Cố vấn
 
-> We will separate this into four parts: device input, off-chain processing, blockchain interaction, and verification. This helps us identify where the failure or risk begins.
+> Thứ hai, địa điểm lắp đặt có Internet liên tục không, hay gateway cần lưu dữ liệu tạm thời khi mất kết nối?
 
-Ask only the questions relevant to the challenge:
+### Team dự án
 
-#### Device and data input
+> `[TRẢ LỜI THỰC TẾ VỀ KẾT NỐI]`.
 
-- How does the device identify itself?
-- How are readings or events validated before they leave the device?
-- Can a legitimate reading be zero, empty, repeated, or delayed?
-- What happens when the sensor or network is unavailable?
-- Does the device persist unsent events locally?
+### Cố vấn
 
-#### Off-chain processing
+> Thứ ba, team muốn cập nhật dữ liệu theo thời gian thực, theo giờ hay theo ngày? Với mục tiêu minh bạch cho nhà tài trợ, bản tổng hợp theo giờ hoặc theo ngày thường hợp lý hơn việc ghi từng mẫu đo lên blockchain.
 
-- Is there a queue between the device and the blockchain client?
-- How are retries bounded?
-- How do you prevent a retry from creating a duplicate on-chain event?
-- Which logs correlate the device event with the transaction hash?
+### Team dự án
 
-#### Cardano transaction and state
+> `[TẦN SUẤT MONG MUỐN]`.
 
-- Is the data stored in transaction metadata, a datum, or a token standard such as CIP-68?
-- Who is authorized to create or update the state?
-- What prevents an unauthorized actor from changing authority or metadata?
-- Does the application verify the actual output UTxO after a state transition?
+### Cố vấn tóm tắt
 
-#### Read-back and operations
+> Như vậy, đầu vào là dữ liệu từ `[INVERTER/SMART METER]`, kết nối `[LIÊN TỤC/CHẬP CHỜN]`, và team cần công khai bản tổng hợp `[THEO GIỜ/THEO NGÀY]`. Mục tiêu không phải thay thế toàn bộ hệ thống giám sát, mà tạo một lớp dữ liệu có thể kiểm chứng và liên kết với tài sản CIP-68 trên Cardano.
 
-- Does the application distinguish transaction confirmation from Blockfrost/indexer visibility?
-- What is the expected transaction rate and acceptable delay?
-- What happens when the API rate limit is reached?
-- Which metric will prove that the proposed change worked?
+---
 
-**Facilitator diagnosis statement**
+## 06:30–12:30 — Cố vấn đề xuất kiến trúc
 
-> Based on the information shared, the primary issue appears to be `[ROOT CAUSE OR HYPOTHESIS]`. The evidence for that assessment is `[LOG, CODE PATH, ARCHITECTURE DETAIL, OR REPRODUCTION]`. We should label this as a hypothesis until `[VERIFICATION STEP]` confirms it.
+### Cố vấn
 
-### 25:00-45:00 — Solution workshop
+> Tôi đề xuất kiến trúc gồm năm lớp.
 
-The technical contributor should present no more than three options. Each option must include a trade-off.
+### Lớp 1 — Thiết bị đo tại công trình
 
-**HTLabs technical contributor**
+> Inverter hoặc smart meter thu thập công suất, sản lượng điện và trạng thái hoạt động. Một gateway như Raspberry Pi hoặc ESP32 đọc dữ liệu qua API, Modbus hoặc serial.
+>
+> Mỗi bản ghi nên có `site_id`, thời gian đo, công suất, sản lượng điện và trạng thái thiết bị. Gateway cần kiểm tra dữ liệu hợp lệ trước khi gửi. Ví dụ, giá trị 0 kW vào ban đêm có thể là dữ liệu hợp lệ, không nên tự động coi là lỗi.
 
-> We see `[NUMBER]` realistic options. We will compare them against your constraints rather than recommend a pattern in isolation.
+### Lớp 2 — Gateway và chữ ký thiết bị
 
-#### Option A — Minimal corrective change
+> Gateway ký payload hoặc gửi payload qua một kênh xác thực tới backend. Khi mất Internet, gateway lưu dữ liệu vào queue cục bộ và gửi lại sau. Mỗi bản ghi hoặc batch cần có ID để backend loại bỏ dữ liệu trùng khi retry.
+>
+> Phần này áp dụng kinh nghiệm từ IoT1 về validation/retry và IoT3 về vận hành thiết bị trong điều kiện kết nối không ổn định.
 
-- Change: `[SMALLEST FIX]`
-- Relevant HTLabs lesson: `[IOT1/IOT2/IOT3/IOT4/IOT5 + LINK]`
-- Benefit: `[EXPECTED BENEFIT]`
-- Limitation: `[KNOWN LIMITATION]`
-- Verification: `[TEST OR METRIC]`
+### Lớp 3 — Backend tổng hợp dữ liệu
 
-#### Option B — Reliability or security hardening
-
-- Change: `[HARDENING DESIGN]`
-- Relevant HTLabs lesson: `[IOT TEMPLATE + LINK]`
-- Benefit: `[EXPECTED BENEFIT]`
-- Cost or trade-off: `[IMPLEMENTATION COST, LATENCY, HARDWARE, OR TRANSACTION COST]`
-- Verification: `[TEST OR METRIC]`
-
-#### Option C — Production-oriented architecture
-
-- Change: `[QUEUE, LOCAL NODE, PROVIDER FALLBACK, SIGNED DEVICE EVENTS, OR OTHER DESIGN]`
-- Relevant HTLabs lesson: `[IOT TEMPLATE + LINK]`
-- Benefit: `[EXPECTED BENEFIT]`
-- Cost or trade-off: `[OPERATIONAL COMPLEXITY]`
-- Verification: `[TEST OR METRIC]`
-
-**Partner validation questions**
-
-> Which option fits your current stage and resources?
-
-> What constraint would prevent this option from working?
-
-> Which part can your team test first?
-
-> Is there a code sample, configuration example, or review that HTLabs can provide after this meeting?
-
-**Decision statement**
-
-> We agree to proceed with `[SELECTED OPTION]` because `[REASON]`. We are not selecting `[OTHER OPTION]` now because `[TRADE-OFF]`.
-
-### 45:00-60:00 — Build the action plan
-
-Share the action-plan table on screen and complete it jointly.
-
-| Action | Owner | Due date | Public evidence | Success signal |
-| --- | --- | --- | --- | --- |
-| `[PARTNER IMPLEMENTATION OR TEST]` | `[PARTNER NAME]` | `[DATE]` | `[ISSUE/PR/DOC LINK OR PLANNED LOCATION]` | `[MEASURABLE RESULT]` |
-| `[HTLABS SAMPLE, REVIEW, OR GUIDANCE]` | `[HTLABS NAME]` | `[DATE]` | `[PUBLIC LINK OR PLANNED LOCATION]` | `[PARTNER CAN APPLY OR VERIFY IT]` |
-| `[JOINT FOLLOW-UP OR RESULT CHECK]` | `[OWNER]` | `[DATE]` | `[COMMENT/MINUTES/RESULT LINK]` | `[PASS CONDITION]` |
-
-At least one action should provide technical value to the partner. Examples include:
-
-- HTLabs reviews a public architecture diagram or issue.
-- HTLabs provides a code/configuration example adapted from one of the five templates.
-- The partner tests a recommended retry, validation, authorization, or read-back pattern.
-- Both teams document the before/after behavior in a public issue or meeting record.
-
-### 60:00-65:00 — Partner confirmation and close
-
-**Facilitator**
-
-> To close, please describe in your own words which guidance was useful and what your project will do next.
-
-**Partner representative**
-
-> `[PARTNER'S UNSCRIPTED CONFIRMATION]`
-
-**Facilitator**
-
-> We agreed on `[SELECTED SOLUTION]`. `[PARTNER OWNER]` will `[ACTION]`, and HTLabs will `[SUPPORT ACTION]`. The public record will include this recording, meeting minutes, the action plan, and any approved technical artifact. Thank you for contributing a real project challenge to this collaboration.
-
-The partner's confirmation should be spontaneous and accurate. Do not ask the partner to claim that a solution was implemented if it was only discussed.
-
-## 6. Evidence package
-
-A single recorded meeting should be supported by lightweight documentary evidence. Store the files under:
-
-```text
-1300008/Milestone 4/collaboration/
-├── README.md
-├── collaboration-meeting-script.md
-├── meeting-minutes.md
-├── action-plan.md
-└── media/
-    ├── attendance-and-consent.png
-    ├── partner-challenge.png
-    └── solution-or-action-plan.png
+> Backend nhận dữ liệu, kiểm tra nguồn gửi và lưu raw telemetry trong cơ sở dữ liệu hoặc object storage. Sau đó backend tổng hợp theo giờ hoặc theo ngày.
+>
+> Không nên đưa từng mẫu đo lên blockchain. Cách đó tốn phí, tạo nhiều giao dịch và không cần thiết cho mục tiêu minh bạch. Cardano chỉ cần lưu bản tổng hợp và hash của file dữ liệu chi tiết.
+
+Ví dụ dữ liệu tổng hợp:
+
+```json
+{
+  "site_id": "SOLAR-SITE-001",
+  "period": "[YYYY-MM-DD]",
+  "energy_kwh": 18.42,
+  "total_energy_kwh": 1247.68,
+  "uptime_percent": 98.7,
+  "raw_data_uri": "ipfs://...",
+  "raw_data_hash": "sha256:...",
+  "last_reported_at": "[ISO-8601 TIMESTAMP]"
+}
 ```
 
-Use public links for large video files rather than committing them to Git.
+> Raw data có thể nằm ở IPFS, object storage hoặc kho dữ liệu công khai phù hợp. Hash trên Cardano cho phép kiểm tra file có bị thay đổi hay không.
 
-### Required evidence links
+### Lớp 4 — CIP-68 reference NFT trên Cardano
 
-1. Public recording link with view permission enabled.
-2. Partner project website or repository.
-3. Meeting minutes with participant names, roles, challenge, discussion summary, decisions, and timestamps.
-4. Shared action plan.
-5. At least one technical artifact shown or produced during the session: architecture diagram, issue, code/configuration sample, review notes, or test plan.
-6. Partner acknowledgement in the recording or a public follow-up comment.
+> Mỗi công trình điện mặt trời có thể có một CIP-68 asset làm định danh số.
+>
+> Theo CIP-68, reference token giữ metadata trong datum tại một script address, còn user token nằm trong ví người sở hữu. Metadata có thể cập nhật khi có báo cáo sản lượng mới.
 
-### Suggested recording timestamps
+Metadata đề xuất:
 
-| Timestamp | What the reviewer can verify |
-| --- | --- |
-| `00:00` | Participant identity, project link, and recording consent |
-| `05:00` | Partner explains the real technical challenge |
-| `15:00` | HTLabs begins diagnosis using lessons from the five templates |
-| `25:00` | Technical options and trade-offs |
-| `45:00` | Joint decision and action plan |
-| `60:00` | Partner confirms the value received and next step |
-
-Update these timestamps after editing the final video.
-
-## 7. Meeting minutes template
-
-```markdown
-# Collaboration meeting minutes
-
-- Date and time: [DATE, TIME, TIME ZONE]
-- Duration: [DURATION]
-- Meeting platform: [PLATFORM]
-- Recording: [PUBLIC URL]
-- HTLabs participants: [NAMES AND ROLES]
-- Partner project: [NAME AND PUBLIC URL]
-- Partner participants: [NAMES AND ROLES]
-- Consent: [HOW AND WHEN CONSENT WAS RECORDED]
-
-## Partner challenge
-
-[PARTNER-CONFIRMED PROBLEM STATEMENT]
-
-## Context and constraints
-
-- [CONSTRAINT]
-- [CONSTRAINT]
-
-## Diagnosis
-
-[WHAT WAS EXAMINED, WHAT THE EVIDENCE SHOWED, AND WHICH ITEMS REMAIN HYPOTHESES]
-
-## Guidance and solutions offered by HTLabs
-
-1. [GUIDANCE] — based on [HTLABS TEMPLATE AND LINK]
-2. [GUIDANCE] — based on [HTLABS TEMPLATE AND LINK]
-
-## Decision
-
-[SELECTED APPROACH AND REASON]
-
-## Action items
-
-| Action | Owner | Due date | Evidence | Status |
-| --- | --- | --- | --- | --- |
-| [ACTION] | [OWNER] | [DATE] | [LINK] | Planned |
-
-## Partner acknowledgement
-
-[ACCURATE QUOTE OR TIMESTAMPED SUMMARY]
-
-## Public artifacts
-
-- Recording: [URL]
-- Partner project: [URL]
-- Technical artifact: [URL]
-- Action plan or follow-up: [URL]
+```json
+{
+  "name": "Solar Charity Site 001",
+  "project_id": "SOLAR-SITE-001",
+  "region": "[KHU VỰC Ở MỨC KHÔNG LỘ THÔNG TIN CÁ NHÂN]",
+  "installed_capacity_kwp": 5.0,
+  "installation_date": "[YYYY-MM-DD]",
+  "current_power_kw": 2.18,
+  "daily_energy_kwh": 18.42,
+  "total_energy_kwh": 1247.68,
+  "last_reported_at": "[ISO-8601 TIMESTAMP]",
+  "telemetry_uri": "ipfs://...",
+  "telemetry_hash": "sha256:..."
+}
 ```
 
-## 8. Acceptance-criteria mapping
-
-| Catalyst requirement | Evidence from this meeting |
-| --- | --- |
-| Collaboration with an IoT and blockchain project | Partner introduction, public project link, architecture overview, and participant record |
-| Offering assistance or support | Timestamped diagnosis, solution comparison, and HTLabs technical guidance |
-| Providing solutions to challenges | Partner-confirmed challenge, selected solution, and shared action plan |
-| Guidance based on project learnings | Direct references to the relevant HTLabs template, test result, issue, or architecture document |
-| Verifiable completion | Public recording, minutes, technical artifact, screenshots, and partner acknowledgement |
-
-## 9. PoA-ready evidence wording
-
-Replace the placeholders only after the session has taken place:
-
-> **Output: Collaboration and technical support for an external IoT-blockchain project**
+> Smart contract chỉ cho phép địa chỉ vận hành hoặc multisig đã được xác định cập nhật datum. Người giữ NFT gây quỹ không nên mặc nhiên có quyền sửa số liệu điện.
 >
-> HTLabs held a recorded technical collaboration session with `[PARTNER PROJECT]` on `[DATE]`. The partner presented `[CHALLENGE]`. During the session, HTLabs analyzed the project's device, off-chain, and Cardano workflow and shared guidance based on `[RELEVANT HTLABS TEMPLATES]`. The teams compared `[NUMBER]` solution options and agreed to `[SELECTED SOLUTION OR NEXT STEP]`.
->
-> **Acceptance criterion:** Collaboration with an IoT and blockchain project is demonstrated through direct technical assistance, a jointly reviewed solution, and an agreed action plan addressing the partner's stated challenge.
->
-> **Evidence:**
->
-> - Partner project: `[PUBLIC PROJECT URL]`
-> - Meeting recording: `[PUBLIC VIDEO URL]`
-> - Meeting minutes and timestamp index: `[GITHUB URL]`
-> - Technical artifact or action plan: `[GITHUB/ISSUE/PR URL]`
-> - Partner acknowledgement: `[VIDEO TIMESTAMP OR PUBLIC COMMENT URL]`
+> Mô hình này dựa trên template IoT5 của HTLabs: reference token được giữ tại contract address, metadata được cập nhật trong datum, còn lịch sử giao dịch tạo ra audit trail.
 
-## 10. Final quality gate
+### Lớp 5 — Dashboard công khai
 
-Do not submit the evidence until every required item is true:
+> Dashboard đọc CIP-68 datum để hiển thị thông tin công trình, sản lượng gần nhất, tổng sản lượng và link tới dữ liệu chi tiết. Nhà tài trợ có thể kiểm tra transaction và hash mà không cần truy cập dashboard riêng của nhà sản xuất inverter.
 
-- [ ] The partner is external to HTLabs and has a verifiable public project.
-- [ ] The recording contains participant introductions and publication consent.
-- [ ] The partner states a real technical challenge in its own words.
-- [ ] HTLabs gives project-specific technical guidance.
-- [ ] The guidance cites at least one relevant lesson or artifact from the five Cardano-IoT templates.
-- [ ] The discussion includes constraints and trade-offs.
-- [ ] The meeting ends with a selected next step and named owners.
-- [ ] The partner confirms what was useful without overstating the result.
-- [ ] Recording, minutes, action plan, and technical artifact are publicly accessible.
-- [ ] Links have been tested in a private/incognito browser session.
-- [ ] No secret, mnemonic, API key, personal data, or confidential information appears in the evidence.
-- [ ] The PoA wording describes only work that actually occurred.
+### Sơ đồ kiến trúc trình chiếu
+
+```mermaid
+flowchart LR
+    A[Inverter / Smart Meter] --> B[Gateway Raspberry Pi hoặc ESP32]
+    B -->|Payload có xác thực| C[Telemetry API]
+    C --> D[(Raw telemetry storage)]
+    C --> E[Hourly/Daily Aggregator]
+    E -->|Summary + data hash| F[Cardano transaction]
+    F --> G[CIP-68 reference NFT datum]
+    G --> H[Public dashboard]
+    D -->|File URI + hash verification| H
+    I[Donor / NFT holder] --> H
+```
+
+---
+
+## 12:30–15:30 — Cố vấn đề xuất mô hình NFT gây quỹ
+
+### Cố vấn
+
+> Về gây quỹ, có hai mô hình để team cân nhắc.
+
+### Phương án A — Một NFT đại diện cho một công trình
+
+> Team mint một CIP-68 NFT cho mỗi công trình. User token có thể được bán hoặc đấu giá cho một nhà tài trợ chính. NFT đóng vai trò chứng nhận tài trợ và link tới dữ liệu sản lượng của công trình.
+>
+> Mô hình này đơn giản nhưng mỗi công trình chỉ có một người giữ NFT tại một thời điểm. Team cũng phải quy định rõ rằng NFT mang ý nghĩa ghi nhận đóng góp, không phải quyền sở hữu tấm pin, sản lượng điện hoặc doanh thu của công trình.
+
+### Phương án B — Tách Site NFT và Supporter NFT
+
+> Đây là phương án tôi khuyến nghị nếu dự án muốn huy động từ nhiều người.
+>
+> - `Site Identity NFT`: một asset cho mỗi công trình, giữ định danh và telemetry. Asset này không bán; quyền cập nhật thuộc multisig hoặc smart contract của dự án.
+> - `Supporter NFT`: nhiều NFT dành cho người đóng góp. Metadata của mỗi Supporter NFT link tới policy ID hoặc asset ID của Site Identity NFT.
+>
+> Cách tách này giúp team bán nhiều NFT để gây quỹ mà vẫn giữ quyền cập nhật dữ liệu kỹ thuật ổn định. Việc chuyển Supporter NFT giữa các ví không ảnh hưởng tới telemetry của công trình.
+
+### Cố vấn về minh bạch gây quỹ
+
+> Trang mint hoặc tài liệu gây quỹ nên công khai:
+>
+> - mục tiêu gọi vốn;
+> - số tiền dùng cho thiết bị, vận chuyển, lắp đặt và bảo trì;
+> - ví nhận quỹ;
+> - tiến độ triển khai;
+> - transaction hoặc bằng chứng chi tiêu phù hợp;
+> - điều người mua NFT thực sự nhận được.
+>
+> Không nên quảng bá NFT như một khoản đầu tư hoặc hứa lợi nhuận từ sản lượng điện nếu dự án chưa có cấu trúc pháp lý phù hợp. NFT nên được mô tả là chứng nhận đóng góp hoặc vật phẩm cộng đồng. Team cũng cần kiểm tra yêu cầu pháp lý và thuế tại nơi tổ chức gây quỹ trước khi bán công khai.
+
+---
+
+## 15:30–17:00 — Team phản hồi và thống nhất hướng thử nghiệm
+
+### Điều phối
+
+> Cảm ơn phần tư vấn. Team dự án đánh giá hướng nào phù hợp nhất cho giai đoạn thử nghiệm?
+
+### Đại diện team dự án
+
+> Hướng tư vấn phù hợp với nhu cầu của chúng tôi. Trước mắt, team sẽ chọn một công trình pilot và xác định cách đọc dữ liệu từ inverter hoặc smart meter.
+>
+> Team đồng ý thử nghiệm kiến trúc gateway gửi dữ liệu về backend, tổng hợp sản lượng theo ngày, lưu hash của dữ liệu chi tiết lên Cardano và liên kết bản tổng hợp với CIP-68 Site Identity NFT.
+>
+> Đối với gây quỹ, team sẽ nghiên cứu mô hình tách Site Identity NFT và Supporter NFT để nhiều người có thể đóng góp mà không ảnh hưởng tới quyền cập nhật telemetry.
+
+### Cố vấn
+
+> Tôi đề nghị pilot chỉ cần chứng minh một luồng hoàn chỉnh:
+>
+> 1. đọc dữ liệu từ một thiết bị hoặc simulator;
+> 2. tạo một bản tổng hợp theo ngày;
+> 3. tạo hash cho file telemetry;
+> 4. cập nhật CIP-68 datum trên Cardano preprod;
+> 5. hiển thị dữ liệu và transaction trên một trang công khai.
+>
+> Sau khi luồng này hoạt động ổn định, team mới mở rộng sang nhiều công trình và xây dựng chiến dịch Supporter NFT.
+
+---
+
+## 17:00–18:00 — Chốt action items
+
+### Điều phối
+
+> Em xin tóm tắt kết quả buổi meet.
+>
+> Team dự án đã trình bày bài toán triển khai điện mặt trời từ thiện, nhu cầu minh bạch sản lượng điện và mong muốn gây quỹ bằng NFT.
+>
+> Cố vấn đề xuất kiến trúc gồm thiết bị đo, gateway, telemetry backend, lớp tổng hợp dữ liệu, Cardano và CIP-68. Dữ liệu chi tiết không được ghi từng mẫu lên blockchain; hệ thống lưu bản tổng hợp, URI và hash để giảm chi phí nhưng vẫn kiểm chứng được.
+>
+> Hai bên thống nhất hướng pilot là một công trình, dữ liệu tổng hợp theo ngày và một CIP-68 Site Identity NFT trên Cardano preprod. Mô hình Supporter NFT sẽ được nghiên cứu cho giai đoạn gây quỹ.
+
+### Action items hiển thị trên màn hình
+
+| Việc cần làm | Người phụ trách | Kết quả mong đợi |
+| --- | --- | --- |
+| Xác định inverter/smart meter và giao thức lấy dữ liệu | Team dự án | Datasheet hoặc API/Modbus mapping |
+| Chọn 4–6 chỉ số telemetry cho pilot | Team dự án + cố vấn | Schema dữ liệu được thống nhất |
+| Thiết kế payload và quy tắc tổng hợp theo ngày | Cố vấn/HTLabs | Ví dụ JSON và validation rules |
+| Thử nghiệm CIP-68 Site Identity NFT trên Cardano preprod | Team kỹ thuật | Mint transaction và một datum update |
+| Thiết kế mô hình Supporter NFT và công khai mục đích sử dụng quỹ | Team dự án | Draft fundraising model |
+
+### Điều phối kết thúc
+
+> Cảm ơn team dự án và cố vấn. Buổi meet đã cung cấp một hướng kiến trúc cụ thể và action plan để team tiếp tục thử nghiệm. Video và phần tóm tắt sẽ được công khai trong hồ sơ Milestone 4 của Project Catalyst project 1300008.
+
+---
+
+# 5. Tài liệu nên xuất hiện trong video
+
+Để video tự nó đủ sức chứng minh hoạt động collaboration, nên share lần lượt ba slide:
+
+1. **Project problem:** mục tiêu từ thiện, mô hình công trình điện mặt trời, thông số có thể thu thập và vấn đề minh bạch.
+2. **Proposed architecture:** sơ đồ Inverter → Gateway → Backend → Cardano → CIP-68 → Dashboard.
+3. **Decision and action plan:** hướng pilot và người phụ trách.
+
+Video cần ghi được:
+
+- tên và vai trò của đại diện hai bên;
+- xác nhận đồng ý ghi hình;
+- team dự án tự trình bày bài toán;
+- cố vấn hướng dẫn kiến trúc cụ thể;
+- liên hệ với kinh nghiệm IoT1, IoT3 và IoT5 của HTLabs;
+- team dự án xác nhận hướng tư vấn hữu ích và chấp nhận action plan.
+
+## Link tham chiếu dùng khi share màn hình
+
+- [IoT1 — DHT22 sensor data store](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot1-sensor-data-store)
+- [IoT3 — Vending machine payment monitor](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot3-vending-machines)
+- [IoT5 — CIP-68 QR supply-chain traceability](https://github.com/htlabs-xyz/cardano-iot-example/tree/master/iot5-qr-code-traceability)
+- [Official CIP-68 specification](https://cips.cardano.org/cip/CIP-68)
+
+---
+
+# 6. Đoạn PoA tiếng Anh sau khi buổi meet hoàn thành
+
+Chỉ điền và sử dụng phần này sau khi có video thật:
+
+> **Output: Technical collaboration with a charitable solar-energy project**
+>
+> HTLabs held a recorded technical advisory meeting with `[PARTNER PROJECT]`, a project that manufactures, deploys, and installs charitable solar-energy systems in underserved areas. The project team presented its need to make solar production data verifiable and to explore NFT-based fundraising.
+>
+> The Cardano advisor proposed an architecture in which an inverter or smart meter sends telemetry through an authenticated IoT gateway to an off-chain aggregation service. Detailed readings remain in a data store, while daily energy summaries, a data URI, and a content hash are recorded through a CIP-68 reference NFT on Cardano. This design applies lessons from HTLabs' IoT1 sensor-data, IoT3 embedded-connectivity, and IoT5 CIP-68 traceability templates.
+>
+> The advisor also recommended separating the project-controlled operational identity of each solar site from transferable Supporter NFTs. This allows the project to raise funds from multiple contributors without transferring the authority that updates technical telemetry.
+>
+> The participants agreed to build a pilot for one solar site on Cardano preprod, using daily energy summaries and a CIP-68 Site Identity NFT.
+>
+> **Evidence:** Recorded technical collaboration meeting: `[PUBLIC VIDEO URL]`
+
+# 7. Quality gate trước khi công khai video
+
+- [ ] Buổi meet nằm trong khoảng 15–20 phút.
+- [ ] Tên dự án đối tác và người tham gia là thông tin thật.
+- [ ] Tất cả người tham gia xác nhận đồng ý ghi hình.
+- [ ] Team dự án trình bày bài toán bằng lời của chính họ.
+- [ ] Thông số thiết bị và giao thức kết nối phản ánh đúng thiết bị dự kiến sử dụng.
+- [ ] Cố vấn không tuyên bố dữ liệu đã lên Cardano nếu mới chỉ đề xuất kiến trúc.
+- [ ] Video hiển thị kiến trúc và action plan.
+- [ ] Không lộ mnemonic, private key, API key hoặc thông tin cá nhân của người thụ hưởng.
+- [ ] NFT được mô tả rõ là chứng nhận đóng góp/vật phẩm cộng đồng, không phải cam kết lợi nhuận.
+- [ ] Link video mở được ở chế độ công khai.

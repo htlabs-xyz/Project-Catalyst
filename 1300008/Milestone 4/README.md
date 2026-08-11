@@ -1,50 +1,100 @@
-# Proof of Achievement — Final Milestone
+# Milestone 4 PoA — Submission Preparation
+
+> **Status: NOT READY FOR SUBMISSION.** This file prepares the required format and identifies missing evidence. It must not be presented as a completed PoA until every `MISSING` item below has a public link.
 
 | Project | [HTLABS] 5 Project Templates Combining Blockchain and Internet of Things |
 |---|---|
 | Project ID | 1300008 |
 | Milestone | Final Milestone — Community Engagement and Impact Assessment |
 | Project page | https://milestones.projectcatalyst.io/projects/1300008 |
-| Evidence checked | 2026-08-11 |
 
-## Submission summary
+## Required submission format
 
-This submission provides public evidence for the final-milestone outputs: two detailed community posts; visible discussion and maintainer clarifications; support and follow-up improvements in the open-source IoT/Cardano repository; and a final close-out report with a summary video.
+Use the following four evidence blocks in the Catalyst submission. Replace every `MISSING` placeholder with the final public URL before submitting.
 
-## Evidence of milestone completion
+### 1. Two published posts and documented feedback
 
-| # | Required output | Evidence | Result |
-|---:|---|---|---|
-| 1 | Publish two detailed posts and document public feedback | [Post 1 — DEV Community](https://dev.to/hugnt/the-intersection-of-the-real-world-and-blockchain-why-iot-needs-a-decentralized-shield-2lil)<br>[Post 1 — Daily.dev](https://daily.dev/posts/the-intersection-of-the-real-world-and-blockchain-why-iot-needs-a-decentralized-shield-40segiqpq)<br>[Post 2 — DEV Community](https://dev.to/hugnt/5-open-source-templates-bridging-blockchain-and-the-physical-world-3k73)<br>[Post 2 — Daily.dev](https://daily.dev/posts/8oT0dZy84) | Two detailed public posts explain the project, the IoT/Cardano problem space, all five templates, and the public repository. The DEV pages preserve comments and author replies. |
-| 2 | Participate in forum and repository discussions, answer questions and clarifications | [DEV discussion on IoT data batching](https://dev.to/hugnt/the-intersection-of-the-real-world-and-blockchain-why-iot-needs-a-decentralized-shield-2lil)<br>[DEV discussion on UTxO contention and API scalability](https://dev.to/hugnt/5-open-source-templates-bridging-blockchain-and-the-physical-world-3k73)<br>[GitHub Issue #35 and maintainer reply](https://github.com/htlabs-xyz/cardano-iot-example/issues/35#issuecomment-4884940029)<br>[GitHub Issue #36 and maintainer reply](https://github.com/htlabs-xyz/cardano-iot-example/issues/36#issuecomment-4884919361) | Public author/maintainer responses address batching, concurrent smart-lock actions, production API scaling, and mnemonic security. |
-| 3 | Collaborate with **other** IoT or blockchain projects by offering assistance, support, or solutions | [Collaboration evidence required — see note below](#external-collaboration-evidence-required) | The linked issues and pull requests in this repository demonstrate internal community support and follow-up improvements. They do **not**, on their own, demonstrate collaboration with a separate IoT or blockchain project. |
-| 4 | Publish final report and video summarizing achievements, challenges, and impact | [Final close-out report](./final-report.md)<br>[Final impact video — 30 seconds](./media/milestone-4-final-impact.mp4)<br>[Five technical demonstration videos](https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%202) | The report summarizes deliverables, public engagement, discussion-led improvements, challenges, and ecosystem impact. The video provides a concise public close-out summary; five linked demos provide implementation-level evidence. |
+**Status: EVIDENCE AVAILABLE — engagement screenshots still required.**
 
-## Public project evidence
+| Post | Publication links | Feedback evidence to attach |
+|---|---|---|
+| The Intersection of the Real World and Blockchain: Why IoT Needs a Decentralized Shield | [DEV Community](https://dev.to/hugnt/the-intersection-of-the-real-world-and-blockchain-why-iot-needs-a-decentralized-shield-2lil)<br>[Daily.dev](https://daily.dev/posts/the-intersection-of-the-real-world-and-blockchain-why-iot-needs-a-decentralized-shield-40segiqpq) | `MISSING: screenshot(s) showing reactions, comments, shares/upvotes and capture date` |
+| 5 Open-Source Templates Bridging Blockchain and the Physical World | [DEV Community](https://dev.to/hugnt/5-open-source-templates-bridging-blockchain-and-the-physical-world-3k73)<br>[Daily.dev](https://daily.dev/posts/8oT0dZy84) | `MISSING: screenshot(s) showing reactions, comments, shares/upvotes and capture date` |
 
-| Evidence type | Link |
+**Catalyst submission wording — draft:**
+
+> Two detailed posts were published on DEV Community and syndicated to Daily.dev. The posts present the IoT/Cardano problem space, explain the five open-source templates and their outcomes, and invite public technical feedback. The links above provide the published content; the attached dated screenshots document the corresponding reactions and discussion activity.
+
+### 2. Active discussion and maintainer responses
+
+**Status: PUBLIC LINKS AVAILABLE — select representative replies and capture screenshots.**
+
+| Discussion | Public evidence | What it demonstrates |
+|---|---|---|
+| DEV discussion threads | [Post 1 discussion](https://dev.to/hugnt/the-intersection-of-the-real-world-and-blockchain-why-iot-needs-a-decentralized-shield-2lil)<br>[Post 2 discussion](https://dev.to/hugnt/5-open-source-templates-bridging-blockchain-and-the-physical-world-3k73) | Public questions and author replies about project use cases and implementation considerations. |
+| Production API scaling | [Issue #35 and maintainer response](https://github.com/htlabs-xyz/cardano-iot-example/issues/35#issuecomment-4884940029) | Guidance on Blockfrost limits and production use of custom RPC or Ogmios/Kupo. |
+| Physical-device mnemonic security | [Issue #36 and maintainer response](https://github.com/htlabs-xyz/cardano-iot-example/issues/36#issuecomment-4884919361) | Clarification and production recommendations for protecting secrets on IoT devices. |
+
+**Still needed:**
+
+- `MISSING: 2–4 dated screenshots showing the question and HTLABS reply together.`
+- `MISSING: one short paragraph summarizing what community feedback changed or clarified.`
+
+### 3. Collaboration with another IoT or blockchain project
+
+**Status: MISSING — do not substitute internal HTLABS issues/PRs.**
+
+A valid evidence package should document one real external collaboration:
+
+| Required item | What the user must provide |
 |---|---|
-| Source code for all five templates | https://github.com/htlabs-xyz/cardano-iot-example |
-| Architecture, deployment, and demo evidence | https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%202 |
-| Testing, issue-resolution, and performance evidence | https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%203 |
-| Final close-out report | [final-report.md](./final-report.md) |
-| Final impact video | [milestone-4-final-impact.mp4](./media/milestone-4-final-impact.mp4) |
+| External project identity | `MISSING: project name, public project URL, and one-sentence description showing it is an IoT or blockchain project` |
+| Challenge faced by that project | `MISSING: public issue/discussion link, or meeting timestamp/notes where the challenge is stated` |
+| HTLABS assistance/support/solution | `MISSING: meeting-video timestamp, public comment, technical recommendation, code review, document, or pull request showing HTLABS' contribution` |
+| Outcome or acknowledgement | `MISSING: partner reply, meeting conclusion, merged PR, follow-up message, or agreed next step` |
+| Meeting evidence, if used | `MISSING: publicly accessible video URL, meeting date, participant/project names, agenda, and timestamps for challenge → advice → outcome` |
 
-## External collaboration evidence required
+**Meeting-video format:**
 
-To satisfy the separate-project collaboration criterion, add at least one public evidence chain from a distinct IoT or blockchain project:
+```text
+External project: <PROJECT NAME>
+Project URL: <PUBLIC URL>
+Meeting date: <YYYY-MM-DD>
+Meeting video: <PUBLIC VIDEO URL>
+Participants: <NAMES / ROLES>
+Challenge discussed: <SHORT DESCRIPTION>
+HTLABS assistance: <SHORT DESCRIPTION>
+Outcome / next step: <SHORT DESCRIPTION>
+Evidence timestamps:
+- <HH:MM:SS> — external project explains the challenge
+- <HH:MM:SS> — HTLABS provides guidance or a solution
+- <HH:MM:SS> — partner confirms usefulness, decision, or next step
+```
 
-1. a permalink to that project’s issue, discussion, pull request, or public forum thread describing its challenge;
-2. a permalink to HTLABS’ assistance, recommendation, code review, pull request, or technical response; and
-3. a public follow-up showing the assistance was considered, adopted, or otherwise useful.
+**Catalyst submission wording — template:**
 
-The current project-repository issues and pull requests remain valid evidence for community support and technical improvement, but they must not be represented as external-project collaboration.
+> HTLABS collaborated with **<EXTERNAL PROJECT>**, an IoT/blockchain project working on **<AREA>**. During the recorded meeting on **<DATE>**, the project described **<CHALLENGE>** at **<TIMESTAMP>**. HTLABS provided **<ASSISTANCE OR SOLUTION>** at **<TIMESTAMP>**. The discussion concluded with **<OUTCOME OR NEXT STEP>** at **<TIMESTAMP>**. The public project link, meeting recording, and supporting follow-up records are provided above.
 
-## Acceptance-criteria mapping
+### 4. Final close-out report and video
 
-| Acceptance criterion | Evidence in this submission |
+**Status: REPORT DRAFT AVAILABLE; FINAL VIDEO MISSING.**
+
+| Deliverable | Current status |
 |---|---|
-| At least two detailed posts on relevant forums/platforms | The two DEV Community posts and their Daily.dev syndications are linked in row 1. |
-| Active participation in forum and GitHub discussions | Public DEV replies and GitHub Issue #35/#36 maintainer responses are linked in row 2. |
-| Collaboration with a separate IoT or blockchain project | **Pending external evidence.** Add the three-link evidence chain described above before representing this criterion as complete. |
-| Final close-out report and video | [`final-report.md`](./final-report.md) and [`milestone-4-final-impact.mp4`](./media/milestone-4-final-impact.mp4) are linked in row 4. |
+| Final close-out report | [Draft report](./final-report-draft.md) — update it with the external collaboration details and final measured engagement before publishing as final. |
+| Final close-out video | `MISSING: final public video URL` |
+| Five technical demos | [Milestone 2 technical evidence](https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%202) |
+
+The final video should summarize project achievements, challenges and impact; it should not be only a text slide. Use the production format in [`submission-checklist.md`](./submission-checklist.md).
+
+## Final readiness checklist
+
+- [x] Two detailed posts are publicly accessible.
+- [ ] Engagement screenshots are captured and uploaded publicly.
+- [x] DEV and GitHub discussion links are available.
+- [ ] Representative discussion screenshots are captured.
+- [ ] External IoT/blockchain collaboration evidence is supplied.
+- [ ] Meeting video is public and includes timestamps, participants and outcome.
+- [ ] Final report draft is updated with measured evidence and external collaboration.
+- [ ] Final close-out video is produced and published.
+- [ ] Every `MISSING` placeholder in this file is replaced.

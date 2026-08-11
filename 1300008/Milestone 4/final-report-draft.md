@@ -1,4 +1,6 @@
-# Final Close-out Report — Project 1300008
+# Final Close-out Report Draft — Project 1300008
+
+> **DRAFT — NOT READY FOR SUBMISSION.** Add the dated engagement evidence, external-project collaboration details, meeting-video timestamps, outcome/acknowledgement, and final close-out video URL before publishing this as the completed report.
 
 ## Overview
 
@@ -58,8 +60,10 @@ The project’s public discussions also surface practical production considerati
 
 ## Final video
 
-The accompanying [`media/milestone-4-final-impact.mp4`](./media/milestone-4-final-impact.mp4) is a short close-out video that summarizes the five templates, public engagement, discussion-led improvements, and the final impact of the project. The five linked technical demo videos above provide the implementation-level demonstrations.
+`MISSING: public final close-out video URL.`
+
+The final video should be 2–4 minutes and use actual demo footage/screenshots, post and discussion evidence, external-collaboration meeting excerpts, challenges, outcomes and impact. See [`submission-checklist.md`](./submission-checklist.md) for the required production format. The five linked technical demo videos above provide implementation-level source material but do not replace the final close-out summary.
 
 ## Conclusion
 
-The project has published its five templates and supporting material, invited and answered public implementation questions, and recorded follow-up improvements in the open-source repository. Together with the linked final video, this report provides the close-out summary for the final milestone.
+`MISSING: finalize this section after external collaboration evidence and the final video are available.`

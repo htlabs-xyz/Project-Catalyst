@@ -40,7 +40,11 @@ The project’s public GitHub discussions resulted in concrete documentation and
 | NFC tag-cloning risk | [Issue #39](https://github.com/htlabs-xyz/cardano-iot-example/issues/39) | [PR #41](https://github.com/htlabs-xyz/cardano-iot-example/pull/41) added Ed25519 signature verification. |
 | Authority-takeover risk | [Issue #37](https://github.com/htlabs-xyz/cardano-iot-example/issues/37) | [PR #42](https://github.com/htlabs-xyz/cardano-iot-example/pull/42) enforced authority immutability by reading the actual output UTxO datum. |
 
-These records show a public feedback loop: questions and security/implementation concerns were documented, clarified, and—in three cases—addressed with merged changes.
+These records show a public feedback loop within the project’s own open-source repository: questions and security/implementation concerns were documented, clarified, and—in three cases—addressed with merged changes.
+
+## External collaboration status
+
+The repository discussions above demonstrate community support and project-level follow-up, but they are not evidence of collaboration with a separate IoT or blockchain project. A complete external-collaboration claim requires a public evidence chain from the other project: its challenge, HTLABS’ support or solution, and a follow-up showing the interaction or outcome. This report does not make that claim until those records are linked.
 
 ## Impact
 

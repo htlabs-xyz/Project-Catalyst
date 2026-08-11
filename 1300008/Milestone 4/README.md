@@ -1,81 +1,33 @@
-# Proof of Achievement for Milestone 4
+# Proof of Achievement — Final Milestone
 
-| **Project Name** | [HTLABS] 5 Project Templates Combining Blockchain and Internet of Things    |
-| ---------------- | --------------------------------------------------------------------------- |
-| **Project ID**   | 1300008                                                                     |
-| **Link**         | [Open full project](https://milestones.projectcatalyst.io/projects/1300008) |
+| Project | [HTLABS] 5 Project Templates Combining Blockchain and Internet of Things |
+|---|---|
+| Project ID | 1300008 |
+| Milestone | Final Milestone — Community Engagement and Impact Assessment |
+| Project page | https://milestones.projectcatalyst.io/projects/1300008 |
+| Evidence checked | 2026-08-11 |
 
----
+## Evidence table
 
-## **Overview**
+| # | Milestone requirement | Public evidence | What the evidence demonstrates |
+|---:|---|---|---|
+| 1 | Two detailed posts published on relevant public platforms, with community discussion | 1. [The Intersection of the Real World and Blockchain: Why IoT Needs a Decentralized Shield](https://dev.to/hugnt/the-intersection-of-the-real-world-and-blockchain-why-iot-needs-a-decentralized-shield-2lil)<br>2. [5 Open-Source Templates Bridging Blockchain and the Physical World](https://dev.to/hugnt/5-open-source-templates-bridging-blockchain-and-the-physical-world-3k73) | Both posts are publicly accessible on DEV Community. They introduce the project, explain the IoT/Cardano problem space, describe all five templates, link to the open-source repository, and contain public discussion threads with author replies. |
+| 2 | Participate in discussions and provide clarifications | 1. [Issue #35 — Blockfrost Rate Limits and Local Node Support](https://github.com/htlabs-xyz/cardano-iot-example/issues/35) · [maintainer response](https://github.com/htlabs-xyz/cardano-iot-example/issues/35#issuecomment-4884940029)<br>2. [Issue #36 — Securing Mnemonic Storage on Physical Devices](https://github.com/htlabs-xyz/cardano-iot-example/issues/36) · [maintainer response](https://github.com/htlabs-xyz/cardano-iot-example/issues/36#issuecomment-4884919361) | The maintainer (`hugnt`) responded publicly to questions about production API scalability and physical-device mnemonic security, explaining the educational scope of the templates and the recommended production direction. |
+| 3 | Make the project and implementation material available to developers | [Source repository — htlabs-xyz/cardano-iot-example](https://github.com/htlabs-xyz/cardano-iot-example)<br>[Milestone 2 architecture, demos, and deployment evidence](https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%202)<br>[Milestone 3 test and optimization evidence](https://github.com/htlabs-xyz/Project-Catalyst/tree/main/1300008/Milestone%203) | The public repository contains the five IoT/Cardano templates. The preceding milestone folders provide architecture documentation, source/deployment references, testing logs, issue-resolution notes, performance evidence, and demonstration-video links. |
+| 4 | Demonstrate the five delivered templates | [IoT1 — DHT22 sensor data](https://youtu.be/khH-3ZzBanU)<br>[IoT2 — Smart-lock state sync](https://youtu.be/8k02ehV1r7Q)<br>[IoT3 — Vending machine](https://youtu.be/L75_IOXbAu0)<br>[IoT4 — NFC identity](https://youtu.be/79a9eahkA5k)<br>[IoT5 — QR supply-chain traceability](https://youtu.be/h_saOa3uWoo) | Five public technical demonstration videos correspond to the five open-source templates. |
 
-This milestone focuses on **community engagement, knowledge sharing, and impact assessment** for the 5 IoT–Cardano integration templates.  
-The objective was to promote the project within the wider blockchain and IoT communities, foster open collaboration, and evaluate the real-world influence and educational value of the developed templates.
+## Project impact summary
 
-Deliverables completed and verified in this milestone include:
+This project publishes reusable templates that connect physical IoT workflows with Cardano infrastructure:
 
-1. **Community Posts and Discussions** — Two detailed public posts introducing the project, its goals, and outcomes, published on relevant developer platforms.
-2. **Collaboration and Support Activities** — Active engagement and contribution to other IoT and blockchain projects, offering technical guidance and collaboration.
-3. **Final Report and Impact Video** — Comprehensive summary of project achievements, challenges, and overall impact on the Cardano ecosystem.
+1. DHT22 sensor data logging;
+2. Smart-lock state synchronization;
+3. ESP32 vending-machine payment notification;
+4. NFC identity verification; and
+5. QR-code supply-chain traceability.
 
-All deliverables were successfully completed and verified in alignment with the acceptance criteria.
+The final milestone focused on making this work discoverable, inviting technical feedback, and responding to implementation and operational questions in public. The discussions above cover two practical production considerations: API rate limits/local-node options and protecting wallet mnemonics on physical devices.
 
----
+## Scope note
 
-## **1. Published Community Posts**
-
-Two in-depth posts were published on major developer and Cardano community platforms — including **forum.cardano.org**, **Medium**, and **Dev.to**.  
-Each post provided an overview of the project’s technical journey, achievements, and insights gained during development.  
-Community members engaged actively through comments, likes, and shares, showing strong interest in IoT–Cardano integrations.
-
-| **Platform**  | **Post Link**  | **Engagement Evidence** |
-| ------------- | -------------- | ----------------------- |
-| Cardano Forum | [View Post](#) | [View Feedback](#)      |
-| Medium        | [View Post](#) | [View Feedback](#)      |
-
-Each post includes screenshots, engagement statistics, and a short summary of feedback trends.
-
----
-
-## **2. Community Discussions and Collaboration**
-
-The team actively participated in technical discussions on both the **Cardano Forum** and **GitHub repositories**.  
-Feedback from developers and community members was addressed through Q&A, clarifications, and open discussions around technical implementation and IoT–blockchain synchronization.
-
-In addition, we collaborated with other blockchain and IoT projects facing data integrity and scalability challenges — providing guidance and sharing best practices derived from our prototypes.
-
-| **Activity**         | **Evidence Link**            | **Details**                                          |
-| -------------------- | ---------------------------- | ---------------------------------------------------- |
-| Forum Discussions    | [View Discussions](#)        | Responses to technical inquiries and clarifications. |
-| GitHub Collaboration | [View Repository Threads](#) | Provided guidance on integration and optimization.   |
-| IoT Project Support  | [View Record](#)             | Shared code examples and troubleshooting guidance.   |
-
----
-
-## **3. Final Report and Impact Video**
-
-A final **summary report** and **impact video** were prepared to conclude the milestone and project cycle.  
-These materials highlight the project’s outcomes, technical challenges overcome, lessons learned, and the broader community impact achieved through open collaboration.
-
-| **Deliverable** | **Link**           |
-| --------------- | ------------------ |
-| Final Report    | [View Document](#) |
-| Impact Video    | [Watch Video](#)   |
-
-The final materials are publicly available for community review and educational use.
-
----
-
-## ✅ **Milestone Summary**
-
-| **Acceptance Criteria**                                      | **Result** |
-| ------------------------------------------------------------ | ---------- |
-| Two detailed posts published with engagement evidence        | ✅         |
-| Active participation in community and repository discussions | ✅         |
-| Collaboration with IoT and blockchain projects               | ✅         |
-| Final report and video summarizing project achievements      | ✅         |
-
-All milestone outputs were completed, reviewed, and approved.  
-This milestone demonstrates strong community outreach and measurable impact, fulfilling the project’s engagement and dissemination objectives.
-
----
+This document links only to public, directly verifiable material. The two DEV Community posts, GitHub issue threads, source repository, prior-milestone evidence, and technical demo videos can be reviewed directly from the URLs above. Any claimed collaboration with a separate IoT or blockchain project, or a standalone final impact video, should be added only when there is a public URL that independently documents it.

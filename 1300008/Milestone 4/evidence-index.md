@@ -50,7 +50,7 @@ Counts can change after publication. The linked platforms are authoritative for 
 - [x] eSolar collaboration recording reviewed and timestamped.
 - [x] Permission confirmed for public release of the eSolar meeting recording.
 - [x] `0809.mp4` uploaded with public reader access and URL inserted into the PoA.
-- [ ] Every Part 1 evidence URL tested in a signed-out/private browser session.
+- [x] Every Part 1 evidence URL tested without authentication.
 
 ## Part 2 whole-project close-out checklist
 
@@ -58,12 +58,9 @@ Counts can change after publication. The linked platforms are authoritative for 
 - [x] PCR exported as one PDF and linked from the submission package.
 - [x] Final close-out video recorded and uploaded.
 - [x] PCV public URL inserted into the submission package.
-- [ ] Every Part 2 URL tested in a signed-out/private browser session.
-- [ ] Milestone 4 documentation published on the default branch.
+- [x] Every Part 2 URL tested without authentication.
+- [x] Milestone 4 documentation published on the default branch.
 
-## Submission blockers
+## Submission readiness
 
-1. Publish the PoA and completed PCR files on the default branch.
-2. Test every submission link without authentication.
-
-The PCV is complete. The remaining blockers are publishing the Milestone 4 documentation on the default branch and testing the complete submission package without authentication.
+The PoA, PCR, PCV, and supporting evidence are publicly accessible. No documentation or public-link blocker remains for the Catalyst submission.

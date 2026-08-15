@@ -19,10 +19,7 @@ The eSolar recording belongs to Part 1 as evidence of external IoT/blockchain co
 
 ## Submission readiness
 
-Part 1 PoA evidence is assembled and the eSolar collaboration recording is confirmed for public use. The whole-project PCR is complete in both Markdown and PDF formats, and the PCV is publicly available on YouTube. Before submitting the complete close-out package:
-
-1. publish the PoA and PCR files on the default branch; and
-2. test the public evidence links without authentication.
+Part 1 PoA evidence is assembled and the eSolar collaboration recording is confirmed for public use. The whole-project PCR is complete in both Markdown and PDF formats, and the PCV is publicly available on YouTube. The complete documentation package is published on the default branch, and its public evidence links were tested without authentication on 2026-08-15.
 
 ## Part 1 — Milestone 4 Proof of Achievement
 

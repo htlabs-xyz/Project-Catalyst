@@ -1,81 +1,98 @@
-# Proof of Achievement for Milestone 4
+# Milestone 4 Proof of Achievement and Project Close-out
 
-| **Project Name** | [HTLABS] 5 Project Templates Combining Blockchain and Internet of Things    |
-| ---------------- | --------------------------------------------------------------------------- |
-| **Project ID**   | 1300008                                                                     |
-| **Link**         | [Open full project](https://milestones.projectcatalyst.io/projects/1300008) |
+| **Project Name** | [HTLABS] 5 Project Templates Combining Blockchain and Internet of Things |
+| --- | --- |
+| **Project ID** | 1300008 |
+| **Challenge** | F13: Cardano Open: Developers |
+| **Milestone** | 4 — Community Engagement and Impact Assessment |
+| **Project page** | [Project Catalyst Milestone Module](https://milestones.projectcatalyst.io/projects/1300008) |
+| **Source repository** | [htlabs-xyz/cardano-iot-example](https://github.com/htlabs-xyz/cardano-iot-example) |
 
----
+## Submission structure
 
-## **Overview**
+The final-milestone submission contains two distinct parts:
 
-This milestone focuses on **community engagement, knowledge sharing, and impact assessment** for the 5 IoT–Cardano integration templates.  
-The objective was to promote the project within the wider blockchain and IoT communities, foster open collaboration, and evaluate the real-world influence and educational value of the developed templates.
+1. **Milestone 4 Proof of Achievement (PoA):** evidence for the three Milestone 4 activities—publishing two posts and documenting feedback, engaging in forum and GitHub discussions, and supporting another IoT/blockchain project.
+2. **Whole-project close-out:** the Project Completion Report (PCR) and Project Completion Video (PCV), which summarize the achievements, challenges, and impact of project 1300008 across all four milestones.
 
-Deliverables completed and verified in this milestone include:
+The eSolar recording belongs to Part 1 as evidence of external IoT/blockchain collaboration. It is not the PCV. Part 2 follows the official [Project Completion Report and Video Requirements](https://docs.projectcatalyst.io/current-fund/general-information/project-completion-report-and-video-requirements).
 
-1. **Community Posts and Discussions** — Two detailed public posts introducing the project, its goals, and outcomes, published on relevant developer platforms.
-2. **Collaboration and Support Activities** — Active engagement and contribution to other IoT and blockchain projects, offering technical guidance and collaboration.
-3. **Final Report and Impact Video** — Comprehensive summary of project achievements, challenges, and overall impact on the Cardano ecosystem.
+## Submission readiness
 
-All deliverables were successfully completed and verified in alignment with the acceptance criteria.
+Part 1 PoA evidence is assembled and the eSolar collaboration recording is confirmed for public use. The whole-project PCR is complete in both Markdown and PDF formats, with the confirmed Project Manager and Project Completion Date. Before submitting the PoA and PCR together:
 
----
+1. publish the PoA and PCR files on the default branch; and
+2. test the public evidence links without authentication.
 
-## **1. Published Community Posts**
+The Project Completion Video is a separate next step and is not a dependency of the completed PCR.
 
-Two in-depth posts were published on major developer and Cardano community platforms — including **forum.cardano.org**, **Medium**, and **Dev.to**.  
-Each post provided an overview of the project’s technical journey, achievements, and insights gained during development.  
-Community members engaged actively through comments, likes, and shares, showing strong interest in IoT–Cardano integrations.
+## Part 1 — Milestone 4 Proof of Achievement
 
-| **Platform**  | **Post Link**  | **Engagement Evidence** |
-| ------------- | -------------- | ----------------------- |
-| Cardano Forum | [View Post](#) | [View Feedback](#)      |
-| Medium        | [View Post](#) | [View Feedback](#)      |
+### 1. Community posts and feedback
 
-Each post includes screenshots, engagement statistics, and a short summary of feedback trends.
+HTLABS published two detailed articles explaining the problem, the five open-source templates, the project outcomes, and ways for developers to contribute.
 
----
+| # | Article | Published | Public evidence | Engagement observed on 2026-08-13 |
+| --- | --- | --- | --- | --- |
+| 1 | The Intersection of the Real World and Blockchain: Why IoT Needs a Decentralized Shield | 2026-06-11 | [DEV Community](https://dev.to/hugnt/the-intersection-of-the-real-world-and-blockchain-why-iot-needs-a-decentralized-shield-2lil) · [daily.dev](https://daily.dev/posts/the-intersection-of-the-real-world-and-blockchain-why-iot-needs-a-decentralized-shield-40segiqpq) | DEV: 10 reactions, 9 comments; daily.dev: 6 upvotes, 7 comments |
+| 2 | 5 Open-Source Templates Bridging Blockchain and the Physical World | 2026-06-25 | [DEV Community](https://dev.to/hugnt/5-open-source-templates-bridging-blockchain-and-the-physical-world-3k73) · [daily.dev](https://daily.dev/posts/8oT0dZy84) | DEV: 9 reactions, 7 comments; daily.dev: 6 upvotes, 8 comments |
 
-## **2. Community Discussions and Collaboration**
+The project author replied to technical questions concerning transaction batching, offline sensor-data caching, concurrent smart-lock transactions, Blockfrost rate limits, and production use of Ogmios/Kupo. The replies are visible in the comment sections of the linked DEV articles.
 
-The team actively participated in technical discussions on both the **Cardano Forum** and **GitHub repositories**.  
-Feedback from developers and community members was addressed through Q&A, clarifications, and open discussions around technical implementation and IoT–blockchain synchronization.
+Engagement counters are time-sensitive. Reviewers should use the public pages as the current source of truth.
 
-In addition, we collaborated with other blockchain and IoT projects facing data integrity and scalability challenges — providing guidance and sharing best practices derived from our prototypes.
+### 2. GitHub discussions and contributions
 
-| **Activity**         | **Evidence Link**            | **Details**                                          |
-| -------------------- | ---------------------------- | ---------------------------------------------------- |
-| Forum Discussions    | [View Discussions](#)        | Responses to technical inquiries and clarifications. |
-| GitHub Collaboration | [View Repository Threads](#) | Provided guidance on integration and optimization.   |
-| IoT Project Support  | [View Record](#)             | Shared code examples and troubleshooting guidance.   |
+Community review produced five focused issues. HTLABS answered the two architecture/security questions, and four related pull requests were merged.
 
----
+| Evidence | Contribution and response |
+| --- | --- |
+| [Issue #35](https://github.com/htlabs-xyz/cardano-iot-example/issues/35) · [maintainer response](https://github.com/htlabs-xyz/cardano-iot-example/issues/35#issuecomment-4884940029) | Discussed Blockfrost rate limits and the Ogmios/Kupo production alternative while retaining a simple educational template. |
+| [Issue #36](https://github.com/htlabs-xyz/cardano-iot-example/issues/36) · [maintainer response](https://github.com/htlabs-xyz/cardano-iot-example/issues/36#issuecomment-4884919361) · [PR #43](https://github.com/htlabs-xyz/cardano-iot-example/pull/43) | Addressed mnemonic storage risk and added production guidance for secure elements/HSMs, encryption, key rotation, and least-privilege wallets. |
+| [Issue #37](https://github.com/htlabs-xyz/cardano-iot-example/issues/37) · [PR #42](https://github.com/htlabs-xyz/cardano-iot-example/pull/42) | Fixed an authority-immutability validation defect in the smart-lock contract. |
+| [Issue #38](https://github.com/htlabs-xyz/cardano-iot-example/issues/38) · [PR #40](https://github.com/htlabs-xyz/cardano-iot-example/pull/40) | Fixed sensor validation so valid zero temperature/humidity readings are not rejected. |
+| [Issue #39](https://github.com/htlabs-xyz/cardano-iot-example/issues/39) · [PR #41](https://github.com/htlabs-xyz/cardano-iot-example/pull/41) | Added an Ed25519-based mitigation for cloning NFC identity tags using public on-chain data. |
 
-## **3. Final Report and Impact Video**
+The complete repository record remains publicly accessible through the [issue list](https://github.com/htlabs-xyz/cardano-iot-example/issues?q=is%3Aissue) and [pull-request list](https://github.com/htlabs-xyz/cardano-iot-example/pulls?q=is%3Apr).
 
-A final **summary report** and **impact video** were prepared to conclude the milestone and project cycle.  
-These materials highlight the project’s outcomes, technical challenges overcome, lessons learned, and the broader community impact achieved through open collaboration.
+### 3. Collaboration with an IoT and blockchain project
 
-| **Deliverable** | **Link**           |
-| --------------- | ------------------ |
-| Final Report    | [View Document](#) |
-| Impact Video    | [Watch Video](#)   |
+On 2026-08-09, UniSolar/eSolar presented its solar-energy monitoring and community-funding problem to HTLABS. HTLABS reviewed the proposed IoT-to-Cardano data flow and provided concrete architecture guidance.
 
-The final materials are publicly available for community review and educational use.
+| Evidence | Link |
+| --- | --- |
+| Timestamped collaboration record and technical findings | [eSolar collaboration evidence](./esolar-collaboration-evidence.md) |
+| Public recording | [Watch the eSolar technical collaboration](https://drive.google.com/file/d/16ze6L9CDyMwMEuSroBZhdFmgpcd3iwxK/view?usp=sharing) |
 
----
+The session covers offline buffering for remote sites, gateway/device identity, encrypted telemetry, aggregation before on-chain publication, CIP-68 data updates, signing design, transaction cost/frequency, removal of unnecessary Web2 intermediaries, and maintenance risks in remote deployments.
 
-## ✅ **Milestone Summary**
+## Part 2 — Whole-project final report and video
 
-| **Acceptance Criteria**                                      | **Result** |
-| ------------------------------------------------------------ | ---------- |
-| Two detailed posts published with engagement evidence        | ✅         |
-| Active participation in community and repository discussions | ✅         |
-| Collaboration with IoT and blockchain projects               | ✅         |
-| Final report and video summarizing project achievements      | ✅         |
+| Deliverable | Evidence |
+| --- | --- |
+| Project Close-out Report (PCR) | [Final close-out report](./1300008-PCR-Final-Close-out-Report.md) |
+| Submission-format PCR | [Download the completed PDF](./1300008-PCR-Final-Close-out-Report.pdf) |
+| Project Close-out Video (PCV) | **PUBLIC URL REQUIRED** |
+| PCV recording script | [Final video script](./final-close-out-video-script.md) |
 
-All milestone outputs were completed, reviewed, and approved.  
-This milestone demonstrates strong community outreach and measurable impact, fulfilling the project’s engagement and dissemination objectives.
+The PCR and PCV summarize project achievements, implementation challenges, lessons learned, community activity, and impact across all four milestones. They are whole-project close-out deliverables, not additional evidence that the three Part 1 activities occurred.
 
----
+## Part 1 acceptance criteria mapping
+
+| Acceptance criterion | Status | Evidence |
+| --- | --- | --- |
+| At least two detailed posts published on relevant platforms | Complete | Two DEV articles and their daily.dev distributions in Section 1 |
+| Documented feedback such as comments, reactions, and shares | Complete | Public counters and comment threads linked in Section 1 |
+| Active participation in forum-post and GitHub discussions | Complete | Author replies on DEV; GitHub issues, responses, and merged PRs in Section 2 |
+| Assistance or solutions offered to an IoT/blockchain project | Complete | Timestamped eSolar session analysis and public recording in Section 3 |
+
+## Part 2 close-out status
+
+| Whole-project deliverable | Status | Evidence |
+| --- | --- | --- |
+| Project Completion Report | Complete | [PCR source](./1300008-PCR-Final-Close-out-Report.md) · [submission PDF](./1300008-PCR-Final-Close-out-Report.pdf) |
+| Project Completion Video | Pending | Record from the prepared script and publish a public URL |
+
+## Evidence index
+
+See [Milestone 4 Evidence Index](./evidence-index.md) for the complete evidence-to-criterion mapping and publication checklist.

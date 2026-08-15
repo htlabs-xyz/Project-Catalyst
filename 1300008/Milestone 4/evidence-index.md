@@ -22,13 +22,13 @@ The [community submission spreadsheet](https://docs.google.com/spreadsheets/d/1s
 | Deliverable | Scope | Evidence | Status |
 | --- | --- | --- | --- |
 | Project Completion Report | Achievements, challenges, and impact across Milestones 1–4 | [PCR source](./1300008-PCR-Final-Close-out-Report.md) · [submission PDF](./1300008-PCR-Final-Close-out-Report.pdf) | Complete |
-| Project Completion Video | Live walkthrough and close-out narrative for the whole project | [Recording script](./final-close-out-video-script.md) | Recording and public YouTube/Vimeo URL required |
+| Project Completion Video | Repository walkthrough and close-out narrative for the whole project | [Public YouTube video](https://youtu.be/SC56J4pWSfs) | Public and verified |
 
-The 22-minute eSolar recording is Part 1 collaboration evidence and must not be submitted as the whole-project PCV.
+The 22-minute eSolar recording is Part 1 collaboration evidence and must not be submitted as the whole-project PCV. The separate PCV is the public YouTube video linked above.
 
 ## Live verification notes
 
-Verification performed on 2026-08-13 established:
+Verification performed on 2026-08-13, with the PCV link checked on 2026-08-15, established:
 
 - both DEV articles are publicly readable;
 - the first article reports 10 reactions and 9 comments;
@@ -36,6 +36,7 @@ Verification performed on 2026-08-13 established:
 - the GitHub repository publicly lists five recent issues relevant to Milestone 4;
 - PRs #40–#43 are merged;
 - the repository displays three forks;
+- the Project Completion Video is publicly accessible on YouTube;
 - `0809.mp4` is a valid 22:08 MP4 recording with video and audio; and
 - the recording shows UniSolar/eSolar requesting and receiving technical architecture guidance from HTLABS.
 
@@ -55,8 +56,8 @@ Counts can change after publication. The linked platforms are authoritative for 
 
 - [x] Project Manager and Project Completion Date confirmed in PCR.
 - [x] PCR exported as one PDF and linked from the submission package.
-- [ ] Final close-out video recorded and uploaded.
-- [ ] PCV public URL inserted into the submission package.
+- [x] Final close-out video recorded and uploaded.
+- [x] PCV public URL inserted into the submission package.
 - [ ] Every Part 2 URL tested in a signed-out/private browser session.
 - [ ] Milestone 4 documentation published on the default branch.
 
@@ -65,4 +66,4 @@ Counts can change after publication. The linked platforms are authoritative for 
 1. Publish the PoA and completed PCR files on the default branch.
 2. Test every submission link without authentication.
 
-The Project Close-out Video remains the next deliverable, but it does not block completion of the PCR.
+The PCV is complete. The remaining blockers are publishing the Milestone 4 documentation on the default branch and testing the complete submission package without authentication.

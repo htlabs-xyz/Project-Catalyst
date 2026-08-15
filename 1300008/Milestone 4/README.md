@@ -19,12 +19,10 @@ The eSolar recording belongs to Part 1 as evidence of external IoT/blockchain co
 
 ## Submission readiness
 
-Part 1 PoA evidence is assembled and the eSolar collaboration recording is confirmed for public use. The whole-project PCR is complete in both Markdown and PDF formats, with the confirmed Project Manager and Project Completion Date. Before submitting the PoA and PCR together:
+Part 1 PoA evidence is assembled and the eSolar collaboration recording is confirmed for public use. The whole-project PCR is complete in both Markdown and PDF formats, and the PCV is publicly available on YouTube. Before submitting the complete close-out package:
 
 1. publish the PoA and PCR files on the default branch; and
 2. test the public evidence links without authentication.
-
-The Project Completion Video is a separate next step and is not a dependency of the completed PCR.
 
 ## Part 1 — Milestone 4 Proof of Achievement
 
@@ -72,8 +70,7 @@ The session covers offline buffering for remote sites, gateway/device identity, 
 | --- | --- |
 | Project Close-out Report (PCR) | [Final close-out report](./1300008-PCR-Final-Close-out-Report.md) |
 | Submission-format PCR | [Download the completed PDF](./1300008-PCR-Final-Close-out-Report.pdf) |
-| Project Close-out Video (PCV) | **PUBLIC URL REQUIRED** |
-| PCV recording script | [Final video script](./final-close-out-video-script.md) |
+| Project Close-out Video (PCV) | [Watch the public close-out video](https://youtu.be/SC56J4pWSfs) |
 
 The PCR and PCV summarize project achievements, implementation challenges, lessons learned, community activity, and impact across all four milestones. They are whole-project close-out deliverables, not additional evidence that the three Part 1 activities occurred.
 
@@ -91,7 +88,7 @@ The PCR and PCV summarize project achievements, implementation challenges, lesso
 | Whole-project deliverable | Status | Evidence |
 | --- | --- | --- |
 | Project Completion Report | Complete | [PCR source](./1300008-PCR-Final-Close-out-Report.md) · [submission PDF](./1300008-PCR-Final-Close-out-Report.pdf) |
-| Project Completion Video | Pending | Record from the prepared script and publish a public URL |
+| Project Completion Video | Complete | [Public YouTube video](https://youtu.be/SC56J4pWSfs) |
 
 ## Evidence index
 
